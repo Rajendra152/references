@@ -1,0 +1,22 @@
+
+.navbar-brand  a{
+  font-size: 25px;
+  color: black;
+}
+
+.bi-list {
+  font-size: 30px;
+  color: black;
+}
+.bi-calendar-event {
+  font-size: 25px;
+  margin: 900px;
+}
+
+.navbarcontainer {
+  position: absolute;
+}
+.navbar-expand{
+  padding-left: 200px;
+
+}

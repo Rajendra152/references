@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"One-Sample t-Test","href":"one_sample_t_test.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e3880","next":"tocId-d61e3880",},{"title":"One-Sample Signed Rank Test","href":"one_sample_signed_rank_test.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e3976","next":"tocId-d61e3976",}]});

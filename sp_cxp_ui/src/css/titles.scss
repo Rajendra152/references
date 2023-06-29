@@ -1,0 +1,29 @@
+.TitlesContainer {
+    .title-ip {
+        width: 276px !important;
+    }
+
+    .prev-btn {
+        justify-content: flex-end;
+        width: 120px !important;
+    }
+    .next-btn {
+        justify-content: flex-end;
+        width: 120px !important;
+    }
+    .promote-container {
+        border: 1px solid #efefef;
+        padding: 10px 15px;
+        .promote-val {
+            width: 100px !important;
+        }
+        .pr-text-one {
+            width: 110px;
+        }
+        .promote-btn {
+            width: 120px !important;
+            position: absolute;
+            right: 60px;
+        }
+    }
+}

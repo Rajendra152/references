@@ -1,0 +1,34 @@
+.help-main-menu{
+    .MuiTreeItem-label {       
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .zero-pad{
+        font-size: 0px;
+    }
+    .MuiTreeItem-content{
+        padding: 3px 0px;
+        width: 250px;
+    }
+    .MuiTreeItem-iconContainer{
+        width: 20px;
+        color: #4a4646;;
+    }
+}
+.help-button{
+    .ms-Button-label{
+        width: 15px;
+        border-radius: 13px;
+        margin: 12px;
+        border: 1px solid grey;
+    }
+}
+// iframe {
+//     // overflow-y: scroll;
+//     // width: 1349px;
+//     height: 570px;
+//     // border: 1px solid black;
+// }
+.width-tras{
+    width: 90px;
+}

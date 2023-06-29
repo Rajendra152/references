@@ -1,0 +1,37 @@
+.FormatContainer {
+    .size-container {
+        border: 1px solid #efefef;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .label-text {
+        justify-content: flex-end;
+    }
+    .sheet-container {
+        border: 1px solid #efefef;
+        padding: 10px;
+        margin: 0px;
+    }
+    .settings-container {
+        border: 1px solid #efefef;
+        padding: 10px;
+        height: 150px;
+        .label-part {
+            width: 20%;
+        }
+       
+    }
+    .type-container {
+        border: 1px solid #000;
+        width: 25%;
+        margin-top: 0px;
+        .list {
+            padding: 2px 8px;
+            cursor: pointer;
+            &.active {
+                background: blue;
+                color: #ffff;
+            }
+        }
+    }
+}

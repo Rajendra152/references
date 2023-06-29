@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Chi-Square","href":"mcnemars_chi_square.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6473","topics":[]},{"title":"Contingency Table Summary","href":"mcnemars_contingency_table_summary.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6481","topics":[]}]});

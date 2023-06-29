@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Summary Table","href":"best_subsets_reg_summary_table.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6681","topics":[]},{"title":"Subsets Results","href":"best_subsets_reg_subsets_results.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6690","topics":[]}]});

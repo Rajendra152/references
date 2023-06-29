@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"How to Create a Graph of the t-test Data","href":"how_to_create_a_graph_of_the_t_test_data.html","attributes": {"data-id":"how_to_create_a_graph_of_the_t_test_data",},"menu": {"hasChildren":false,},"tocID":"how_to_create_a_graph_of_the_t_test_data-d61e2770","topics":[]}]});

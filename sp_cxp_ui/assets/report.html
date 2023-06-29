@@ -1,0 +1,83 @@
+<pre>                                                                
+One Way Analysis of Covariance  Friday, April 9, 2021 1:40:21 PM
+Data source: One Way ANCOVA Data in statistics samples.jnb
+
+
+Dependent Variable: Length
+
+Group Name  N    Missing  Mean   Std Dev  SEM   
+control     62   0        1.217  0.140    0.0178
+exposed 1   27   0        1.206  0.0578   0.0111
+exposed 2   40   0        1.050  0.0994   0.0157
+Total       129  0        1.163  0.137    0.0121
+
+Normality Test (Shapiro-Wilk):  Passed  (P = 0.057)
+Equal Variance Test (Levene):  Failed  (P < 0.050)
+Equal Slopes Test:  Passed  (P = 0.062)
+Source of Variation  DF   SS      MS      F      P    
+Groups               2    0.124   0.0618  5.166  0.007
+Age                  1    0.0369  0.0369  3.087  0.081
+Groups x Age         2    0.0681  0.0340  2.843  0.062
+Residual             123  1.472   0.0120  --     --   
+Total                128  2.413   0.0189  --     --   
+
+The effect of the different treatment groups does not depend upon the value of covariate Age, averaging over the values of the remaining covariates. There is not a significant interaction between the factor Groups and the covariate Age (P = 0.062).
+
+
+There are no significant interactions between the factor and the covariates. The equal slopes assumption passes and the equal slopes model is analyzed below.
+
+
+Analysis of Equal Slopes Model:
+
+R = 0.602  Rsqr = 0.362  Adj Rsqr = 0.347
+Source of Variation  DF   SS     MS      F       P     
+Groups               2    0.229  0.114   9.290   <0.001
+Age                  1    0.128  0.128   10.422  0.002 
+Residual             125  1.540  0.0123  --      --    
+Total                128  2.413  0.0189  --      --    
+The differences in the adjusted means among the treatment groups are greater than would be expected by chance; there is a statistically significant difference (P = <0.001). To isolate which group(s) differ most from the others use a multiple comparison procedure. The adjusted means and their statistics are given in the table below.
+
+
+The coefficient of covariate Age in the equal slopes regression model is significantly different from zero (P = 0.002). The covariate significantly affects the values of the dependent variable.
+
+
+Adjusted Means of the Groups:
+
+Group Name  Adjusted Mean  Std. Error  95%Conf-L  95%Conf-U
+control     1.200          0.0150      1.170      1.230    
+exposed 1   1.193          0.0217      1.150      1.236    
+exposed 2   1.085          0.0206      1.044      1.126    
+The adjusted means are the predicted values of the dependent variable Length for each group where each covariate variable is evaluated at the average of its data values.
+
+
+All Pairwise Multiple Comparison Procedures (Holm-Sidak method):
+
+
+Comparisons for factor: Groups
+
+Comparison               Diff of Means  t      P       P<0.050
+control vs. exposed 2    0.115          4.178  <0.001  Yes    
+exposed 1 vs. exposed 2  0.109          3.456  0.001   Yes    
+control vs. exposed 1    0.00693        0.270  0.787   No     
+Regression Equations for the Equal Slopes Model:
+
+
+There is a significant difference in the intercepts of the dependent variable for these equations since there is a significant difference in the adjusted means of the factor groups (P = <0.001).
+
+
+Group: control
+
+
+Length = 1.307 - (0.00280 * Age)
+
+
+Group: exposed 1
+
+
+Length = 1.300 - (0.00280 * Age)
+
+
+Group: exposed 2
+
+
+Length = 1.192 - (0.00280 * Age)</pre>

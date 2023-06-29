@@ -1,0 +1,56 @@
+.lic-contact {
+  padding: 20px;
+
+  .ms-ChoiceField {
+    width: 120px;
+  }
+
+  .ms-ChoiceField-field {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .ms-TextField-field {
+    font-size: 12px;
+  }
+
+  .text-info-lic {
+    color: blue;
+    text-decoration-line: underline;
+  }
+}
+
+.lic-thanks {
+  background-color: #80808047;
+  border: 1px solid lightgray;
+  font-size: 13px;
+  margin-top: 10px;
+  padding: 12px;
+  color: blue;
+}
+
+.inlineflex .ms-ChoiceField {
+  display: inline-block;
+}
+
+span.e-input-group.e-control-wrapper.e-ddl.e-lib.e-keyboard {
+  border-color: transparent !important;
+  border-bottom: 1px solid transparent !important;
+  background: transparent !important;
+
+}
+
+span.e-input-group.e-control-wrapper.e-ddl.e-lib.e-keyboard::after {
+  background: transparent !important;
+  border-bottom: 1px solid black !important;
+
+
+}
+
+span.e-input-group.e-control-wrapper.e-ddl.e-lib.e-keyboard::before {
+  background: transparent !important;
+  border-bottom: 1px solid black !important;
+
+
+
+}

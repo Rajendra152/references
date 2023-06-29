@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"<strong class=\"ph b\">Correlation Results</strong>","href":"spearman_rank_correlation_results.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e8361","topics":[]},{"title":"Normality Results","href":"spearman_rank_correlation_normality_results.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e8370","topics":[]}]});

@@ -1,0 +1,248 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="You can draw angular axes along the inner and outer circumferences of the graph. By default, the inner axis is not displayed. You can modify angular axes by: Changing axis titles. Displaying or hiding ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="topic" /><meta name="DC.subject" content="angular axes, about, angular axes, range, scale, arc, rotation, angular axis, angular, rotating, settings, polar plots" /><meta name="keywords" content="angular axes, about, angular axes, range, scale, arc, rotation, angular axis, angular, rotating, settings, polar plots" /><meta name="indexterms" content="angular axes, about, angular axes, range, scale, arc, rotation, range, angular axis, scale, angular, arc, angular axis, rotating, angular axis, settings, angular axis, polar plots, angular axes, angular axes, scale, arc, rotation, range, scale, angular, settings, angular axis, polar plots, angular axes" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="angular_axes" /><title>Angular Axes</title><!--  Generated with Oxygen version 22.1, build number 2020072823.  --><meta name="wh-path2root" content="" /><meta name="wh-source-relpath" content="angular_axes.dita" /><meta name="wh-out-relpath" content="angular_axes.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2020072823" />
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/sky.css?buildId=2020072823" /></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="booktitle">  <span class="ph mainbooktitle"> SigmaPlot User Guide </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Introduction-d61e18-mi" data-tocid="Introduction-d61e18" data-state="not-ready" class=" topicref " data-id="Introduction"><span class="title"><a href="introduction.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e197-mi" data-tocid="tocId-d61e197" data-state="not-ready" class=" topicref "><span class="title"><a href="create.html">Creating and Modifying Graphs</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e477-mi" data-tocid="tocId-d61e477" data-state="not-ready" class=" topicref "><span class="title"><a href="nbasic.html">Notebook Manager Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e592-mi" data-tocid="tocId-d61e592" data-state="not-ready" class=" topicref "><span class="title"><a href="gpbasics1.html">Graph Page Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1258-mi" data-tocid="tocId-d61e1258" data-state="not-ready" class=" topicref "><span class="title"><a href="wbasics.html">Worksheet Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1626-mi" data-tocid="tocId-d61e1626" data-state="not-ready" class=" topicref "><span class="title"><a href="report.html">Using the Report Editor</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1702-mi" data-tocid="tocId-d61e1702" data-state="not-ready" class=" topicref "><span class="title"><a href="Transform.html">Transforms, Regressions, and Graph Analysis</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e2187-mi" data-tocid="tocId-d61e2187" data-state="not-ready" class=" topicref "><span class="title"><a href="TransformFunctionReference.html">Transform Function Reference</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3187-mi" data-tocid="tocId-d61e3187" data-state="not-ready" class=" topicref "><span class="title"><a href="RegressionEquationLibrary.html">Regression Equation Library</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3329-mi" data-tocid="tocId-d61e3329" data-state="not-ready" class=" topicref "><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Reference-d61e9417-mi" data-tocid="Reference-d61e9417" data-state="not-ready" class=" topicref " data-id="Reference"><span class="title"><a href="Reference.html">Reference</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <article class="nested0" aria-labelledby="ariaid-title1" id="angular_axes">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Angular Axes</h1>
+    
+    <div class="- topic/body body">
+      
+      <p class="- topic/p p">You can draw angular axes along the inner and outer circumferences of the graph.
+        By default, the inner axis is not displayed. You can modify angular axes by:</p>
+      <ul class="- topic/ul ul" id="angular_axes__ul_mq1_jdw_32b">
+        
+        <li class="- topic/li li">Changing axis titles. </li>
+        <li class="- topic/li li">Displaying or hiding either axis. </li>
+        <li class="- topic/li li">Changing axis lines. </li>
+        <li class="- topic/li li">Changing axis scaling, range, and rotation. </li>
+        <li class="- topic/li li">Changing tick marks. </li>
+        <li class="- topic/li li">Changing axis tick labels. </li>
+      </ul>
+    </div>
+    <article class="- topic/topic task/task topic task nested1" aria-labelledby="ariaid-title2" id="changing_angular_axes_scaling_position">
+      <h2 class="- topic/title title topictitle2" id="ariaid-title2">Changing Angular Axis Scaling and Position</h2>
+      
+      <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context" id="changing_angular_axes_scaling_position__context_nq1_jdw_32b">
+          
+          <p class="- topic/p p">Polar plot angular axis scale and range settings control the axis units and
+            increments used to plot data. You can modify axis scale, range, units, and rotation
+            using the Scale settings on in Graph Properties.</p>
+          <p class="- topic/p p">To change an axis scale, range, units, and rotation:</p>
+        </section>
+        <section id="changing_angular_axes_scaling_position__steps_oq1_jdw_32b" class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps" id="changing_angular_axes_scaling_position__steps_oq1_jdw_32b"><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Double-click the plot to open <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Graph
+                Properties</span>.</span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Under <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Current</span>, select
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Angular Data</span> from the
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Axis</span> drop-down list.</span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Axis</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Theta Scaling</span></span> from the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Properties</span> list.</span>
+          </li><li class="- topic/li task/step li step">
+            <span class="- topic/ph task/cmd ph cmd"><strong class="+ topic/ph hi-d/b ph b runinhead">To change the axis scale used, </strong> select the desired
+              axis scale type from the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Type</span> drop-down list. </span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd"><strong class="+ topic/ph hi-d/b ph b runinhead">To change the measurement units of the
+                angular axis, </strong>select measurement units from the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Axis Units
+              </span> drop-down list. If you don't see the axis units you want to use for your
+              polar plot listed in the list, select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Other</span>, then
+              type new axis range values in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">From</span> and
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To</span> boxes under
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Range</span>. If using a predefined measurement unit, the
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">From</span> and <span class="+ topic/ph ui-d/uicontrol ph uicontrol">To</span> box
+              values are entered automatically. For more information, see <a class="- topic/xref xref" href="using_a_custom_axis_scale.html">Using a Custom Axis Scale</a>.</span>
+            <div class="- topic/itemgroup task/info itemgroup info">
+              
+              <div class="- topic/note note note note_note"><span class="note__title">Note:</span> The only effect of changing units is to change the
+                predefined axis range. This range can be manually changed regardless of the current
+                units.</div>
+            </div>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">
+              <strong class="+ topic/ph hi-d/b ph b runinhead">To change the size of the displayed arc of the polar
+                plot,</strong> move the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Arc</span> slider. A setting of 360
+              degrees displays the entire circle, 270 degrees displays three-quarters of the circle,
+              and 90 degrees displays half of the circle.</span>
+            <div class="- topic/itemgroup task/info itemgroup info">
+              
+              <div class="- topic/note note tip note_tip"><span class="note__title">Tip:</span> If you change the arc of the angular axis, the axis range
+                remains the same. The current axis range appears along the new distance of the
+                arc.</div>
+            </div>
+          </li><li class="- topic/li task/step li step">
+            <span class="- topic/ph task/cmd ph cmd">
+              <strong class="+ topic/ph hi-d/b ph b runinhead">To change the start angle for the displayed arc,</strong> move
+              the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Start angle</span> slider. The default is 0 degrees (3
+              o’clock). Rotation is counterclockwise.</span>
+            <div class="- topic/itemgroup task/info itemgroup info">
+              <figure class="- topic/fig fig fignone" id="changing_angular_axes_scaling_position__fig_pq1_jdw_32b"><figcaption class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure<span class="fig--title-label-number"> 1</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title"> Polar plots with: Starting angle of 315° and arc of 270°;
+                  start angle of 0° and arc of 180°; and start angle of 135° and arc of
+                  22.5°</span></figcaption>
+                
+                <img class="- topic/image image" id="changing_angular_axes_scaling_position__image_qq1_jdw_32b" src="Fig%209.15%20Polar%20Arcs%20(bug%20cant%20antialias)%20V12.png" width="700" />
+              </figure>
+            </div>
+          </li></ol></section>
+      </div>
+    </article>
+    <article class="- topic/topic task/task topic task nested1" aria-labelledby="ariaid-title3" id="Moving_Angular_Axis_Positions">
+      <h2 class="- topic/title title topictitle2" id="ariaid-title3">Moving Angular Axis Positions</h2>
+      <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context" id="Moving_Angular_Axis_Positions__context_rq1_jdw_32b">
+          
+          <p class="- topic/p p">You can drag both inner and outer angular axes closer or further from the
+            center of the graph. Select the axis, and move it using the mouse.</p>
+          <p class="- topic/p p">To set exact locations for angular axes:</p>
+        </section>
+        <section id="Moving_Angular_Axis_Positions__steps_sq1_jdw_32b" class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps" id="Moving_Angular_Axis_Positions__steps_sq1_jdw_32b"><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Double-click an angular axis to open <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Graph
+                Properties</span>.</span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Under <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Current</span>, select
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Angular Data</span> from the
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Axis</span> drop-down list.</span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd">Select <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Axis</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Lines</span></span> from the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Properties</span> list.</span>
+          </li><li class="- topic/li task/step li step">
+            
+            <span class="- topic/ph task/cmd ph cmd"><strong class="+ topic/ph hi-d/b ph b runinhead">To change the percentage in the Outer and
+                Inner axes, </strong> under <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Show/place axes</span>, move the
+                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Outer </span> and <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Inner
+              </span> sliders or enter values. </span>
+            <div class="- topic/itemgroup task/info itemgroup info">Locations are described as the percentage of the distance the axes lie
+              from the center of the graph. To move an axis out, increase the percent. To move an
+              axis in, decrease the percent.</div>
+          </li></ol></section>
+      </div>
+    </article>
+  </article>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#changing_angular_axes_scaling_position" data-tocid="changing_angular_axes_scaling_position">Changing Angular Axis Scaling and Position</a></li><li class="topic-item"><a href="#Moving_Angular_Axis_Positions" data-tocid="Moving_Angular_Axis_Positions">Moving Angular Axis Positions</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

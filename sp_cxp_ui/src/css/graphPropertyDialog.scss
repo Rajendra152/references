@@ -1,0 +1,809 @@
+.insets-container {
+  padding: 0px;
+
+  .ms-Label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .ms-TextField-fieldGroup {
+    height: 24px;
+  }
+
+  .ms-Dropdown-caretDownWrapper {
+    height: 24px;
+    line-height: 26px;
+  }
+
+  .insets-header {
+    display: flex;
+    align-items: center;
+
+    label {
+      padding-right: 5px;
+    }
+
+    &>.ms-Label {
+      font-weight: 700;
+    }
+  }
+
+  .insets-header::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: solid 2px #bebebe;
+  }
+
+  .insets-box {
+    height: 200px;
+    border: solid 1px #ddd;
+    margin-bottom: 10px;
+
+    .insets-ul {
+      padding-inline-start: 20px;
+
+      li {
+        list-style-type: circle;
+      }
+    }
+
+    .inline-label {
+      width: 50%;
+    }
+  }
+
+  .inset-slider {
+    min-width: 150px;
+    padding-left: 10px;
+  }
+
+  .inset-btn {
+    .ms-Button-flexContainer {
+      .ms-Button-label {
+        color: #000000;
+      }
+    }
+  }
+
+  .ms-lg3,
+  .ms-lg2 {
+    width: 33%;
+  }
+
+  .text-s .ms-TextField-fieldGroup {
+    height: 22px;
+    width: 92px;
+  }
+
+  .check-scale .ms-Checkbox {
+    padding: 0px 17px 0px 0px;
+  }
+
+  .btn-tick .ms-Button {
+    height: 26px;
+
+  }
+
+  .ms-Checkbox-text {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .ms-Checkbox-checkbox {
+    height: 15px;
+    width: 15px;
+    font-size: 8px;
+  }
+
+  .ms-Checkbox-text {
+    font-weight: 400;
+  }
+
+  .ms-ChoiceField {
+    margin: 0px;
+    min-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  .ms-Dropdown-items {
+    max-height: 200px;
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  .justify-content-end {
+    justify-content: flex-end;
+  }
+
+  .justify-content-spaceBet {
+    justify-content: space-between;
+  }
+
+  .tempHide {
+    display: none !important;
+  }
+
+  //ColorPicker
+  .e-colorpicker-wrapper {
+    .e-split-btn-wrapper {
+      height: 24px;
+
+      .e-control {
+        font-size: 12px;
+      }
+
+    }
+  }
+
+  .e-colorpicker-wrapper .e-split-btn-wrapper .e-split-colorpicker.e-split-btn .e-selected-color {
+    height: 18px;
+    width: 18px;
+  }
+
+  .e-split-colorpicker.e-control.e-lib.e-btn.e-icon-btn.e-split-btn.e-keyboard {
+    padding: 0px;
+  }
+}
+
+// legend appearence css
+.legend-item {
+  .leg-info {
+    height: 70px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 1px;
+  }
+
+  .ms-Checkbox {
+    margin-bottom: 2px;
+  }
+}
+
+// resizing the graph property
+.precision {
+  .ms-ChoiceField {
+    margin-top: 0px;
+  }
+}
+
+.header-41 {
+  padding: 0px 20px 0px 10px;
+}
+
+#title2 {
+  font-size: 14px !important;
+}
+
+// .ms-Dialog-main {
+//   width: 500px !important;
+// }
+
+.zeropad {
+  padding: 0px;
+}
+
+#graph-pty {
+  .type {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px;
+  }
+
+  .font-12 {
+    font-size: 12px;
+  }
+
+  .ms-Label {
+    font-size: 12px;
+  }
+}
+
+// legends css
+.legends-main {
+  padding: 0px 20px;
+  width: 200px;
+}
+
+// lines scss
+.pl-line {
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+}
+
+// data 
+.graph-data {
+  .ms-ChoiceField {
+    margin: 0px;
+  }
+}
+
+// symbol
+.symbol {
+  .ms-Button {
+    height: 22px;
+    color: rgb(50, 49, 48);
+    ;
+  }
+
+  .ms-TextField-fieldGroup {
+    height: 22px;
+    width: 248px;
+  }
+
+  .ms-Button--icon {
+    height: 11px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Button-textContainer {
+    color: rgb(50, 49, 48);
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+  }
+}
+
+// plot lines
+.pl-line {
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+  }
+}
+
+// major tick label numeric
+.num-tick {
+  .ms-ChoiceField {
+    margin: 0px;
+    min-height: 15px;
+  }
+
+  .ms-ChoiceField-field::before {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+  }
+}
+
+// area fill
+.area-fill {
+  .ms-Label {
+    padding: 0px 32px 0px 0px;
+  }
+}
+
+.area {
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+}
+
+// reference line
+.referline {
+  .ms-Grid-row {
+    margin-bottom: 2px;
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 22px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-TextField {
+    height: 21px;
+  }
+
+  .ms-TextField-fieldGroup {
+    height: 21px;
+
+  }
+
+  .ms-Checkbox-text {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+
+  .check-refer .ms-Checkbox-checkbox {
+    height: 15px;
+    width: 15px;
+  }
+
+  .ms-TextField-field {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .ms-spinButton-input {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+// DROP LINES
+.dropline {
+  .ms-Checkbox-text {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Dropdown-caretDown {
+    font-size: 10px;
+    line-height: 0px;
+  }
+
+  .ms-Dropdown-caretDownWrapper {
+    line-height: 17px;
+  }
+
+  .gap .ms-Dropdown {
+    width: 70px;
+  }
+
+  .ms-spinButton-input {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .ms-Label {
+    padding: 0px 0px 0px 8px;
+  }
+
+  .ms-Grid-row {
+    margin-bottom: 2px;
+  }
+}
+
+// fill
+.fill {
+  .ms-Checkbox-text {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+
+  .ms-Dropdown-title {
+    height: 25px;
+    line-height: 22px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Dropdown-caretDown {
+    font-size: 10px;
+    line-height: 0px;
+  }
+
+  .ms-spinButton-input {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+}
+
+// break
+.break {
+  .ms-TextField-fieldGroup {
+    height: 18px;
+    font-size: 11px;
+  }
+
+  .ms-spinButton-input {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Checkbox-text {
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .ms-Dropdown-title {
+    height: 20px;
+    line-height: 19px;
+  }
+
+  .ms-Dropdown-caretDownWrapper {
+    height: 18px;
+    line-height: 23px;
+  }
+}
+
+// plots
+.plots {
+  .ms-Label {
+    font-weight: 700;
+  }
+
+  .plot-info {
+    height: 70px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 1px;
+  }
+
+  .plot-col-info {
+    height: 70px;
+    overflow-y: auto;
+  }
+
+  .ms-Checkbox-checkbox {
+    border-radius: 10px;
+    height: 12px;
+    width: 12px;
+  }
+
+  .ms-Checkbox-text {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .ms-Checkbox {
+    margin-top: 3px;
+  }
+
+  .ms-Button {
+    height: 22px;
+  }
+
+  .ms-Button-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .img-plot {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+// pie slices
+.text {
+  font-weight: 600;
+  padding: 0px 7px 0px 0px;
+  font-size: 13px;
+}
+
+.slider-value {
+  border: 1px solid #848181;
+  padding: 5px 13px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.box {
+  .ms-Checkbox-text {
+    line-height: 14px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .ms-Checkbox-checkbox {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.ter-scale {
+  .slider-value {
+    padding: 0px 13px;
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+  }
+
+  .ms-Slider-slideBox {
+    height: 15px;
+  }
+
+  .pad-1 {
+    padding: 1px;
+  }
+}
+
+.maj-ter-lab {
+  .ms-Label {
+    padding: 2px 5px 1px 0px !important;
+  }
+}
+
+.maj-pol-lab {
+  .ms-Checkbox-text {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .ms-Dropdown-title {
+    height: 22px !important;
+    line-height: 18px !important;
+  }
+}
+
+.count-fill {
+  .block-label {
+    .ms-Label {
+      font-weight: 700;
+    }
+  }
+
+  .ms-Dropdown-title {
+    height: 24px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+}
+
+.count-scale {
+  .ms-TextField-fieldGroup {
+    height: 18px;
+    font-size: 11px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Checkbox-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .ms-Dropdown-title {
+    height: 20px;
+    line-height: 19px;
+  }
+
+  .ms-Dropdown-caretDownWrapper {
+    height: 18px;
+    line-height: 23px;
+  }
+
+  .ms-Checkbox-checkbox {
+    height: 11px;
+    width: 11px;
+    font-size: 8px;
+  }
+}
+
+.count-lab {
+  .ms-Checkbox-text {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .ms-Checkbox-checkbox {
+    height: 15px;
+    width: 15px;
+    font-size: 8px;
+  }
+
+  .pad-0 {
+    padding: 0px;
+  }
+
+  .scaler-text {
+    line-height: 26px;
+  }
+}
+
+.forest-plt .ms-Checkbox-text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.rad-lab-tick {
+  .ms-Button-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+  }
+}
+
+.vector {
+  .ms-ChoiceField {
+    margin-top: 0px;
+  }
+
+  .margin-spiner {
+    margin-left: 95px;
+    margin-top: -24px;
+  }
+
+  .ms-TextField-fieldGroup {
+    height: 20px;
+  }
+
+  .ms-Dropdown-title {
+    height: 22px;
+    line-height: 19px;
+  }
+}
+
+.scal-ang {
+  .ms-Label {
+    font-weight: 700;
+  }
+}
+
+.d-3d-line {
+  .ms-Dropdown-title {
+    height: 27px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+}
+
+.frame-line {
+  .ms-Dropdown-title {
+    height: 26px;
+  }
+
+  .ms-Icon {
+    color: rgb(96, 94, 92);
+  }
+
+  .ms-Checkbox-text {
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+
+.rotation {
+
+  // .ms-Button {
+  //     float: right;
+  // }
+  // .ms-Icon{
+  //     color:rgb(96, 94, 92);
+  // }
+  // .ms-Button-label {
+  //     font-size: 12px;
+  //     font-weight: 700;
+  //     color: #000000;
+  // }
+  .rot-img {
+    height: 100px;
+    width: 162px;
+    border: 1px solid #000000;
+    margin: auto;
+  }
+}
+
+.graphDialog {
+  ul {
+    padding-inline-start: 17px;
+  }
+
+  .mainGraph {
+    min-height: 360px;
+  }
+}
+
+.polar-axis {
+  .ms-Checkbox-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .ms-Checkbox-checkbox {
+    height: 15px;
+    width: 15px;
+  }
+
+  .height {
+    height: 23px !important;
+  }
+
+  .ms-Dropdown .is-open {
+    height: 23px;
+  }
+
+  .ms-Dropdown-title {
+    height: 23px;
+  }
+}
+
+.radar-axis {
+  .ms-Dropdown-title {
+    height: 32px;
+  }
+}
+
+.graphBanner {
+  .ms-Dropdown-title {
+    height: 24px;
+    line-height: 24px;
+  }
+}
+
+.area-fills {
+  .ms-Checkbox-checkbox {
+    height: 20px;
+    width: 20px;
+    font-size: 14px;
+  }
+}
+
+.fills {
+  .ms-Checkbox-checkbox {
+    height: 20px;
+    width: 20px;
+    font-size: 14px;
+  }
+}
+
+.ms-Callout-main {
+  max-height: fit-content !important;
+  overflow-y: auto !important;
+}
+
+.colorScheme {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 40px;
+  }
+
+  &>span {
+    margin-left: 5px;
+  }
+}

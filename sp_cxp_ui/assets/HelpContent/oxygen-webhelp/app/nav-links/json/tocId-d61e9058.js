@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"About Sample Size","href":"about_sample_size.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e9067","next":"tocId-d61e9067",},{"title":"About Power","href":"about_power.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e9124","next":"tocId-d61e9124",}]});

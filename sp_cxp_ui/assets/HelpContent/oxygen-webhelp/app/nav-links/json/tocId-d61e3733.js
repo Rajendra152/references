@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"When to Use Regression to Predict a Variable","href":"when_to_use_regression_to_predict_a_variable.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e3741","topics":[]},{"title":"When to Use Correlation","href":"when_to_use_correlation.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e3749","topics":[]}]});

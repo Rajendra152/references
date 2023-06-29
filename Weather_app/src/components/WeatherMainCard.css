@@ -1,0 +1,213 @@
+.weather_card_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+  }
+  
+  .weather_card_top_city{
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+    /* color: #2f2f2f; */
+    color: #444444;
+    font-weight: 500;
+    /* font-size: 16px; */
+  }
+  
+  .weather_card_top_state{
+    color: rgb(173, 173, 173);
+  }
+  
+  .temperature_units{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  
+  .temperature_units p{
+    border: 1px solid rgb(173, 173, 173);
+    padding: 3px 10px; 
+  }
+  
+  .temperature_units p:first-child{
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .temperature_units p:last-child{
+    border-radius: 0 4px 4px 0 ;
+  }
+  
+  .active{
+    background-color: #d8ecff;
+  }
+  
+  .weather_card_main_body{
+    padding: 2rem;
+    /* background-color:#254a8a; */
+    background-image: linear-gradient(to right, #1e3d73 , #295095);
+    border-radius: 10px;
+    margin: 1rem auto;
+    color: rgb(193, 193, 193);
+  }
+  
+  .weather_card_main_body_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
+  
+  .main_cloud{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather_card_main_body_today{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    align-items: center;
+    
+  }
+  
+  .weather_card_main_body_today div{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .weather_card_main_body_today div p:first-child{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .weather_card_main_body_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .weather_card_main_body_bottom div{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather_card_main_body_top_right{
+    display: flex;
+    font-display: row;
+  }
+  
+  .weather_card_main_body_top_right div{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  /* //// */
+
+  @media (max-width:1000){
+    #container{
+        padding: 3vh 1vw;
+    }
+  }
+  @media (max-width:950px){
+    .weather_card_main_body_top_right{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .weather_card_main_body_top_right div{
+        margin: 20px;
+    }
+  
+    .weather_card_main_body_today{
+        display: flex;
+        flex-direction: column;
+    }
+    .weather_card_main_body_bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .todays_weather_data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sun_moon_timings{
+        margin-bottom: 10px;
+    }
+    .right_options{
+      flex-direction: column;
+    }
+  
+    .right_options div:first-child{
+      border-radius: 4px 4px 0 0 ;
+    }
+    .right_options div:last-child{
+      border-radius:  0 0 4px 4px;
+    }
+  }
+  
+  @media (max-width:850px){
+    .above_table_options{
+      flex-direction: column;
+      align-items: center;
+    }
+    .right_options{
+      margin-top: 5px;
+      flex-direction: row;
+    }
+    .right_options div:first-child{
+      border-radius: 4px 0 0 4px;
+    }
+    .right_options div:last-child{
+      border-radius:  0 4px 4px 0;
+    }
+  }
+  
+  @media (max-width:750px){
+    .days{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 5px;
+    }
+  }
+  
+  @media (max-width:600px){
+    .weather_card_main_body_top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sun_moon_timings{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .todays_weather_data_right{
+        flex-direction: column;
+    }
+  
+    .sun_moon_timings div,.todays_weather_data_right div{
+        margin-bottom: 10px;
+    }
+    .temperature_units{
+        display: flex;
+        flex-direction: column;
+    }
+    .temperature_units p:first-child{
+      border-radius: 4px 4px 0 0 ;
+    }
+    .temperature_units p:last-child{
+      border-radius:  0 0 4px 4px;
+    }
+  
+  }
+  
+  
+  @media (max-width:500px){
+    .days{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

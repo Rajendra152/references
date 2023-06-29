@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Correlation Results","href":"pearson_product_moment_correlation_results.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6777","topics":[]},{"title":"Normality Results","href":"pearson_product_moment_normality_results.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6785","topics":[]}]});

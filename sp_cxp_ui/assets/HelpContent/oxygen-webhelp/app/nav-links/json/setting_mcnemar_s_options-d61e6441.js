@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Options for McNemar&apos;s","href":"options_for_mcnemar_s.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6449","topics":[]}]});

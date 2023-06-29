@@ -1,0 +1,12 @@
+.ribbon-container {
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+    .v-hr {
+        border-right: 2px solid #d3d3d3;
+    }
+    .ribbon-grid-button {
+        .ribbon-gbutton {
+            border-right: solid 1px #d3d3d3;
+        }
+    }
+}

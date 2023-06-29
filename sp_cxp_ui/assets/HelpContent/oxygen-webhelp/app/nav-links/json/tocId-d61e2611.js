@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Descriptive Statistics","href":"descriptive_statistics.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e2620","topics":[]},{"title":"Arranging Data for t-Tests and ANOVAs","href":"arranging_data_for_t_tests_and_anovas.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e2629","next":"tocId-d61e2629",}]});

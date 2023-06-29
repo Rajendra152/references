@@ -1,0 +1,20 @@
+%smart-ribbon-withicon {
+    min-height: 20px;
+    .ribbon-gbutton.sim-ribbon-gbutton {
+        display: flex;
+        margin: auto;
+        padding: 0px 2px;
+        .ms-Image.ribbon-icon-svg {
+            margin: auto;
+        }
+        .ms-Button {
+            min-width: 10px;
+        }
+    }
+}
+
+$TextDanger: rgb(179, 0, 0);
+$GreenColor: rgba(16, 120, 120, 1);
+$buttonColor: rgba(16, 120, 120, 1);
+$White: #fff;
+$Transparent: transparent;

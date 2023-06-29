@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 16" style="enable-background:new 0 0 36 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000093142315578591733650000007120801631792051596_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#707070;}
+	.st3{fill:#C0C0C0;}
+	.st4{fill:#606060;}
+	.st5{fill:#E0E0E0;}
+	.st6{fill:#404040;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="36" height="16"/>
+	</defs>
+	<clipPath id="SVGID_00000134221628759391546150000016386127698687730871_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Scheme_1" style="clip-path:url(#SVGID_00000134221628759391546150000016386127698687730871_);">
+		<rect class="st1" width="36" height="16"/>
+		<g id="Group_22" transform="translate(-63 -113)">
+			<g id="Rectangle_1" transform="translate(63 113)">
+				<rect width="8" height="16"/>
+				<rect x="0.5" y="0.5" class="st2" width="7" height="15"/>
+			</g>
+			<g id="Rectangle_1-2" transform="translate(70 113)">
+				<rect class="st3" width="8" height="16"/>
+				<rect x="0.5" y="0.5" class="st2" width="7" height="15"/>
+			</g>
+			<g id="Rectangle_1-3" transform="translate(77 113)">
+				<rect class="st4" width="8" height="16"/>
+				<rect x="0.5" y="0.5" class="st2" width="7" height="15"/>
+			</g>
+			<g id="Rectangle_1-4" transform="translate(84 113)">
+				<rect class="st5" width="8" height="16"/>
+				<rect x="0.5" y="0.5" class="st2" width="7" height="15"/>
+			</g>
+			<g id="Rectangle_1-5" transform="translate(91 113)">
+				<rect class="st6" width="8" height="16"/>
+				<rect x="0.5" y="0.5" class="st2" width="7" height="15"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

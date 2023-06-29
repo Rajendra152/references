@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Variance Inflation Factor","href":"backward_stepwise_variance_inflation_factor.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6424","topics":[]},{"title":"Power","href":"backward_stepwise_power.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6433","topics":[]}]});

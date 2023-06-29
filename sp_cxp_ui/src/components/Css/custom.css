@@ -1,0 +1,334 @@
+/*react data sheet styles*/
+
+span.data-grid-container,
+span.data-grid-container:focus {
+    outline: none;
+}
+
+.data-grid-container .data-grid {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.data-grid-container .data-grid .cell.updated {
+    background-color: rgba(0, 145, 253, 0.16);
+    transition: background-color 0ms ease;
+}
+
+.data-grid-container .data-grid .cell {
+    height: 17px;
+    min-width: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: cell;
+    background-color: unset;
+    transition: background-color 500ms ease;
+    vertical-align: middle;
+    text-align: right;
+    border: 1px solid #DDD;
+    padding: 0;
+}
+
+.data-grid-container .data-grid .cell.selected {
+    border: 1px double rgb(33, 133, 208);
+    transition: none;
+    box-shadow: inset 0 -100px 0 rgba(33, 133, 208, 0.15);
+}
+
+.data-grid-container .data-grid .cell.read-only {
+    background: whitesmoke;
+    color: #999;
+    text-align: center;
+}
+
+.data-grid-container .data-grid .cell>.text {
+    padding: 2px 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.data-grid-container .data-grid .cell>input {
+    outline: none !important;
+    border: 2px solid rgb(33, 133, 208);
+    text-align: right;
+    width: calc(100% - 6px);
+    height: 11px;
+    background: none;
+    display: block;
+}
+
+.data-grid-container .data-grid .cell {
+    vertical-align: bottom;
+}
+
+.data-grid-container .data-grid .cell,
+.data-grid-container .data-grid.wrap .cell,
+.data-grid-container .data-grid.wrap .cell.wrap,
+.data-grid-container .data-grid .cell.wrap,
+.data-grid-container .data-grid.nowrap .cell.wrap,
+.data-grid-container .data-grid.clip .cell.wrap {
+    white-space: normal;
+}
+
+.data-grid-container .data-grid.nowrap .cell,
+.data-grid-container .data-grid.nowrap .cell.nowrap,
+.data-grid-container .data-grid .cell.nowrap,
+.data-grid-container .data-grid.wrap .cell.nowrap,
+.data-grid-container .data-grid.clip .cell.nowrap {
+    white-space: nowrap;
+    overflow-x: visible;
+}
+
+.data-grid-container .data-grid.clip .cell,
+.data-grid-container .data-grid.clip .cell.clip,
+.data-grid-container .data-grid .cell.clip,
+.data-grid-container .data-grid.wrap .cell.clip,
+.data-grid-container .data-grid.nowrap .cell.clip {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.data-grid-container .data-grid .cell .value-viewer,
+.data-grid-container .data-grid .cell .data-editor {
+    display: block;
+}
+
+
+/*styles*/
+
+.div-header {
+    text-align: center;
+    font-size: 24px;
+    height: 40px;
+    background-color: #d5dfeb;
+    margin: 0px -8px;
+}
+
+.div-tabcontainer {
+    padding: 5px 0px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    background: #d5dfeb;
+    min-height: 123.33px;
+}
+
+.div-boxbutton {
+    display: flex;
+    padding: 5px;
+    background-color: #d5dfeb;
+    border: solid 2px #c6d0dc;
+    margin: 0px 5px;
+}
+
+.box-button {
+    width: 30%;
+    /* border: solid 1px gray; */
+    margin: 5px;
+    padding: 18px 0px;
+}
+
+.box-button>.ms-Button,
+.box-button>div[aria-roledescription="split button"]>span>button {
+    border: none;
+    padding: 0px;
+}
+
+.ms-Icon {
+    color: #0078d4;
+}
+
+.box-button>.ms-Button:hover,
+.box-button>div[aria-roledescription="split button"]>span>button:hover {
+    background: transparent;
+}
+
+.box-button>div[aria-roledescription="split button"] button:nth-child(2) {
+    margin-top: 15px;
+}
+
+.box-button>div[aria-roledescription="split button"] button:nth-child(2)+span {
+    display: none;
+}
+
+.box-button>.ms-Button>.ms-Button-flexContainer {
+    display: block;
+    background-color: #d5dfeb;
+}
+
+.box-button>div[aria-roledescription="split button"]>span {
+    display: table!important;
+    text-align: center;
+}
+
+.split-button>.ms-Button-flexContainer {
+    display: table!important;
+    background-color: #d5dfeb;
+}
+
+.normal-btn-grp {
+    padding: 5px;
+    border: solid 2px #c6d0dc;
+    height: 108px;
+}
+
+.normal-btn-grp>.normal-button>.ms-Dropdown-container>.ms-Dropdown {
+    border: solid 1px #0078d466;
+}
+
+.normal-btn-grp>.normal-button>.ms-Dropdown-container>.ms-Dropdown>.ms-Dropdown-title {
+    background-color: #d5dfeb;
+    border: none;
+}
+
+.normal-button {
+    padding: 2px 0px;
+    margin: 0px;
+}
+
+.ms-Button.normal-splitbutton {
+    min-width: 97%;
+    background: #d5dfeb;
+    height: 25px;
+    padding-left: 8px;
+    border: solid 1px #0078d466;
+    border-right: none;
+}
+
+.ms-Button.normal-splitbutton+button {
+    background: #d5dfeb;
+    height: 25px;
+    border: solid 1px #0078d466;
+    border-left: none;
+}
+
+.ms-Button.normal-smallbutton {
+    min-width: 100%;
+    background: #d5dfeb;
+    height: 25px;
+    padding-left: 8px;
+    border: solid 1px #0078d466;
+}
+
+.normal-button>div[aria-roledescription="split button"] button:nth-child(2)>span>i {
+    margin-right: 6px;
+}
+
+.normal-button>div[aria-roledescription="split button"] button:nth-child(2)+span {
+    right: 5px;
+    background-color: #0078d466;
+}
+
+.treeViewContainer {
+    border-right: 1px solid #cccccc;
+    min-height: 700px;
+    overflow-y: auto;
+}
+
+.properties-container {
+    border-left: 1px solid #cccccc;
+    min-height: 700px;
+    overflow-y: auto;
+}
+
+.properties-container {
+    padding: 10px;
+}
+
+.treeview-chec-right {
+    color: #000000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1000;
+}
+
+.treeview-chec-left {
+    color: #000000;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1000;
+}
+
+.treeview-chec-left>.ms-Button-flexContainer>i.ms-Icon,
+.treeview-chec-right>.ms-Button-flexContainer>i.ms-Icon {
+    font-size: 24px;
+}
+
+.ms-toggle-lg3 {
+    width: 5%;
+}
+
+.ms-toggle-lg9 {
+    width: 90%;
+}
+
+.ms-toggle-lg7 {
+    width: 70%;
+}
+
+.ms-toggle-lg5 {
+    width: 50%;
+}
+
+.ms-toggle-lg3>.LayoutPage-demoBlock>.treeViewContainer {
+    display: none;
+    border-right: 1px solid #cccccc;
+}
+
+.properties-container>h4 {
+    text-align: center;
+    margin: 0px;
+    line-height: 40px;
+    margin: 0px -10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.properties-content {
+    padding: 20px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+.custom-pivot>.ms-Pivot {
+    background: #bfd7f9;
+}
+
+.custom-pivot>.ms-Pivot>button.ms-Pivot-link {
+    font-size: 14px;
+}
+
+.custom-pivot>.ms-Pivot>button.ms-Pivot-link::before {
+    background-color: transparent;
+}
+
+.button-name {
+    position: absolute;
+    bottom: 0px;
+    line-height: 25px;
+    height: 25px;
+    /* border: solid 1px red; */
+    background: #bfd7f9;
+    width: 100%;
+    margin-left: -5px;
+}
+
+.button-name>h5 {
+    margin: 0px;
+    text-align: center;
+}
+
+.normal-button-name {
+    width: calc(100% - 20px);
+}
+
+@media only screen and (max-width: 768px) {
+    .div-boxbutton {
+        display: flex;
+        width: 60%;
+    }
+}

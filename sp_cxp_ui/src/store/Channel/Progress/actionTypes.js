@@ -1,0 +1,3 @@
+export const ISLOADBAR = 'ISLOADBAR'
+export const PERCENTAGE = 'PERCENTAGE'
+export const ISLOADERSM = 'ISLOADERSM'

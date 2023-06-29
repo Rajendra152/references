@@ -1,0 +1,1064 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="Basic numeric results always appear in an ANCOVA report, unless equality of slopes is being tested (turned on in Assumption Checking panel of the Test Options dialog box) and the test fails. In this ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="topic" /><meta name="DC.subject" content="one way ANCOVA, interpreting results, results" /><meta name="keywords" content="one way ANCOVA, interpreting results, results" /><meta name="indexterms" content="one way ANCOVA, interpreting results, results, one way ANCOVA" /><meta name="DC.relation" scheme="URI" content="one_way_analysis_of_covariance.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="interpreting_ancova_results" /><title>Interpreting One Way Analysis of Covariance Results</title><!--  Generated with Oxygen version 22.1, build number 2020072823.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="tocId-d61e5087" /><meta name="wh-source-relpath" content="interpreting_one_way_analysis_of_covariance_results.dita" /><meta name="wh-out-relpath" content="interpreting_one_way_analysis_of_covariance_results.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2020072823" />
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/sky.css?buildId=2020072823" /></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="booktitle">  <span class="ph mainbooktitle"> SigmaPlot User Guide </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Introduction-d61e18-mi" data-tocid="Introduction-d61e18" data-state="not-ready" class=" topicref " data-id="Introduction"><span class="title"><a href="introduction.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e197-mi" data-tocid="tocId-d61e197" data-state="not-ready" class=" topicref "><span class="title"><a href="create.html">Creating and Modifying Graphs</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e477-mi" data-tocid="tocId-d61e477" data-state="not-ready" class=" topicref "><span class="title"><a href="nbasic.html">Notebook Manager Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e592-mi" data-tocid="tocId-d61e592" data-state="not-ready" class=" topicref "><span class="title"><a href="gpbasics1.html">Graph Page Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1258-mi" data-tocid="tocId-d61e1258" data-state="not-ready" class=" topicref "><span class="title"><a href="wbasics.html">Worksheet Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1626-mi" data-tocid="tocId-d61e1626" data-state="not-ready" class=" topicref "><span class="title"><a href="report.html">Using the Report Editor</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1702-mi" data-tocid="tocId-d61e1702" data-state="not-ready" class=" topicref "><span class="title"><a href="Transform.html">Transforms, Regressions, and Graph Analysis</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e2187-mi" data-tocid="tocId-d61e2187" data-state="not-ready" class=" topicref "><span class="title"><a href="TransformFunctionReference.html">Transform Function Reference</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3187-mi" data-tocid="tocId-d61e3187" data-state="not-ready" class=" topicref "><span class="title"><a href="RegressionEquationLibrary.html">Regression Equation Library</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3329-mi" data-tocid="tocId-d61e3329" data-state="not-ready" class=" topicref "><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Reference-d61e9417-mi" data-tocid="Reference-d61e9417" data-state="not-ready" class=" topicref " data-id="Reference"><span class="title"><a href="Reference.html">Reference</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><span class="topicref"><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span></li><li><span class="topicref"><span class="title"><a href="comparing_two_or_more_groups.html">Comparing Two or More Groups</a></span></span></li><li><span class="topicref"><span class="title"><a href="one_way_analysis_of_covariance.html">One Way Analysis of Covariance</a></span></span></li><li class="active"><span class="topicref"><span class="title"><a href="interpreting_one_way_analysis_of_covariance_results.html">Interpreting One Way Analysis of Covariance Results</a></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e3329" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e3329-link" class="wh-expand-btn"></span><span class="title"><a href="Stats.html" id="tocId-d61e3329-link">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3340" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3340-link" class="wh-expand-btn"></span><span class="title"><a href="advisor.html" id="tocId-d61e3340-link">The Advisor Wizard</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3450" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3450-link" class="wh-expand-btn"></span><span class="title"><a href="using_statistical_procedures.html" id="tocId-d61e3450-link">Using Statistical Procedures</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3872" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3872-link" class="wh-expand-btn"></span><span class="title"><a href="single_group_analysis.html" id="tocId-d61e3872-link">Single Group Analysis</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e4064" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e4064-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_two_or_more_groups.html" id="tocId-d61e4064-link">Comparing Two or More Groups</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4073" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4073-link" class="wh-expand-btn"></span><span class="title"><a href="about_group_comparison_tests.html" id="tocId-d61e4073-link">About Group Comparison Tests</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4109" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4109-link" class="wh-expand-btn"></span><span class="title"><a href="data_format_for_group_comparison_tests.html" id="tocId-d61e4109-link">Data Format for Group Comparison Tests</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4163" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4163-link" class="wh-expand-btn"></span><span class="title"><a href="unpaired_t_test.html" id="tocId-d61e4163-link">Unpaired t-Test</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4276" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4276-link" class="wh-expand-btn"></span><span class="title"><a href="mann_whitney_rank_sum_test.html" id="tocId-d61e4276-link">Mann-Whitney Rank Sum Test</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4371" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4371-link" class="wh-expand-btn"></span><span class="title"><a href="one_way_analysis_of_variance__anova_.html" id="tocId-d61e4371-link">One Way Analysis of Variance (ANOVA)</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4569" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4569-link" class="wh-expand-btn"></span><span class="title"><a href="two_way_analysis_of_variance__anova_.html" id="tocId-d61e4569-link">Two Way Analysis of Variance (ANOVA)</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4752" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4752-link" class="wh-expand-btn"></span><span class="title"><a href="three_way_analysis_of_variance__anova_.html" id="tocId-d61e4752-link">Three Way Analysis of Variance (ANOVA)</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4892" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4892-link" class="wh-expand-btn"></span><span class="title"><a href="kruskal_wallis_analysis_of_variance_on_ranks.html" id="tocId-d61e4892-link">Kruskal-Wallis Analysis of Variance on Ranks</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e5007" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e5007-link" class="wh-expand-btn"></span><span class="title"><a href="one_way_analysis_of_covariance.html" id="tocId-d61e5007-link">One Way Analysis of Covariance</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="tocId-d61e5015" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="about_one_way_analysis_of_covariance.html" id="tocId-d61e5015-link">About One Way Analysis of Covariance</a></span></span></li><li role="treeitem"><span data-tocid="performing_a_one_way_analysis_of_covariance-d61e5023" class="topicref" data-id="performing_a_one_way_analysis_of_covariance" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="performing_a_one_way_analysis_of_covariance.html" id="performing_a_one_way_analysis_of_covariance-d61e5023-link">Performing a One Way Analysis of Covariance</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5031" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="arranging_one_way_analysis_of_covariance_data.html" id="tocId-d61e5031-link">Arranging One Way Analysis of Covariance Data</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5039" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5039-link" class="wh-expand-btn"></span><span class="title"><a href="setting_one_way_analysis_of_covariance_options.html" id="tocId-d61e5039-link">Setting One Way Analysis of Covariance Options</a></span></span></li><li role="treeitem"><span data-tocid="running_a_one_way_analysis_of_covariance-d61e5079" class="topicref" data-id="running_a_one_way_analysis_of_covariance" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="running_a_one_way_analysis_of_covariance.html" id="running_a_one_way_analysis_of_covariance-d61e5079-link">Running a One Way Analysis of Covariance</a></span></span></li><li role="treeitem" class="active"><span data-tocid="tocId-d61e5087" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="interpreting_one_way_analysis_of_covariance_results.html" id="tocId-d61e5087-link">Interpreting One Way Analysis of Covariance Results</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5095" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5095-link" class="wh-expand-btn"></span><span class="title"><a href="one_way_analysis_of_covariance_report_graphs.html" id="tocId-d61e5095-link">One Way Analysis of Covariance Report Graphs</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="performing_a_multiple_comparison-d61e5111" class="topicref" data-id="performing_a_multiple_comparison" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action performing_a_multiple_comparison-d61e5111-link" class="wh-expand-btn"></span><span class="title"><a href="performing_a_multiple_comparison.html" id="performing_a_multiple_comparison-d61e5111-link">Performing a Multiple Comparison</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5191" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5191-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_repeated_measurements_of_the_same_individuals.html" id="tocId-d61e5191-link">Comparing Repeated Measurements of the Same Individuals</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6103" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6103-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_frequencies__rates__and_proportions.html" id="tocId-d61e6103-link">Comparing Frequencies, Rates, and Proportions</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6617" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6617-link" class="wh-expand-btn"></span><span class="title"><a href="principal_components_analysis.html" id="tocId-d61e6617-link">Principal Components Analysis</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6739" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6739-link" class="wh-expand-btn"></span><span class="title"><a href="prediction_and_correlation.html" id="tocId-d61e6739-link">Prediction and Correlation</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8466" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8466-link" class="wh-expand-btn"></span><span class="title"><a href="survival_analysis.html" id="tocId-d61e8466-link">Survival Analysis</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9058" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9058-link" class="wh-expand-btn"></span><span class="title"><a href="computing_power_and_sample_size.html" id="tocId-d61e9058-link">Computing Power and Sample Size</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9182" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9182-link" class="wh-expand-btn"></span><span class="title"><a href="report_graphs.html" id="tocId-d61e9182-link">Report Graphs</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <article class="nested0" aria-labelledby="ariaid-title1" id="interpreting_ancova_results">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Interpreting One Way Analysis of Covariance Results</h1>
+    
+    <div class="- topic/body body">
+      
+      <p class="- topic/p p"><a class="- topic/xref xref" href="#ancova_basic_numeric_results">Basic numeric results</a>
+        always appear in an ANCOVA report, unless equality of slopes is being tested (turned on in
+        Assumption Checking panel of the Test Options dialog box) and the test fails. In this case,
+        the results for the ANCOVA model do not appear.</p>
+      <p class="- topic/p p">You also have the option to display <a class="- topic/xref xref" href="#ancova_optional_numeric_results">other results</a>.</p>
+    </div>
+    <article class="- topic/topic topic nested1" aria-labelledby="ariaid-title2" id="ancova_basic_numeric_results">
+      <h2 class="- topic/title title topictitle2" id="ariaid-title2">Basic Numeric Results</h2>
+      <div class="- topic/body body">
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_khf_ggk_s4">
+          <li class="- topic/li li">The following sections of a report are always displayed, unless equality of slopes is
+            being tested (turned on in Assumption Checking panel of the Test Options dialog box) and
+            the test fails. In this case, the results for the ANCOVA model are not displayed.<ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_pdj_ggk_s4">
+              <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Header.</strong> This includes the name of the test, date stamp, and data source, as
+                for all other tests.</li>
+              <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Dependent Variable.</strong> This gives the column name for the dependent variable
+                (observations or responses).</li>
+              <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Descriptive Statistics for Groups.</strong> Table with basis statistics and summary
+                data for the factor groups. The layout of the table is given below (grid lines below
+                will not be shown in the report).</li>
+            </ul></li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_k4j_ggk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Group</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Cases</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Missing </strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Mean </strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std Dev</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">SEM</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Total</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_fln_ggk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Notification of Eliminated Groups.</strong> A group is eliminated from the analysis if
+            it has no valid subjects (all cases for this group are labeled as missing). A subject is
+            valid only if the dependent variable value and the associated value of each covariate
+            are finite numbers. A statement is placed in the report indicating which groups, if any,
+            have been removed from the analysis. Note that if fewer than two valid groups exist,
+            then the Test Wizard will display a message when Finish is pressed to indicate an
+            analysis cannot be performed. In this case, you are returned to the Wizard to repick
+            data.</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Notification of Eliminated Covariates.</strong> The set of covariates may be severely
+            ill-conditioned, either precluding a unique solution to the regression problem that
+            determines the regression planes for each group, or giving a solution in which the
+            parameters have very large errors. To avoid this difficulty, covariates are selectively
+            removed until a well-conditioned set of covariates remains. Problematic covariates
+            include those which are constant on each group or those which are linear combinations of
+            other covariates. Removing these covariates has no effect on sums of squares estimates
+            of effects or on the predicted values of the regression. A statement will be placed in
+            the report indicating which covariates, if any, have been removed from the analysis. If
+            all covariates have been removed, then the report will suggest using a One-Way ANOVA
+            test to analyze the design.</li>
+        </ul>
+        <p class="- topic/p p">The remaining basic numeric results in the report are for the main ANCOVA model, or the
+            <em class="+ topic/ph hi-d/i ph i">Equal Slopes</em> model. This model assumes that the slope coefficients are the same
+          across all groups for each covariate. The main hypothesis testing using the equal slopes
+          model is to test the equality of the adjusted group means (the means obtained by
+          controlling for the effects of the covariates). This is equivalent to testing the equality
+          of the intercepts of the regression equations for the groups since the slopes are equal.
+          If the P-value for the effect of the factor is significant, then multiple comparisons can
+          be performed to determine the most significant differences in the adjusted means between
+          pairs of groups.</p>
+        <p class="- topic/p p">Suppose your ANCOVA treatment structure has total valid observations, valid groups, and
+          valid covariates. The analysis of the ANCOVA model can only proceed <em class="+ topic/ph hi-d/i ph i"><strong class="+ topic/ph hi-d/b ph b">if</strong></em>;
+          however, this condition is selected in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Test Wizard</span> before
+          processing begins. If the condition is violated, then the Test Wizard displays a message
+          when you click <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Finish</span> to indicate the analysis cannot be performed.
+          In this case, you are returned to the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Test Wizard</span> to repick the
+          data.</p>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_a3r_ggk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">The Analysis of Variance Table.</strong> The Analysis of Variance table gives the sums
+            of squares for the main effects. Using this table, we can determine the significance of
+            the differences between the adjusted means. We can also determine the significance of
+            each covariate in the model. If no covariate is significant, then a statement is added
+            to the report to inform you. <span class="- topic/ph ph">SigmaPlot</span> will suggest that you use a One-Way ANOVA model to
+            analyze the data. The layout of this table is shown below. Note that the table is
+            preceded with a statement giving the computations of the correlation coefficient
+              <em class="+ topic/ph hi-d/i ph i">R</em>, the coefficient of determination <em class="+ topic/ph hi-d/i ph i">Rsqr</em>, and adjusted Rsqr (Adj
+            Rsqr).</li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_qdv_ggk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">R=</td>
+                <td class="- topic/entry entry">Rsqr=</td>
+                <td class="- topic/entry entry">Adj Rsqr=</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry" colspan="2">Analysis of Variance:</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Source of Variation</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">DF</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">SS</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">MS</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">F</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">P</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Factor</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Residual</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry">None</td>
+                <td class="- topic/entry entry">None</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Total (Corrected)</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry">None</td>
+                <td class="- topic/entry entry">None</td>
+              </tr>
+            </tbody></table>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_wzy_ggk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Adjusted Means Table.</strong> This table reports the adjusted mean for each factor
+            group together with the standard error and confidence intervals for each mean. There
+            will be a statement following the table indicating how the adjusted means are computed.
+            The layout of this table is given below:</li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_bwc_hgk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry" colspan="2">Adjusted Means of the Groups</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Group</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Adjusted Mean</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std. Error</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Lower</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Upper</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <p class="- topic/p p">The adjusted means for the groups are obtained by evaluating the model at the grand mean
+          of each covariate.</p>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_hyg_hgk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Regression Equations for Each Group.</strong> For each group, the regression equation is
+            given, where the model’s predicted values are expressed as a function of the covariates.
+              <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_p4m_hgk_s4">
+              <li class="- topic/li li">
+                <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_h2n_hgk_s4">
+                  <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Optional Numeric Results.</strong> The appearance of the following sections of
+                    the report depends upon the settings in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Test Options</span>
+                    dialog box. <span class="- topic/ph ph">SigmaPlot</span> defaults are <a class="- topic/xref xref" href="#ancova_basic_numeric_results">described above</a>.</li>
+                </ul>
+              </li>
+            </ul></li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Descriptive Statistics for Covariates.</strong> Tables with basic statistics and summary
+            data for the covariates your data. The layout of each table is given below (grid lines
+            are not shown in the report). </li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_n4p_hgk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1: </td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Covariate</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Mean</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std Dev</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Min</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Max</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_n45_hgk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p:</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Covariate</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Mean</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std Dev</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Min</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Max</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_n4y_hgk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Overall:</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Covariate</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Mean</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std Dev</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Min</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Max</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <p class="- topic/p p">The above tables of the covariate statistics are computed for valid rows of data only. </p>
+        <p class="- topic/p p">These tables appear immediately after the <em class="+ topic/ph hi-d/i ph i">Descriptive Statistics for Groups</em>
+          table.</p>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_ymc_3gk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">The Interaction Model (Testing Equality of Slopes): Analysis of Variance Table.</strong>
+            Suppose your ANCOVA treatment structure has total valid observations, valid groups, and
+            valid covariates. If the option for Equality of Slopes on the Assumption Checking panel
+            in the Test Options dialog box is turned on and if, then results will be given for
+            testing the equality of slopes across factor groups for each covariate. If results are
+            not given (or cannot be given), then analysis proceeds with the <em class="+ topic/ph hi-d/i ph i">Equal Slopes</em>
+            model. The Analysis of Variance table gives the sums of squares for the main effects and
+            for interactions of the factor with the covariates. Using this table, we can determine
+            if any interaction is significant. If at least one interaction is significant, an
+            equation will be given for the regression plane for each group and the report will end.
+            If no interaction is significant, then the test for equality of slopes passes and the
+            analysis continues with the ANCOVA model (equal slopes model), producing the remaining
+            results of the report. The layout of this table is shown below. I have inserted
+            mathematical expressions for the degrees of freedom associated with each effect in
+            terms,, and. Note that the table is preceded by a line giving the computations of the
+            correlation coefficient <em class="+ topic/ph hi-d/i ph i">R</em>, the coefficient of determination <em class="+ topic/ph hi-d/i ph i">Rsqr</em>, and
+            adjusted Rsqr (Adj Rsqr).</li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_lqg_3gk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">R=</td>
+                <td class="- topic/entry entry">Rsqr=</td>
+                <td class="- topic/entry entry">Adj Rsqr=</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry" colspan="2">Analysis of Variance:</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Source of Variation</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">DF</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">SS</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">MS</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">F</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">P</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Factor</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Factor x Cov 1</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Factor x Cov m</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Residual</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry">None</td>
+                <td class="- topic/entry entry">None</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Total (Corrected)</td>
+                <td class="- topic/entry entry"></td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry">None</td>
+                <td class="- topic/entry entry">None</td>
+              </tr>
+            </tbody></table>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_btk_3gk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">The Interaction Model (Testing Equality of Slopes): Parameter Statistics.</strong> In
+            addition to the Analysis of Variance table, the report will display the values and
+            statistics of the parameters in the interaction model if the additional options were
+            turned on the Test Options dialog box. These tables will be placed in the report
+            immediately before the Analysis of Variance table discussed in the previous item. The
+            layouts of the tables are given below:</li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_gfp_3gk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry" colspan="5">Effects coded group variables – Group p is the
+                  reference group</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Parameter</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Value</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std. Error</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">t</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">P</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Constant</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 2 - Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group (p-1) - Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 2 - Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group (p-1) - Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_ftt_3gk_s4"><caption></caption><colgroup><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Parameter</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Value</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Lower</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Upper</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Constant</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 2-Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1-Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 2-Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1-Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_xtx_3gk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Normality.</strong> As in several other statistical tests, we will test the normality of
+            the residuals obtained from the ANCOVA regression analysis for the Equal Slopes model.
+            The settings in the Test Options dialog box on the Assumption Checking panel will
+            determine which normality test to perform and at what significance level. The display of
+            normality results in the report will be as in other statistical tests.</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Equal Variance</strong>. We will use Levene’s test to determine equality of variance for
+            the residuals of the ANCOVA regression analysis for the Equal Slopes model. Levene’s
+            algorithm computes the absolute value of the residuals for all observations in all
+            groups and then applies a One-Way ANOVA analysis to determine whether there is a
+            significant difference between the means of the residuals for the groups. If there is
+            not, the equality of variance test passes. The display of equal variance results will be
+            as in other statistical tests.</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Parameter Statistics Tables (the Equal Slopes Model).</strong> The report will display
+            the values and statistics of the parameters in the equal slopes model. There will be two
+            tables, one containing the estimates of standard errors and hypothesis testing (using
+              <em class="+ topic/ph hi-d/i ph i">Student’s t-test</em>) results for each parameter, testing if the parameter is zero.
+            The second table displays confidence intervals for the true parameter values.<div class="- topic/note note important note_important"><span class="note__title">Important:</span> It is important to realize that the independent variables in the
+              regression model corresponding to the factor groups are <em class="+ topic/ph hi-d/i ph i">effects-coded</em> (sum-to
+              zero) dummy variables, with the last group in your data being the reference group.
+            </div>The layouts of the tables are given below:</li>
+        </ul>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_ysb_jgk_s4"><caption></caption><colgroup><col /><col /><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry" colspan="5">Effects coded group variables – Group p is the
+                  reference group</td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Parameter</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Value</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Std. Error</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">t</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">P</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">VIF (optional)</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Constant</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry">None</td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <table class="- topic/table table" id="ancova_basic_numeric_results__table_mrf_jgk_s4"><caption></caption><colgroup><col /><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+              <tr class="- topic/row">
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Parameter</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Value</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Lower</strong></td>
+                <td class="- topic/entry entry"><strong class="+ topic/ph hi-d/b ph b">Conf-Upper</strong></td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Constant</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Group p-1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov 1</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">⁞</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+              <tr class="- topic/row">
+                <td class="- topic/entry entry">Cov m</td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+                <td class="- topic/entry entry"> </td>
+              </tr>
+            </tbody></table>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_hpj_jgk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Parameter Covariance Matrix.</strong> This matrix gives the estimates for the covariance
+            among pairs of the parameter estimates in the Equal Slopes model. </li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Power.</strong> This is the observed (retrospective or achieved) power of the test for
+            equality of the adjusted means. This value is only computed so you can observe the
+            relationship between the significance of the test and the Power (the probability of
+            correctly rejecting the null hypothesis that the means are equal); however, the power
+            value, being computed from the data, provides no new information about the
+            analysis.</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Multiple Comparisons.</strong> The multiple comparison procedures that are available to
+            One Way ANOVA should also be available to ANCOVA for pairwise comparisons of adjusted
+            means. The major difference involves the computation of the standard error of the
+            difference in the adjusted means. For ANOVA, the standard error computation for each
+            pair of groups is based on the common variance between groups, estimated by the mean
+            residual sum of squares. For ANCOVA, the standard error is dependent on the pair of
+            groups being compared.</li>
+        </ul>
+        <p class="- topic/p p">The following output provides influence diagnostics for fitting the ANCOVA model to your
+          data as well as confidence intervals for the means values corresponding to each
+          observation.</p>
+        <ul class="- topic/ul ul" id="ancova_basic_numeric_results__ul_c4n_jgk_s4">
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Predicted Values and Residuals.</strong> The predicted values from the regression as
+            well as various normalizations of the residuals (raw, standardized, Studentized,
+            Studentized deleted) to determine influential data points.</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Cook’s Distance and Leverage.</strong> Other outlier detection methods in addition to
+            residual analysis. Cook’s distance is measuring a change in the parameters relative to a
+            particular norm when an observation is deleted. Leverage detects potential horizontal
+            outliers (outliers relative to the independent variables).</li>
+          <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Confidence Intervals for Observation Means.</strong> Using the predicted values for the
+            observations, confidence intervals and prediction intervals will be given for locating
+            the true mean values and estimating intervals containing additional observations.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="- topic/topic topic nested1" aria-labelledby="ariaid-title3" id="ancova_optional_numeric_results">
+      <h2 class="- topic/title title topictitle2" id="ariaid-title3">Other Results</h2>
+      <div class="- topic/body body">
+        <p class="- topic/p p">There are several other results consisting of explanations and interpretations of the
+          numeric results.</p>
+        <p class="- topic/p p">To omit these from the report, select <span class="- topic/ph ph"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span></span><span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Options</span><abbr title="and then"> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Report</span></span>. Then clear <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Explain Test Results</span>.</p>
+        <ul class="- topic/ul ul" id="ancova_optional_numeric_results__ul_irm_tgw_dp">
+          <li class="- topic/li li">
+            <ul class="- topic/ul ul" id="ancova_optional_numeric_results__ul_dbk_z2k_s4">
+              <li class="- topic/li li">If the Equality of Slopes assumption is being tested and the test fails, thus
+                concluding that the slopes differ significantly between groups for at least one
+                covariate, then a statement will follow the Analysis of Variance table for the
+                Interaction Model to indicate which covariates have a significant interaction and a
+                statement that the analysis of the ANCOVA model will not be performed.</li>
+              <li class="- topic/li li">Statements are made following the Analysis of Variance table for the ANCOVA model
+                to indicate whether there are or are not significant differences between the
+                adjusted means of the treatment groups and to indicate the relevance of the
+                covariates. If the P-value corresponding to the F-test for the factor effect is
+                significant (look at the Factor row in the Analysis of Variance table), then is a
+                significant difference between the adjusted means of the groups. A statement is also
+                made indicating the significance or non-significance of each covariate (for each
+                covariate, you are testing the hypothesis that the slope is zero). If no covariate
+                makes a significant contribution to the model, then <span class="- topic/ph ph">SigmaPlot</span> suggests that you may want
+                to run a One Way ANOVA on the data with the covariates removed.</li>
+              <li class="- topic/li li">Following the Adjusted Means table, a statement is made to indicated that the
+                adjust means are the predicted values of the model where each covariate variable is
+                evaluated at the grand mean of its sampled values.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </article>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#ancova_basic_numeric_results" data-tocid="ancova_basic_numeric_results">Basic Numeric Results</a></li><li class="topic-item"><a href="#ancova_optional_numeric_results" data-tocid="ancova_optional_numeric_results">Other Results</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

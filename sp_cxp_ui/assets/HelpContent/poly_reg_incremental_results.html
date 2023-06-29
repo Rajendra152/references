@@ -1,0 +1,247 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="MSres (Residual Mean Square). The residual mean square is a measure of the variation of the residuals about the regression line. MSincr (Incremental Mean Square). The incremental mean square is a ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="topic" /><meta name="DC.subject" content="incremental polynomial regression results, incremental results, incremental results, incremental polynomial regression results" /><meta name="keywords" content="incremental polynomial regression results, incremental results, incremental results, incremental polynomial regression results" /><meta name="indexterms" content="incremental polynomial regression results, incremental results, incremental results, incremental polynomial regression results" /><meta name="DC.relation" scheme="URI" content="interpreting_incremental_polynomial_regression_results.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="interpret_incremental_polyreg_results_incremental_results" /><title>Incremental Results</title><!--  Generated with Oxygen version 22.1, build number 2020072823.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="tocId-d61e7630" /><meta name="wh-source-relpath" content="poly_reg_incremental_results.dita" /><meta name="wh-out-relpath" content="poly_reg_incremental_results.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2020072823" />
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/sky.css?buildId=2020072823" /></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="booktitle">  <span class="ph mainbooktitle"> SigmaPlot User Guide </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Introduction-d61e18-mi" data-tocid="Introduction-d61e18" data-state="not-ready" class=" topicref " data-id="Introduction"><span class="title"><a href="introduction.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e197-mi" data-tocid="tocId-d61e197" data-state="not-ready" class=" topicref "><span class="title"><a href="create.html">Creating and Modifying Graphs</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e477-mi" data-tocid="tocId-d61e477" data-state="not-ready" class=" topicref "><span class="title"><a href="nbasic.html">Notebook Manager Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e592-mi" data-tocid="tocId-d61e592" data-state="not-ready" class=" topicref "><span class="title"><a href="gpbasics1.html">Graph Page Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1258-mi" data-tocid="tocId-d61e1258" data-state="not-ready" class=" topicref "><span class="title"><a href="wbasics.html">Worksheet Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1626-mi" data-tocid="tocId-d61e1626" data-state="not-ready" class=" topicref "><span class="title"><a href="report.html">Using the Report Editor</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1702-mi" data-tocid="tocId-d61e1702" data-state="not-ready" class=" topicref "><span class="title"><a href="Transform.html">Transforms, Regressions, and Graph Analysis</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e2187-mi" data-tocid="tocId-d61e2187" data-state="not-ready" class=" topicref "><span class="title"><a href="TransformFunctionReference.html">Transform Function Reference</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3187-mi" data-tocid="tocId-d61e3187" data-state="not-ready" class=" topicref "><span class="title"><a href="RegressionEquationLibrary.html">Regression Equation Library</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3329-mi" data-tocid="tocId-d61e3329" data-state="not-ready" class=" topicref "><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Reference-d61e9417-mi" data-tocid="Reference-d61e9417" data-state="not-ready" class=" topicref " data-id="Reference"><span class="title"><a href="Reference.html">Reference</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><span class="topicref"><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span></li><li><span class="topicref"><span class="title"><a href="prediction_and_correlation.html">Prediction and Correlation</a></span></span></li><li><span class="topicref"><span class="title"><a href="polynomial_regression.html">Polynomial Regression</a></span></span></li><li><span class="topicref"><span class="title"><a href="interpreting_incremental_polynomial_regression_results.html">Interpreting Incremental Polynomial Regression Results</a></span></span></li><li class="active"><span class="topicref"><span class="title"><a href="poly_reg_incremental_results.html">Incremental Results</a></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e3329" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e3329-link" class="wh-expand-btn"></span><span class="title"><a href="Stats.html" id="tocId-d61e3329-link">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3340" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3340-link" class="wh-expand-btn"></span><span class="title"><a href="advisor.html" id="tocId-d61e3340-link">The Advisor Wizard</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3450" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3450-link" class="wh-expand-btn"></span><span class="title"><a href="using_statistical_procedures.html" id="tocId-d61e3450-link">Using Statistical Procedures</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3872" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3872-link" class="wh-expand-btn"></span><span class="title"><a href="single_group_analysis.html" id="tocId-d61e3872-link">Single Group Analysis</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4064" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4064-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_two_or_more_groups.html" id="tocId-d61e4064-link">Comparing Two or More Groups</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5191" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5191-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_repeated_measurements_of_the_same_individuals.html" id="tocId-d61e5191-link">Comparing Repeated Measurements of the Same Individuals</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6103" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6103-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_frequencies__rates__and_proportions.html" id="tocId-d61e6103-link">Comparing Frequencies, Rates, and Proportions</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6617" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6617-link" class="wh-expand-btn"></span><span class="title"><a href="principal_components_analysis.html" id="tocId-d61e6617-link">Principal Components Analysis</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e6739" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e6739-link" class="wh-expand-btn"></span><span class="title"><a href="prediction_and_correlation.html" id="tocId-d61e6739-link">Prediction and Correlation</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6748" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6748-link" class="wh-expand-btn"></span><span class="title"><a href="about_regression.html" id="tocId-d61e6748-link">About Regression</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6775" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6775-link" class="wh-expand-btn"></span><span class="title"><a href="simple_linear_regression.html" id="tocId-d61e6775-link">Simple Linear Regression</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e7013" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e7013-link" class="wh-expand-btn"></span><span class="title"><a href="multiple_linear_regression.html" id="tocId-d61e7013-link">Multiple Linear Regression</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e7269" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e7269-link" class="wh-expand-btn"></span><span class="title"><a href="multiple_logistic_regression.html" id="tocId-d61e7269-link">Multiple Logistic Regression</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e7517" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e7517-link" class="wh-expand-btn"></span><span class="title"><a href="polynomial_regression.html" id="tocId-d61e7517-link">Polynomial Regression</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="tocId-d61e7526" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="about_the_polynomial_regression.html" id="tocId-d61e7526-link">About the Polynomial Regression</a></span></span></li><li role="treeitem"><span data-tocid="performing_a_polynomial_regression-d61e7535" class="topicref" data-id="performing_a_polynomial_regression" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="performing_a_polynomial_regression.html" id="performing_a_polynomial_regression-d61e7535-link">Performing a Polynomial Regression</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e7543" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="arranging_polynomial_regression_data.html" id="tocId-d61e7543-link">Arranging Polynomial Regression Data</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="setting_polynomial_regression_options-d61e7552" class="topicref" data-id="setting_polynomial_regression_options" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action setting_polynomial_regression_options-d61e7552-link" class="wh-expand-btn"></span><span class="title"><a href="setting_polynomial_regression_options.html" id="setting_polynomial_regression_options-d61e7552-link">Setting Polynomial Regression Options</a></span></span></li><li role="treeitem"><span data-tocid="running_a_polynomial_regression-d61e7604" class="topicref" data-id="running_a_polynomial_regression" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="running_a_polynomial_regression.html" id="running_a_polynomial_regression-d61e7604-link">Running a Polynomial Regression</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e7612" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e7612-link" class="wh-expand-btn"></span><span class="title"><a href="interpreting_incremental_polynomial_regression_results.html" id="tocId-d61e7612-link">Interpreting Incremental Polynomial Regression Results</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="tocId-d61e7621" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="poly_reg_regression_equation.html" id="tocId-d61e7621-link">Regression Equation</a></span></span></li><li role="treeitem" class="active"><span data-tocid="tocId-d61e7630" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="poly_reg_incremental_results.html" id="tocId-d61e7630-link">Incremental Results</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e7639" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="poly_reg_assumption_testing.html" id="tocId-d61e7639-link">Assumption Testing</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e7648" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="incr_poly_reg_choosing_the_best_mode.html" id="tocId-d61e7648-link">Choosing the Best Model</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e7657" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e7657-link" class="wh-expand-btn"></span><span class="title"><a href="interpreting_order_only_polynomial_regression_results.html" id="tocId-d61e7657-link">Interpreting Order Only Polynomial Regression Results</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e7738" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e7738-link" class="wh-expand-btn"></span><span class="title"><a href="polynomial_regression_report_graphs.html" id="tocId-d61e7738-link">Polynomial Regression Report Graphs</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e7755" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e7755-link" class="wh-expand-btn"></span><span class="title"><a href="stepwise_linear_regression.html" id="tocId-d61e7755-link">Stepwise Linear Regression</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8092" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8092-link" class="wh-expand-btn"></span><span class="title"><a href="best_subsets_regression.html" id="tocId-d61e8092-link">Best Subsets Regression</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8197" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8197-link" class="wh-expand-btn"></span><span class="title"><a href="pearson_product_moment_correlation.html" id="tocId-d61e8197-link">Pearson Product Moment Correlation</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8307" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8307-link" class="wh-expand-btn"></span><span class="title"><a href="spearman_rank_order_correlation.html" id="tocId-d61e8307-link">Spearman Rank Order Correlation</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8397" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8397-link" class="wh-expand-btn"></span><span class="title"><a href="deming_regression.html" id="tocId-d61e8397-link">Deming Regression</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8466" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8466-link" class="wh-expand-btn"></span><span class="title"><a href="survival_analysis.html" id="tocId-d61e8466-link">Survival Analysis</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9058" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9058-link" class="wh-expand-btn"></span><span class="title"><a href="computing_power_and_sample_size.html" id="tocId-d61e9058-link">Computing Power and Sample Size</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9182" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9182-link" class="wh-expand-btn"></span><span class="title"><a href="report_graphs.html" id="tocId-d61e9182-link">Report Graphs</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <article class="nested0" aria-labelledby="ariaid-title1" id="interpret_incremental_polyreg_results_incremental_results">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Incremental Results</h1>
+    
+    <div class="- topic/body body">
+      
+      <div class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">MSres (Residual Mean Square). </strong>The residual mean
+        square is a measure of the variation of the residuals about the regression line. <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_rgl_kfn_q4" src="Eqn212.gif" /></div><br /></div>
+      <div class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">MSincr (Incremental Mean Square). </strong>The incremental
+        mean square is a measure of the reduction in variation of the residuals about the regression
+        equation gained with this order polynomial <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_e3z_rfn_q4" src="Eqn213.gif" /></div><br /></div>
+      <p class="- topic/p p">The sum of squares are measures of variability of the dependent variable.</p>
+      <p class="- topic/p p">The residual sum of squares is a measure of the size of the residuals, which are
+        the differences between the observed values of the dependent variable and the values
+        predicted by regression model. </p>
+      <p class="- topic/p p">The incremental or Type I sum of squares, is a measure of the new predictive
+        information contained in the added power of the independent variable, as it is added to the
+        equation.</p>
+      <p class="- topic/p p">It is a measure of the increase in the regression sum of squares (and reduction
+        in the sum of squared residuals) obtained when the highest order term of the independent
+        variable is added to the regression equation, after all lower order terms have been entered.
+        Since one order is added in each step, DFincr =1.</p>
+      <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">Rsq. </strong>
+        <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em>, the coefficient of determination, is a measure of how well the
+        regression model describes the data. </p>
+      <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_hdk_hkb_z2b">
+        
+        <li class="- topic/li li">The incremental <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is the gain in <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em>
+          obtained with this order polynomial over the previous order polynomial</li>
+        <li class="- topic/li li">The overall <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is the actual <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> of this
+          order polynomial</li>
+      </ul>
+      <p class="- topic/p p">Overall <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> values nearer to 1 indicate that the curve is a
+        good description of the relation between the independent and dependent variables.
+            <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is near 0 when the values of the independent variable poorly
+        predict the dependent variables</p>
+      <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">F Value. </strong>The F test statistic gauges the ability
+        of the independent variable in predicting the dependent variable.</p>
+      <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_idk_hkb_z2b">
+        
+        <li class="- topic/li li">The incremental F value gauges the increase in contribution of each added
+          order of the independent variable in predicting the dependent variable. It is the ratio
+            <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_bwt_yfn_q4" src="Eqn214.gif" /></div><br /></li>
+      </ul>
+      <p class="- topic/p p">If the incremental F is large and the overall F jumps to a large number, you can
+        conclude that adding that order of the independent variables predicts the dependent variable
+        significantly better than the previous model. The "best" order polynomial to use is
+        generally the highest order polynomial that produces a marked improvement in predictive
+        ability.</p>
+      <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_jdk_hkb_z2b">
+        
+        <li class="- topic/li li">Overall F value gauges the contribution of all orders of the independent
+          variable in predicting the dependent variable. It is the ratio <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_yrn_ggn_q4" src="Eqn215.gif" /></div><br /></li>
+      </ul>
+      <p class="- topic/p p">When the overall F ratio is around 1, you can conclude that there is no
+        association between the independent variables (for example, the data is consistent with the
+        null hypothesis that all the samples are just randomly distributed).</p>
+      <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">P Value. </strong>P is the P value calculated for F. The P
+        value is the probability of being wrong in concluding that there is a true association
+        between the dependent and independent variables (for example, the probability of falsely
+        rejecting the null hypothesis, or committing a Type I error, based on F). The smaller the P
+        value, the greater the probability that there is an association.</p>
+      <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_kdk_hkb_z2b">
+        
+        <li class="- topic/li li">The incremental P value is the change in probability of being wrong that the
+          added independent variable order improves the prediction of the dependent variable.</li>
+        <li class="- topic/li li">The overall P value is the probability of being wrong that order of
+          polynomial correctly predicts the dependent variable.</li>
+      </ul>
+      <p class="- topic/p p">Traditionally, you can conclude that the independent variable can be used to
+        predict the dependent variable when P &lt; 0.05.</p>
+      <p class="- topic/p p">Although large incremental values for the coefficient of determination and the F-statistics
+        can reveal the best model for your data, they are not always simple to interpret and may not
+        reliably account for overfitting that results when using a model with too many parameters.
+        Overfitting can be a serious problem because it increases the model’s complexity, increases
+        the sensitivity of the model’s parameters to changes in the input data, and can ruin the
+        model’s predictive capability. There are other measures of quality of fit that are
+        frequently better indicators of the best model for your data and are simpler to
+        interpret.</p>
+      <div class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Adj Rsqr.</strong> Adjusted is a modified version of that is adjusted for the number of
+        coefficients in the model. <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_zf2_dvf_kgb" src="Eqn310.gif" /></div><br /></div>
+      <div class="- topic/p p">The value of <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is always less than <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em>, but it can
+        be negative. The value of <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> generally increases only if additional
+        terms added to the model, thus increasing its order, significantly improves the fit. <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_fnl_jvf_kgb">
+          <li class="- topic/li li">The incremental <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is the gain in <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em>
+            obtained with this order polynomial over the previous order polynomial. </li>
+          <li class="- topic/li li">The overall <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> is the actual value for this order polynomial. A
+            higher overall value of <em class="+ topic/ph hi-d/i ph i">Adj R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> indicates a higher quality of fit to
+            your data. </li>
+        </ul></div>
+      <div class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Pred Rsqr.</strong> Predicted <em class="+ topic/ph hi-d/i ph i">R<sup class="+ topic/ph hi-d/sup ph sup">2</sup></em> measures the quality of predictability of
+        a model by showing how stable the model is when observations are removed. This measure also
+        guards against overfitting.<br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_hwb_fxf_kgb" src="Eqn311.gif" /></div><br /></div>
+      <p class="- topic/p p">where <img class="- topic/image image" id="interpret_incremental_polyreg_results_incremental_results__image_mzn_3xf_kgb" src="Eqn312.gif" /> and <img class="- topic/image image" id="interpret_incremental_polyreg_results_incremental_results__image_bqd_kxf_kgb" src="Eqn313.gif" /></p>
+      <div class="- topic/p p">The value <img class="- topic/image image" id="interpret_incremental_polyreg_results_incremental_results__image_ljb_nxf_kgb" src="Eqn314.gif" /> is the
+        predicted value of the observation <em class="+ topic/ph hi-d/i ph i">y<sub class="+ topic/ph hi-d/sub ph sub">i</sub></em> after fitting the model to the data
+        with this observation removed. The value <img class="- topic/image image" id="interpret_incremental_polyreg_results_incremental_results__image_dmp_sxf_kgb" src="Eqn315.gif" /> is the mean of observations after removing <em class="+ topic/ph hi-d/i ph i">y<sub class="+ topic/ph hi-d/sub ph sub">i</sub></em>
+        <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_vbb_wxf_kgb">
+          <li class="- topic/li li">The incremental is the gain in obtained with this order polynomial over the previous
+            order polynomial.</li>
+          <li class="- topic/li li">The overall is the actual value for this order polynomial. A higher overall value of
+            indicates a higher quality of fit to your data. </li>
+        </ul>
+      </div>
+      <div class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">AICc.</strong> The Akaike Information Criterion provides a relative measure of the
+        information loss when modelling your data that provides a reliable trade-off between
+        maximizing the likelihood of the estimated model and minimizing overfitting. <br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_vht_1yf_kgb" src="Eqn316.gif" /></div><br /></div>
+      <div class="- topic/p p">Here, k is the number of coefficients in the model plus one. The corrected version
+          <em class="+ topic/ph hi-d/i ph i">AICc</em>, which works well for small sample sizes, is the value computed in
+          reports.<br /><div class="imagecenter"><img class="- topic/image image imagecenter" id="interpret_incremental_polyreg_results_incremental_results__image_xrp_fyf_kgb" src="Eqn317.gif" /></div><br /></div>
+      <div class="- topic/p p">
+        <ul class="- topic/ul ul" id="interpret_incremental_polyreg_results_incremental_results__ul_wxs_3yf_kgb">
+          <li class="- topic/li li">The incremental <em class="+ topic/ph hi-d/i ph i">AICc</em> is the gain in <em class="+ topic/ph hi-d/i ph i">AICc</em> obtained with this order
+            polynomial over the previous order polynomial.</li>
+          <li class="- topic/li li">The overall <em class="+ topic/ph hi-d/i ph i">AICc</em> is the actual value for this order polynomial. A lower overall
+            value of <em class="+ topic/ph hi-d/i ph i">AICc</em> indicates a higher quality of fit to your data.</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,38 @@
+
+
+.ribbon-container {
+    margin-top: 0px;
+    background-color: #575757;
+    border-bottom: 1px solid #f7f7f7;
+    .v-hr {
+   
+      border-right: 2px solid #f7f7f7;
+      
+    }
+    .ribbon-btn-box{
+        background-color: #575757;
+        .box-btn>span.ms-Button-flexContainer>span.ms-Button-textContainer{
+            color: white;
+        }
+    }
+
+    .ribbon-grid-button{
+         .hor-button>.ms-Button>.ms-Button-flexContainer>.ms-Button-textContainer>.ms-Button-label{
+          color: #fefefe;
+        }
+        .ms-Icon{
+            color: #fefefe;
+        }
+        .ribbon-gbutton {
+            border-right: solid 1px #fefefe;
+        }
+    }
+    .ribbon-boxbtn-lbl {
+        background-color: #575757;
+        color: #f7f7f7;
+    }
+}
+ 
+
+
+

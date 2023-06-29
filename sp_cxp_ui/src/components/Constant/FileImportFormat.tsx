@@ -1,0 +1,21 @@
+export const FileImport = [
+  {name: 'New Microsoft Excel files (*.xlsx, *.xls)', extensions: ['xlsx', 'xls']},
+  {name: 'SAS Data Set (*.sd2, *.sas7bdat)', extensions: ['sd2', 'sas7bdat']},
+  {name: 'SAS Export File (*.xpt)', extensions: ['xpt']},
+  {name: 'Minitab (*.mtw, *mpj)', extensions: ['mtw','mpj']},
+  {name: 'SPSS (*.sav)', extensions: ['sav']},
+  {name: 'Text File (*.txt, *.prn, *.dat, *.asc)', extensions: ['txt', 'prn','dat', 'asc']},
+  {name: 'CSV File (*.csv)', extensions: ['csv']},
+  // {name: 'MS Access File (*.mdb)', extensions: ['mdb']},
+
+  {name: 'Lotus 1-2-3 (.wks, .wk*)', extensions: ['wks', 'wk*']},
+  {name: 'Quattro/DOS files (.wq1*)', extensions: ['wq1']},
+  {name: 'Symphony (.wkl, .wri, .wrk, .wks)', extensions: ['wk1', 'wri', 'wrk', 'wks']},
+  // {name: 'Paradox (.db)', extensions: ['db']},
+  {name: 'SYSTAT (.sys, .syd)', extensions: ['sys', 'syd']},
+  {name: 'R (.rdata)', extensions: ['rdata']},
+  {name: 'Stata (.dta)', extensions: ['dta']},
+  {name: 'Matlab (.mat)', extensions: ['mat']},
+  {name: 'SAS Export File (.xpt)', extensions: ['xpt']},
+  {name: 'JMP (.jmp)', extensions: ['jmp']},
+]

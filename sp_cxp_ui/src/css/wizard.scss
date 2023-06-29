@@ -1,0 +1,143 @@
+.graphWizard-mainContext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // height: 100vh;
+  width: 95vw;
+  margin: 0px 12px;
+
+  .ms-Label {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: normal;
+  }
+
+  // .graphWizard-titlebar{
+  //   flex: 0.05;
+  // }
+
+  .graphWizard-content {
+    // flex: 0.9;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 386px;
+
+    .graphWizardCard {
+      padding: 5px;
+      border: 1px solid lightgray;
+      width: 65%;
+
+      .ms-Label {
+        text-align: center;
+      }
+
+      .wizardCard-preview1 {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        margin: 0px;
+
+        .preview1-label {
+          width: 100%;
+
+          // flex: 0.15;
+          label {
+            text-align: center;
+          }
+        }
+
+        .preview1-image {
+          width: 100%;
+
+          // flex: 0.9;
+          .ms-Image {
+            margin: auto;
+          }
+        }
+
+      }
+    }
+
+    .wizard-listContent {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+
+      // .ms-Label{
+      //   margin-top: 0px;
+      // }
+      .graphWizardLeftCard {
+        border: 1px solid gray;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: normal;
+        flex: 1;
+        max-height: 386;
+        overflow-y: auto;
+
+        &>ul {
+          padding: 5px 8px;
+          margin-top: 0px;
+
+          &>li:hover {
+            background-color: lightgray;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+  }
+
+  .graphWizard-navigation {
+    flex: 0.15;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding: 5px 0;
+
+    .navigation-leftSide {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .navigation-RightSide {
+      width: 58%;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .alignColor {
+      margin-left: 90px;
+
+      .ms-Button-textContainer {
+        color: #1f1b1b !important;
+      }
+    }
+  }
+}
+
+.wizard-title-bar {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 30px;
+  background-color: #00a3e1;
+  padding: 4px 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-app-region: drag;
+
+  .title-bar-btns {
+    -webkit-app-region: no-drag;
+    display: flex;
+  }
+
+}

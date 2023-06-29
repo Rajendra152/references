@@ -1,0 +1,156 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="The t-test statistic is computed by subtracting the values before the intervention from the value observed after the intervention in each experimental subject. The remaining analysis is conducted on ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="topic" /><meta name="DC.relation" scheme="URI" content="interpreting_paired_t_test_results.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="paired_t_test_results_t_statistic" /><title>t Statistic</title><!--  Generated with Oxygen version 22.1, build number 2020072823.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="tocId-d61e5364" /><meta name="wh-source-relpath" content="paired_t_test_t_statistic.dita" /><meta name="wh-out-relpath" content="paired_t_test_t_statistic.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2020072823" />
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/sky.css?buildId=2020072823" /></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="booktitle">  <span class="ph mainbooktitle"> SigmaPlot User Guide </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Introduction-d61e18-mi" data-tocid="Introduction-d61e18" data-state="not-ready" class=" topicref " data-id="Introduction"><span class="title"><a href="introduction.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e197-mi" data-tocid="tocId-d61e197" data-state="not-ready" class=" topicref "><span class="title"><a href="create.html">Creating and Modifying Graphs</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e477-mi" data-tocid="tocId-d61e477" data-state="not-ready" class=" topicref "><span class="title"><a href="nbasic.html">Notebook Manager Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e592-mi" data-tocid="tocId-d61e592" data-state="not-ready" class=" topicref "><span class="title"><a href="gpbasics1.html">Graph Page Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1258-mi" data-tocid="tocId-d61e1258" data-state="not-ready" class=" topicref "><span class="title"><a href="wbasics.html">Worksheet Basics</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1626-mi" data-tocid="tocId-d61e1626" data-state="not-ready" class=" topicref "><span class="title"><a href="report.html">Using the Report Editor</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e1702-mi" data-tocid="tocId-d61e1702" data-state="not-ready" class=" topicref "><span class="title"><a href="Transform.html">Transforms, Regressions, and Graph Analysis</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e2187-mi" data-tocid="tocId-d61e2187" data-state="not-ready" class=" topicref "><span class="title"><a href="TransformFunctionReference.html">Transform Function Reference</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3187-mi" data-tocid="tocId-d61e3187" data-state="not-ready" class=" topicref "><span class="title"><a href="RegressionEquationLibrary.html">Regression Equation Library</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d61e3329-mi" data-tocid="tocId-d61e3329" data-state="not-ready" class=" topicref "><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Reference-d61e9417-mi" data-tocid="Reference-d61e9417" data-state="not-ready" class=" topicref " data-id="Reference"><span class="title"><a href="Reference.html">Reference</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><span class="topicref"><span class="title"><a href="Stats.html">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span></li><li><span class="topicref"><span class="title"><a href="comparing_repeated_measurements_of_the_same_individuals.html">Comparing Repeated Measurements of the Same Individuals</a></span></span></li><li><span class="topicref"><span class="title"><a href="paired_t_test.html">Paired t-Test</a></span></span></li><li><span class="topicref"><span class="title"><a href="interpreting_paired_t_test_results.html">Interpreting Paired t-Test Results</a></span></span></li><li class="active"><span class="topicref"><span class="title"><a href="paired_t_test_t_statistic.html">t Statistic</a></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e3329" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e3329-link" class="wh-expand-btn"></span><span class="title"><a href="Stats.html" id="tocId-d61e3329-link">Using SigmaStat Statistics in SigmaPlot</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">First developed in the 1980s, SigmaStat is a wizard-based interface which asks             you questions about your project and its data. After you run a test, the you receive a             detailed report that interprets the results.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3340" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3340-link" class="wh-expand-btn"></span><span class="title"><a href="advisor.html" id="tocId-d61e3340-link">The Advisor Wizard</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3450" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3450-link" class="wh-expand-btn"></span><span class="title"><a href="using_statistical_procedures.html" id="tocId-d61e3450-link">Using Statistical Procedures</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e3872" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e3872-link" class="wh-expand-btn"></span><span class="title"><a href="single_group_analysis.html" id="tocId-d61e3872-link">Single Group Analysis</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e4064" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e4064-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_two_or_more_groups.html" id="tocId-d61e4064-link">Comparing Two or More Groups</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e5191" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e5191-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_repeated_measurements_of_the_same_individuals.html" id="tocId-d61e5191-link">Comparing Repeated Measurements of the Same Individuals</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5200" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5200-link" class="wh-expand-btn"></span><span class="title"><a href="about_repeated_measures_tests.html" id="tocId-d61e5200-link">About Repeated Measures Tests</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5236" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5236-link" class="wh-expand-btn"></span><span class="title"><a href="data_format_for_repeated_measures_tests.html" id="tocId-d61e5236-link">Data Format for Repeated Measures Tests</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e5263" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e5263-link" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test.html" id="tocId-d61e5263-link">Paired t-Test</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="performing_a_paired_t_test-d61e5272" class="topicref" data-id="performing_a_paired_t_test" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="performing_a_paired_t_test.html" id="performing_a_paired_t_test-d61e5272-link">Performing a Paired t-test</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5280" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="arranging_paired_t_test_data.html" id="tocId-d61e5280-link">Arranging Paired t-Test Data</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="setting_paired_t_test_options-d61e5289" class="topicref" data-id="setting_paired_t_test_options" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action setting_paired_t_test_options-d61e5289-link" class="wh-expand-btn"></span><span class="title"><a href="setting_paired_t_test_options.html" id="setting_paired_t_test_options-d61e5289-link">Setting Paired t-Test Options</a></span></span></li><li role="treeitem"><span data-tocid="running_a_paired_t_test-d61e5321" class="topicref" data-id="running_a_paired_t_test" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="running_a_paired_t_test.html" id="running_a_paired_t_test-d61e5321-link">Running a Paired t-Test</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d61e5329" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d61e5329-link" class="wh-expand-btn"></span><span class="title"><a href="interpreting_paired_t_test_results.html" id="tocId-d61e5329-link">Interpreting Paired t-Test Results</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="tocId-d61e5337" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_normality_test.html" id="tocId-d61e5337-link">Normality Test</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5346" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_summary_table.html" id="tocId-d61e5346-link">Summary Table</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5355" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_difference.html" id="tocId-d61e5355-link">Difference</a></span></span></li><li role="treeitem" class="active"><span data-tocid="tocId-d61e5364" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_t_statistic.html" id="tocId-d61e5364-link">t Statistic</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5373" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_confidence_interval_for_the_difference_of_the_means.html" id="tocId-d61e5373-link">Confidence Interval for the Difference of the Means</a></span></span></li><li role="treeitem"><span data-tocid="tocId-d61e5382" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_power.html" id="tocId-d61e5382-link">Power</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="paired_t_test_report_graphs-d61e5391" class="topicref" data-id="paired_t_test_report_graphs" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action paired_t_test_report_graphs-d61e5391-link" class="wh-expand-btn"></span><span class="title"><a href="paired_t_test_report_graphs.html" id="paired_t_test_report_graphs-d61e5391-link">Paired t-Test Report Graphs</a></span></span></li></ul></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5407" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5407-link" class="wh-expand-btn"></span><span class="title"><a href="wilcoxon_signed_rank_test.html" id="tocId-d61e5407-link">Wilcoxon Signed Rank Test</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5524" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5524-link" class="wh-expand-btn"></span><span class="title"><a href="one_way_repeated_measures_analysis_of_variance__anova_.html" id="tocId-d61e5524-link">One Way Repeated Measures Analysis of Variance (ANOVA)</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5717" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5717-link" class="wh-expand-btn"></span><span class="title"><a href="two_way_repeated_measures_analysis_of_variance__anova_.html" id="tocId-d61e5717-link">Two Way Repeated Measures Analysis of Variance (ANOVA)</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e5945" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e5945-link" class="wh-expand-btn"></span><span class="title"><a href="friedman_repeated_measures_analysis_of_variance_on_ranks.html" id="tocId-d61e5945-link">Friedman Repeated Measures Analysis of Variance on Ranks</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6103" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6103-link" class="wh-expand-btn"></span><span class="title"><a href="comparing_frequencies__rates__and_proportions.html" id="tocId-d61e6103-link">Comparing Frequencies, Rates, and Proportions</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6617" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6617-link" class="wh-expand-btn"></span><span class="title"><a href="principal_components_analysis.html" id="tocId-d61e6617-link">Principal Components Analysis</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e6739" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e6739-link" class="wh-expand-btn"></span><span class="title"><a href="prediction_and_correlation.html" id="tocId-d61e6739-link">Prediction and Correlation</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e8466" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e8466-link" class="wh-expand-btn"></span><span class="title"><a href="survival_analysis.html" id="tocId-d61e8466-link">Survival Analysis</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9058" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9058-link" class="wh-expand-btn"></span><span class="title"><a href="computing_power_and_sample_size.html" id="tocId-d61e9058-link">Computing Power and Sample Size</a></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d61e9182" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d61e9182-link" class="wh-expand-btn"></span><span class="title"><a href="report_graphs.html" id="tocId-d61e9182-link">Report Graphs</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <article class="nested0" aria-labelledby="ariaid-title1" id="paired_t_test_results_t_statistic">
+    
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">t Statistic</h1>
+    <div class="- topic/body body">
+      
+      <p class="- topic/p p">The t-test statistic is computed by subtracting the values before the
+        intervention from the value observed after the intervention in each experimental subject.
+        The remaining analysis is conducted on these differences. </p>
+      <div class="- topic/p p">The t-test statistic is the ratio: <br /><img class="- topic/image image" id="paired_t_test_results_t_statistic__image_syr_rkm_q4" src="Eqn171.gif" /><br /></div>
+      <p class="- topic/p p">You can conclude from large (bigger than ~2) absolute values of t that the
+        treatment affected the variable of interest (you reject the null hypothesis of no
+        difference). A large <em class="+ topic/ph hi-d/i ph i">t</em> indicates that the difference in observed value after and
+        before the treatment is larger than one would be expected from effect variability alone (for
+        example, that the effect is statistically significant). A small <em class="+ topic/ph hi-d/i ph i">t</em> (near 0) indicates
+        that there is no significant difference between the samples (little difference in the means
+        before and after the treatment).</p>
+      <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">Degrees of Freedom.</strong> The degrees of freedom is a
+        measure of the sample size, which affects the ability of <em class="+ topic/ph hi-d/i ph i">t</em> to detect differences in
+        the mean effects. As degrees of freedom increase, the ability to detect a difference with a
+        smaller <em class="+ topic/ph hi-d/i ph i">t</em> increases.</p>
+      <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b runinhead">P Value.</strong> The <em class="+ topic/ph hi-d/i ph i">P</em> value is the probability of
+        being wrong in concluding that there is a true effect (for example, the probability of
+        falsely rejecting the null hypothesis, or committing a Type I error, based on t). The
+        smaller the <em class="+ topic/ph hi-d/i ph i">P</em> value, the greater the probability that the treatment effect is
+        significant. Traditionally, you can conclude there is a significant difference when <em class="+ topic/ph hi-d/i ph i">P</em>
+        &lt; 0.05.</p>
+    </div>
+  </article>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

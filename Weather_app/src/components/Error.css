@@ -1,0 +1,6 @@
+.error_holder{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+    color: #ff3333;
+  }

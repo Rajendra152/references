@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Creating Graphs Using the Graph Wizard","shortdesc":"<p class=\"shortdesc\"></p>","href":"creating_graphs_using_the_graph_wizard.html","attributes": {"data-id":"creating_graphs_using_the_graph_wizard",},"menu": {"hasChildren":false,},"tocID":"creating_graphs_using_the_graph_wizard-d61e360","next":"creating_graphs_using_the_graph_wizard-d61e360",}]});

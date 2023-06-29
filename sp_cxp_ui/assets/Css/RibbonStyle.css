@@ -1,0 +1,628 @@
+.custom-commandbar>div>div>.ms-CommandBar {
+    padding: 0px;
+    background: #ffffff;
+}
+
+.custom-commandbar>div>div>.ms-CommandBar>.ms-CommandBar-primaryCommand>.ms-OverflowSet-item>button>.ms-Button-flexContainer>i {
+    color: #ffffff;
+}
+
+.custom-commandbar>div>div>.ms-CommandBar>.ms-CommandBar-primaryCommand>.ms-OverflowSet-item>button:hover {
+    background: transparent;
+}
+
+.ms-Button--commandBar {
+    background: transparent;
+}
+
+.ms-Persona {
+    width: 32px;
+}
+
+.ms-Button-textContainer {
+    color: #edebe9;
+    font-weight: 600;
+}
+
+.ribbon-row {
+    display: flex;
+}
+
+.ribbon-container {
+    background-image: linear-gradient( to right bottom, #a4c3eb, #c1d0f0, #d9dff5, #eeeefa, #ffffff);
+    display: flex;
+    padding: 5px 0px;
+    border: 2px solid #a4c3eb;
+    box-shadow: 10px 0 10px 1px #bfd7f9;
+}
+
+.ribbon-btn-box {
+    background: #c9d9ed;
+    border: 2px solid #a4c3eb;
+    box-shadow: 0 0 10px 1px #bfd7f9;
+    border-radius: 6px;
+}
+
+.ribbon-boxbtn-lbl {
+    background-color: #c1d0f0;
+    padding: 4px;
+}
+
+.ribbon-btn-box>.ribbon-boxbtn-lbl {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #465d92;
+}
+
+
+/* grid-button */
+
+.ribbon-grid-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    min-height: 80px;
+}
+
+.ribbon-grid-button>.ribbon-gbutton>.ms-Image>img {
+    text-align: center;
+    width: 12px;
+    margin: auto;
+}
+
+.sim-ribbon-grid-button {
+    min-height: auto;
+}
+
+.sim-ribbon-grid-button>.ribbon-gbutton {
+    margin: 0px;
+    height: 20px;
+}
+
+.sim-ribbon-grid-button>.sim-ribbon-gbutton>.ms-Button>.ms-Button-flexContainer {
+    display: flex;
+}
+
+.sim-ribbon-grid-button>.sim-ribbon-gbutton>.ms-Button>.ms-Button-flexContainer>i[data-icon-name='ChevronDown'] {
+    margin: 0px;
+}
+
+.sim-ribbon-grid-submenubutton {
+    min-height: auto;
+}
+
+.sim-ribbon-grid-submenubutton>.ribbon-gbutton {
+    margin: 0px;
+    height: 20px;
+    display: flex;
+}
+
+.sim-ribbon-grid-submenubutton>.ribbon-gbutton>.ms-Button {
+    height: 10px;
+}
+
+.sim-ribbon-grid-submenubutton>.sim-ribbon-gbutton>.ms-Button>.ms-Button-flexContainer {
+    display: flex;
+}
+
+.sim-ribbon-grid-submenubutton>.sim-ribbon-gbutton>.ms-Button>.ms-Button-flexContainer>i[data-icon-name='ChevronDown'] {
+    margin: 0px;
+}
+
+.ribbon-gbutton {
+    height: auto;
+    border: solid 1px transparent;
+    /* margin-top: 13px !important; */
+}
+
+.ribbon-gbutton:hover {
+    border: solid 1px #e1e1e1;
+}
+
+.ribbon-gbutton:hover>.box-btn>span.ms-Button-flexContainer>i {
+    color: #758ca8;
+    font-weight: 600;
+}
+
+.ribbon-gbutton:hover>.box-btn>span.ms-Button-flexContainer>span.ms-Button-textContainer {
+    color: #758ca8;
+    font-weight: 600;
+}
+
+.ribbon-gbutton.sim-ribbon-gbutton>.box-btn>span.ms-Button-flexContainer>span.ms-Button-textContainer {
+    display: none;
+}
+
+.sim-ribbon-gbutton>.box-btn>.span.ms-Button-flexContainer {
+    display: flex !important;
+}
+
+.ribbon-gbutton>.box-btn {
+    max-width: fit-content;
+    min-width: 32px;
+    width: auto;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+.ribbon-gbutton-container {
+    display: flex;
+}
+
+.ribbin-icon.ms-Button>.ms-Button-flexContainer>i.ms-Icon {
+    color: #000000;
+}
+
+.ribbon-gbutton>label.ms-Label {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.ribbon-gbutton>.box-btn>span.ms-Button-flexContainer {
+    display: block;
+}
+
+.box-btn>span.ms-Button-flexContainer>i {
+    color: #0078d4;
+}
+
+.box-btn>span.ms-Button-flexContainer>i[data-icon-name='ChevronDown'] {
+    font-size: 8px;
+}
+
+.box-btn>span.ms-Button-flexContainer>span.ms-Button-textContainer {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #465d92;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* flex-button */
+
+.ribbon-flex-button {
+    min-height: 80px;
+}
+
+.sim-ribbon-flex-button {
+    min-height: auto;
+}
+
+.ribbon-fbutton {
+    height: 16px;
+    padding: 2px;
+    border: solid 1px transparent;
+    display: flex;
+}
+
+.ribbon-fbutton>.ms-Image>img {
+    height: 12px;
+}
+
+.ribbon-fbutton:hover {
+    border: solid 1px #e1e1e1;
+}
+
+.ribbon-fbutton:hover>button>.ms-Button-flexContainer>i {
+    color: #758ca8;
+    font-weight: 600;
+}
+
+.ribbon-fbutton:hover>button>.ms-Button-flexContainer>.ms-Button-textContainer>.ms-Button-label {
+    color: #758ca8;
+    font-weight: 600;
+}
+
+.ribbon-fbutton.sim-ribbon-fbutton>button>.ms-Button-flexContainer>.ms-Button-textContainer>.ms-Button-label {
+    display: none;
+}
+
+.ribbon-fbutton>button {
+    height: 14px;
+    padding: 0px;
+    max-width: 100px;
+    min-width: 60px;
+    width: auto;
+}
+
+.ribbon-fbutton>button>.ms-Button-flexContainer {
+    height: 14px;
+}
+
+.ribbon-fbutton>button>.ms-Button-flexContainer>i {
+    font-size: 14px;
+    color: #000000;
+}
+
+.ribbon-fbutton>button>.ms-Button-flexContainer>.ms-Button-textContainer>.ms-Button-label {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #465d92;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* icon button*/
+
+.ribbon-icon-button >.ribbon-ibutton >.ms-Button,
+.ribbon-ibutton >.ms-Button {
+    height: 26px;
+    width: 26px;
+}
+
+.ribbon-icon-button>.ribbon-ibutton>.ms-Button>.ms-Button-flexContainer>i,
+.ribbon-ibutton>.ms-Button>.ms-Button-flexContainer>i {
+    font-size: 16px;
+    background: transparent;
+    color: #0078d4;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* dropdown-field*/
+
+.ribbon-dropdown>.ribbon-dfield>.ms-Dropdown-container>.ms-Dropdown>span.ms-Dropdown-title {
+    height: 27px;
+    line-height: 18px;
+    font-size: 13px;
+    border: 1px solid #e1e1e1;
+    padding: 3px 0 3px 5px;
+}
+
+.ribbon-dropdown>.ribbon-dfield>.ms-Dropdown-container>.ms-Dropdown>.ms-Dropdown-caretDownWrapper {
+    height: 26px;
+    line-height: 24px;
+}
+
+.ribbon-dropdown>.ribbon-dfield>.ms-Dropdown-container>.ms-Dropdown>.ms-Dropdown-caretDownWrapper>i {
+    font-size: 12px;
+}
+
+
+/* combobox-field*/
+
+.ribbon-combobox {
+    min-height: 85px;
+}
+
+.ribbon-combobox>.ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox {
+    height: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    max-width: 120px;
+    min-width: 60px;
+    width: auto;
+}
+
+.sml-ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox {
+    line-height: 18px;
+    font-size: 12px;
+    height: 20px;
+    max-width: 60px;
+    min-width: 30px;
+    width: auto;
+}
+
+.ribbon-combobox>.ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox::after,
+.sml-ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox::after {
+    border: 1px solid #e1e1e1;
+}
+
+.ribbon-combobox>.ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox>.ms-Button,
+.sml-ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox>.ms-Button {
+    background: transparent;
+}
+
+.ribbon-combobox>.ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox>.ms-Button>span.ms-Button-flexContainer>i,
+.sml-ribbon-comfield>.ms-ComboBox-container>.ms-ComboBox>.ms-Button>span.ms-Button-flexContainer>i {
+    font-size: 9px;
+    color: #000000;
+}
+
+.ribbon-toggle {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    right: 0px;
+    /* top: 50px; without titlebar */
+    top: 15px;
+}
+
+.ribbon-toggle>button.ms-button {
+    /* position: absolute; */
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    color: #465d92;
+}
+
+.ribbon-toggle>button.ms-button:hover {
+    background: transparent;
+}
+
+.ribbon-toggle>button>.ms-Button-flexContainer>i {
+    font-size: 12px;
+}
+
+
+/* line */
+
+.v-hr {
+    position: relative;
+    margin: 1px;
+    /* border-right: 1px solid #e1e1e1; */
+    /* border-right: 2px solid rgb(200, 198, 196); */
+    height: 80px;
+}
+
+.ribbon-combobox-flex {
+    display: flex;
+    min-height: auto;
+}
+
+.smart-toggle {
+    margin-right: 10px;
+}
+
+.smart-toggle > .ms-Toggle {
+    display: flex;
+}
+
+.smart-toggle>.ms-Toggle>.ms-Label {
+    margin-right: 10px;
+}
+
+.smart-toggle>.ms-Toggle>.ms-Toggle-innerContainer {
+    margin-top: 5px;
+}
+
+
+/* New Classes For Header component */
+
+
+/* TO align in center for sing Item */
+
+.singleIcon {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+/* to align small icons in navigation bar */
+
+.hr-btn-smallIcons {
+    border-right: 1px solid #bfd7f9;
+    margin-top: 8px;
+    color: black;
+}
+
+
+/* dropdown CSS */
+
+
+/* .label-133:hover {
+  background-color: #c1d0f0;
+}
+
+.label-133 {
+    border-left: 2px solid #A4C3EB;
+    box-shadow: 0 0 10px 1px #A4C3EB;
+    padding-left: 8px;
+    font-size: 11px;
+    margin-left: 0px;
+    color: #5C428B;
+}
+
+.root-123:hover {
+    background-color: #c1d0f0;
+}
+
+.ms-ContextualMenu-item {
+    background-color: #bfd7f9;
+}
+
+.ms-ContextualMenu-itemText {
+    background-color: white;
+}
+
+.root-123 {
+    /* width: 108%;
+    height: 26px;
+    overflow: hidden; */
+
+
+}
+.hor-button .hr-btn-smallIcons .graph-page {
+    width: 100px;
+}
+.graphpage-tools {
+    margin: 2px;
+    border: 1px solid #a4c3eb;
+    box-shadow: 0 0 10px 1px #bfd7f9;
+    width: auto;
+    height: 10%;
+    display: flex;
+}
+.graphPage-icons {
+    padding: 10px;
+    border-right: 1px solid #a4c3eb;
+}
+
+/* @media only screen and (max-width: 1128px) {
+    .graphTools {
+        display: none;
+    }
+} */
+.graphpageOptionDropDown {
+    /* margin-top: 4px; */
+    margin-left: 4px;
+}
+.reportSmallIcons {
+    min-height: 0px;
+}
+.reportTextDropDown {
+    margin-top: 0px;
+    min-height: 39px !important;
+}
+.graphSmallIcons {
+    display: none;
+}
+.graphTextDropDown {
+    margin-top: 0px;
+    min-height: 34px !important;
+}
+
+/* For Submenu dropdown */
+
+/* .ms-ContextualMenu-submenuIcon{
+    background-color: white;
+    margin-right: -8px;
+    margin-left: -4px;
+} */
+.titleBar button {
+    z-index: 1;
+    position: absolute;
+    top: 22px;
+    left: -18px;
+    /* margin-left: -19px;
+
+    margin-top: 21.5px; */
+}
+.titleBar button span i {
+    color: #000000;
+    font-size: 22px;
+}
+.titleBar button:hover {
+    background-color: transparent;
+}
+
+/* panel */
+
+/*
+.noteBookpanel-slide{
+    height: 526px;
+    margin-top: 45px;
+}
+.noteBookpanel-slide .notebook-continer{
+
+    border-top: 0px !important;
+
+}
+.noteBookpanel-slide .notebook-list {
+   visibility: hidden;
+
+}
+
+
+
+.noteBookpanel-slide .ms-Panel-commands {
+display: none;
+
+
+}
+
+.noteBookpanel-slide .ms-Panel-scrollableContent{
+
+
+border-top: 20px solid #A4C3EB;
+border-right: 8px solid #A4C3EB;
+border-bottom: 20px solid #A4C3EB;
+}
+
+
+.dropdownList  i{
+
+    margin-right: 2px;
+
+}
+.dropdownList  {
+
+   width:220px;
+
+} */
+.sampleSizeList {
+    position: relative;
+    right: 26px;
+    min-width: 112px;
+}
+.sampleSizeList span {
+    position: relative;
+    left: 22px;
+}
+.analysisDropDrown i {
+    position: absolute;
+    right: 20px;
+}
+.analysisDropDrown span {
+    position: relative;
+    left: 22px;
+}
+.textProperties {
+    height: 20px;
+    width: 20px;
+}
+.largeDropDownlist {
+    width: 300px;
+}
+.largeDropDownlist span {
+    padding-left: 5px;
+    margin-right: -20px;
+}
+.mainMenuContents {
+    display: flex;
+    background-color: #fafafa;
+    border: 2px solid #a4c3eb;
+    box-shadow: 0 0 10px 1px #bfd7f9;
+}
+.mainMenuContentsRecent {
+    width: 100%;
+    border-left: 2px solid #a4c3eb;
+    box-shadow: 0 0 10px 1px #bfd7f9;
+    background-color: #e9eeee;
+}
+.mainMenuContentsRecent-text {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #dee8ef;
+    border-bottom: 1px solid #a4c3eb;
+}
+.menuLinks li {
+    height: 35px;
+}
+.graphTextProperties {
+    position: relative;
+    top: -55px;
+    margin-bottom: -55px !important;
+}
+
+.main-content.main-content-full {
+    width: 100%;
+  }
+
+  .ms-Callout-main {
+
+    border-radius: 2px 2px 0px 0px;
+  
+    max-height: 400px !important;
+  
+    /* width: 215px !important; */
+  
+  } 

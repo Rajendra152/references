@@ -1,0 +1,145 @@
+.cont {
+    height: 500vh;
+    /* overflow-y: scroll; */
+}
+
+.viewport {
+    height: 100vh;
+    position: fixed;
+}
+
+.vid {
+    width: 100%;
+}
+
+.about {
+    text-align: left;
+}
+
+.left {
+    float: left;
+    padding-bottom: 500px;
+}
+
+.move {
+    text-align: left;
+}
+
+.item--primary {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20;
+    overflow-x: visible;
+    scroll-margin-left: auto;
+    color: white;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -500px;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.scroll-dummy {
+    max-width: 998px;
+    padding: 20px;
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+.mini-max h1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    position: absolute;
+    font-family: 'montserrat';
+    animation: 1s slide-right;
+}
+
+.mini-max p {
+    font-size: 10px;
+    padding-top: 14%;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    position: absolute;
+    font-family: 'montserrat';
+    animation: 1s slide-right;
+}
+
+.multi-core {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.multi-core p {
+    font-size: 15px;
+    padding-top: 400px;
+    font-family: 'montserrat';
+    animation: 1s slide-right;
+}
+
+.devices-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.devices-text p {
+    font-size: 15px;
+    padding-top: 300px;
+    font-family: 'montserrat';
+    animation: 1s slide-right;
+}
+
+
+/* .scroll-dummy p,
+  .scroll-dummy a {
+      font-size: 20px;
+      color: #ccc;
+      line-height: 1.4;
+  } */
+
+.position {
+    /* padding-top: 1500px; */
+    padding-top: 100%;
+    /* padding-bottom: 500px; */
+    padding-left: 40px;
+    text-align: left;
+}
+
+.para {
+    display: block;
+    font-size: 1rem;
+    position: relative;
+    color: white;
+}
+
+.newpara {
+    font-size: 20px;
+    color: #ccc;
+    line-height: 1.4;
+    padding-top: 100px;
+}
+
+.reveal {
+    position: absolute;
+    transform: translateY(240px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 5;
+}

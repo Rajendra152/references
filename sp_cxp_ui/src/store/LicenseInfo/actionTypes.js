@@ -1,0 +1,1 @@
+export const LICENSE_DETAILS = 'LICENSE_DETAILS';

@@ -1,0 +1,139 @@
+.windowList-Modal {
+  width: 520px !important;
+
+  .windowList-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+
+    label {
+      height: fit-content;
+      margin-left: 6px;
+    }
+  }
+
+  .windowList-Body {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #e4e4e4;
+    cursor: auto;
+
+    .window-allActiveItem {
+      flex: 0.66;
+      height: 330px;
+
+      .window-listContainer {
+        overflow: auto;
+        height: 90%;
+        width: 316px;
+        border: 1px solid black;
+        background-color: white;
+
+        ul {
+          padding: 0px;
+          margin-top: 2px;
+          margin-bottom: 0px;
+          width: fit-content;
+          min-width: 310px;
+        }
+
+        li {
+          padding: 1px 5px;
+        }
+
+        .pivotList {
+          background-color: lightskyblue;
+        }
+      }
+    }
+
+    .window-allButton {
+      flex: 0.3;
+      display: flex;
+      flex-direction: column;
+
+      .windowList-button {
+        margin: 5px;
+
+        .ms-Button-textContainer {
+          color: black;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.disableItem {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.warningDialog {
+  .ms-Dialog-main {
+    width: fit-content !important;
+    max-width: 450px !important;
+    min-height: 150px;
+  }
+
+  .ms-Modal-scrollableContent {
+    width: fit-content;
+
+    & > div {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0px;
+
+      .ms-Dialog-header {
+        .ms-Dialog-title {
+          padding: 10px;
+          font-size: inherit;
+        }
+
+        & > div:last-child {
+          padding: 10px 10px 0px 0px;
+
+          .ms-Button {
+            height: fit-content;
+          }
+        }
+      }
+
+      .ms-Dialog-inner {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0px;
+
+        .ms-Dialog-content {
+          padding: 0px 24px;
+          box-sizing: border-box;
+        }
+
+        .ms-Dialog-actions {
+          height: 44px;
+          background-color: #ececec;
+
+          .ms-Dialog-actionsRight {
+            margin: auto;
+            padding: 6px;
+
+            button {
+              background-color: transparent;
+              height: 26px;
+              min-width: 80px;
+              .ms-Button-textContainer {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

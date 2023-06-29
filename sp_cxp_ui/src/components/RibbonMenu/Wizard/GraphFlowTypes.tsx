@@ -1,0 +1,5 @@
+export const GRAPHTYPE = 'GRAPHTYPE';
+export const GRAPHSTYLE = 'GRAPHSTYLE';
+export const DATAFORMAT = 'DATAFORMAT';
+export const CALCULATIONS = 'CALCULATIONS';
+export const DATASELECTION = 'DATASELECTION';

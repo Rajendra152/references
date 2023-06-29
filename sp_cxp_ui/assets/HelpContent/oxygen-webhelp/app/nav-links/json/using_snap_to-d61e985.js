@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Using Crosshairs","shortdesc":"<p class=\"shortdesc\"></p>","href":"using_crosshairs.html","attributes": {"data-id":"using_crosshairs",},"menu": {"hasChildren":false,},"tocID":"using_crosshairs-d61e995","topics":[]}]});

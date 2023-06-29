@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"<span class=\"ph\">SigmaPlot</span> Basics","href":"sigmaplot_sigmastat_basics.html","menu": {"hasChildren":true,},"tocID":"tocId-d61e30","next":"tocId-d61e30",},{"title":"Anatomy of SigmaPlot Graphs","href":"anatomy_of_sigmaplot_graphs.html","menu": {"hasChildren":true,},"tocID":"tocId-d61e133","next":"tocId-d61e133",}]});

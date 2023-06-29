@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SigmaPlot15</title>
+    
+
+  </head>
+
+</head>
+
+<body>
+    <div id="root">
+        <img  id= 'splashID' src="" width="200" height="200" alt="Loading SigmaPlot15" />
+    </div>
+    <script>
+        const scripts = [];
+        const {remote} = require('electron');
+       const {app} = remote;
+        if (process.env.NODE_ENV === 'development') {
+            // Dynamically insert the DLL script in development env in the
+            // renderer process
+            let appPath =  remote.app.getAppPath().replace('src', 'assets')
+            document.getElementById('splashID').src = appPath +'/splashScreen.gif'
+        } else {
+            let appPath = app.getAppPath().replace('app.asar','assets') 
+            document.getElementById('splashID').src = appPath + '/splashScreen.gif'
+        }
+
+        if (scripts.length) {
+            document.write(
+                scripts
+                .map((script) => `<script defer src="${script}"><\/script>`)
+                .join('')
+            );
+        }
+    </script>
+</body>
+
+</html>

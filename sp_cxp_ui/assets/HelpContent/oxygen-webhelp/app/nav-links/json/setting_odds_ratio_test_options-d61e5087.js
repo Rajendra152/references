@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Options for Odds Ratio","href":"options_for_odds_ratio.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e5095","topics":[]}]});

@@ -1,0 +1,47 @@
+/* footerbar */
+
+.sub-heading{
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.firsthalfcontainer{
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(17, 14, 14);
+
+}
+.secondhalfcontainer{
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 57px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 75px;
+}
+.common-icons{
+  background: white;
+  color: black;
+}
+.jobsicon{
+  padding-right: 35px;
+}
+.shareicon{
+  padding-right: 15px;
+}
+.followcontainer{
+  padding-left: 150px;
+}
+.aboutcontainer{
+  padding-left: 185px;
+  padding-top: 80px;
+
+}

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Options for Chi Square","href":"options_for_chi_square.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e6297","topics":[]}]});

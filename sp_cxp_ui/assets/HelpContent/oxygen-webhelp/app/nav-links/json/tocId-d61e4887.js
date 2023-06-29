@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"P Value","href":"fisher_exact_p_value.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e4895","topics":[]},{"title":"Contingency Table Summary","href":"fisher_exact_contingency_table_summary.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e4903","topics":[]}]});

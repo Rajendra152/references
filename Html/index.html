@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./index.css" media="screen" />
+  <title>Innominds Twitter</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="nav-bar-container">
+      <img id="mobile-cta" class="mobile-menu" src="./menu.svg" alt="Open Navigation" />
+      <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="./close.svg" alt="Close Navigation" />
+        <ul class="primary-nav">
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <ul class="secondary-nav">
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container">
+      <div class="main-content">
+        <div class="new-post card">
+          <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+          <div class="post-text"><input id="textField" type="text" placeholder="What's happening"></div>
+          <div class="btn-container"><button onclick="submit()">Post</button> <button
+              onclick="clearFields()">Cancel</button></div>
+        </div>
+        <div id="feedCards" class="feeds">
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore"</div>
+          </div>
+          <div class="card">
+            <img class="avatar" src="./self.jpg" alt="Profile Picture" />
+            <div class="post-text">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore"</div>
+          </div>
+        </div>
+      </div>
+      <aside class="right-panel">
+        <h1>What's happening</h1>
+        <div class="happening-list">
+          <div class="small-card">
+            <div class="post-text">Please update your Skills</div>
+            <div class="info">Profile - Live</div>
+          </div>
+          <div class="small-card">
+            <div class="post-text">Rohan gave Rave to Mohan</div>
+            <div class="info">Rave - 2mins ago</div>
+          </div>
+          <div class="small-card">
+            <div class="post-text">React Training by Mahalingam Iyer</div>
+            <div class="info">Learning - 1month ago</div>
+          </div>
+          <div class="small-card">
+            <div class="post-text">Rohan gave Rave to Mohan</div>
+            <div class="info">Rave - 2mins ago</div>
+          </div>
+          <div class="small-card">
+            <div class="post-text">React Training by Mahalingam Iyer</div>
+            <div class="info">Learning - 1month ago</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+<script src="./script.js">
+</script>
+
+</html>

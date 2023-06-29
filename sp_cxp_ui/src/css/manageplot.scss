@@ -1,0 +1,211 @@
+.modify-plot {
+    
+    .ms-Dialog-main {
+        width: 200px !important;
+    }
+}
+.modify-main{
+    background-color: lightgray;
+    height: 130px;
+    padding: 10px;
+    .ms-Button{
+        height: 26px;
+        background-color: #eee;
+    }
+}
+.modify-bg{
+    background-color: white;
+    border: 1px solid grey;
+    height: 130px;
+    font-weight: 500;
+}
+
+
+.delete-plot {
+    .header-41 {
+        border-top: none !important;
+    }
+    .ms-Dialog-main {
+        width: 200px !important;
+    }
+}
+.delete-main{
+    background-color: lightgray;
+    height: 130px;
+    padding: 10px;
+    .ms-Button{
+        height: 26px;
+        background-color: #eee;
+    }
+}
+.delete-bg{
+    background-color: white;
+    border: 1px solid grey;
+    height: 130px;
+    font-weight: 500;
+}
+.selectedPLot {
+    background-color: #7c94e28f;
+  }
+.pointer {
+    cursor: pointer;
+}
+.plot-label{
+    .header-41 {
+        border-top: none !important;
+    }
+    .ms-Dialog-main {
+        width: 200px !important;
+        height: 250px !important;
+    }
+    .ms-Dropdown-title {
+        height: 29px;
+    }
+    .delete-main{
+        background-color: lightgray;
+        height: 193px;
+    }
+    .ms-Dropdown{
+        height: 29px;
+    }
+}
+.add-axis{
+    .header-41 {
+        border-top: none !important;
+    }
+    .ms-Icon {
+        color: black;
+    }
+    .bg-add-axis{
+        background-color: #f3f2f1;
+        height: 193px;
+        padding: 10px;
+        .ms-Button{
+            height: 26px;
+            background-color: #dadada;
+        } 
+    }
+    .ms-Dialog-main{
+        width: 400px !important;
+    }
+}
+
+.header-41 {
+    border-top: none !important;
+}
+
+.page-setup{
+    .ms-Dialog-main {
+        width: 322px !important;
+        overflow-x: hidden;
+    }
+    .ms-Modal-scrollableContent{
+        overflow-x: hidden;
+    }
+    .ms-Button{
+        height: 28px;
+    }
+    .spin{
+        .ms-Button{
+            height: 12px;
+        } 
+    }
+}
+
+.diagram-comp{
+    .e-tooltip{
+        border: 1px solid lightgrey;
+border-right: 2px solid lightgrey;
+border-bottom: 2px solid lightgrey;
+// overflow-x: scroll !important;
+// overflow-y: scroll !important;
+
+    }
+}
+.diagram_hiddenUserHandleTemplate{
+    overflow: scroll !important;
+}
+.bg-type{
+    background-color: #0378d58f;
+}
+.graphWizard-mainContext .graphWizard-content .wizard-listContent .graphWizardLeftCard > ul > li:hover {
+    background-color: #0378d545 !important;
+    cursor: pointer;
+}
+
+// Insert Table
+span.e-control-wrapper.e-numeric.e-input-group.e-valid-input{
+    // border-color: transparent !important;
+    border-bottom: 1px solid black !important;
+
+ } 
+ span.e-control-wrapper.e-numeric.e-input-group.e-valid-input::after{
+    background: transparent !important;
+    // border: none !important;
+    // border-color: transparent !important;
+    border-bottom: 1px solid black !important;
+
+
+}
+span.e-control-wrapper.e-numeric.e-input-group.e-valid-input::before{
+   background: transparent !important;
+//    border: none !important;
+//    border-color: transparent !important;
+   border-bottom: 1px solid black !important;
+
+
+
+}
+.e-dlg-overlay{
+    background-color: transparent !important;
+}
+.text-graphic{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
+// statistical transform
+.graphWizardLeftCard{
+    .ms-ContextualMenu-link{
+        height: 30px !important;
+    }
+    .ms-Callout-main{
+        overflow-y: hidden !important;
+    }
+}
+
+// modal background
+// .ms-Overlay{
+//     background-color: transparent !important;
+// }
+
+#diagramcontent{
+    overflow:hidden !important;
+    border: 1px solid #00000073;
+}
+#diagram_backgroundLayer_svg{
+    border: 1px solid #00000073;
+
+}
+
+.shapelayer path{
+    stroke: none !important;
+}
+.summary-input{
+    .ms-TextField-fieldGroup {
+        height: 11px;
+    }
+    .ms-TextField-field {
+        border: none;
+    }
+}
+.zoomlayer{
+    display: none;
+}
+#diagram_editTextBoxDiv{
+    display: none !important;
+}
+.ms-Dialog-main.SvDialog {
+    width: 350px !important;
+    height: 205px;
+}

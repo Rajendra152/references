@@ -1,0 +1,37 @@
+//@import '../../../../themes';
+.DbCanvasContainer {
+	color : red !important;
+	width: 1000px !important;
+	height: 1000px !important;
+	margin: 0;
+	display: flex;
+	opacity: 1;
+	.DbCanvasSVGContainer {
+		width: 1000px !important;
+		height: 1000px  !important;
+		align-content: stretch;
+		flex: 1;
+	}
+
+	.DbCanvasItemRect {
+		fill: ghostwhite;
+	}
+	.DbCanvasLine {
+		stroke: #525150 !important;
+		stroke-width: 2;
+		stroke-linejoin: round;
+		opacity: 0.7;
+		&:hover {
+			stroke: #525150 !important;
+			stroke-width: 3;
+			stroke-linejoin: round;
+			opacity: 1;
+		}
+		&.DbCanvasLineSelected {
+			stroke: #ccc!important;
+			stroke-width: 3;
+			stroke-linejoin: round;
+			opacity: 1;
+		}
+	}
+}

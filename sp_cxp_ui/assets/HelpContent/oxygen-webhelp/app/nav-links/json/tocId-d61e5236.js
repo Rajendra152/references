@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Raw Data","href":"repeated_measures_raw_data.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e5245","topics":[]},{"title":"Indexed Data","href":"repeated_measures_indexed_data.html","menu": {"hasChildren":false,},"tocID":"tocId-d61e5254","topics":[]}]});

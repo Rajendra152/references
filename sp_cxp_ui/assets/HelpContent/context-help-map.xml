@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="Introduction" path="introduction.html"/>
+   <appContext helpID="" path="sigmaplot_sigmastat_basics.html"/>
+   <appContext helpID="" path="main_button.html"/>
+   <appContext helpID="setting_program_options" path="setting_program_options.html"/>
+   <appContext helpID="" path="graph_types_and_styles.html"/>
+   <appContext helpID="" path="axis_scales.html"/>
+   <appContext helpID="" path="intro_smoothing_data.html"/>
+   <appContext helpID="" path="sigmaplotsigmastat_worksheet.html"/>
+   <appContext helpID="" path="intro_statistics.html"/>
+   <appContext helpID="" path="intro_regression_wizard.html"/>
+   <appContext helpID="" path="intro_transforms.html"/>
+   <appContext helpID="" path="intro_reports.html"/>
+   <appContext helpID="" path="anatomy_of_sigmaplot_graphs.html"/>
+   <appContext helpID="" path="2d_cartesian_graph.html"/>
+   <appContext helpID="" path="pie_chart_example.html"/>
+   <appContext helpID="" path="polar_plot_example.html"/>
+   <appContext helpID="" path="contour_plot_example.html"/>
+   <appContext helpID="" path="3d_cartesian_graph_examples.html"/>
+   <appContext helpID="" path="waterfall_plot_example.html"/>
+   <appContext helpID="" path="create.html"/>
+   <appContext helpID="setting_graph_defaults" path="setting_graph_defaults.html"/>
+   <appContext helpID="" path="sigmaplot_graph_types.html"/>
+   <appContext helpID="" path="sigmaplot_sigmastat_graph_styles.html"/>
+   <appContext helpID="" path="scattor_plots.html"/>
+   <appContext helpID="" path="line_plots.html"/>
+   <appContext helpID="" path="line_and_scatter_plots.html"/>
+   <appContext helpID="" path="area_plots.html"/>
+   <appContext helpID="" path="polar_plots.html"/>
+   <appContext helpID="" path="radar_plots.html"/>
+   <appContext helpID="" path="ternary_plots.html"/>
+   <appContext helpID="" path="bar_charts.html"/>
+   <appContext helpID="" path="horizontal_bart_charts.html"/>
+   <appContext helpID="" path="box_plots.html"/>
+   <appContext helpID="" path="contour_plots.html"/>
+   <appContext helpID="" path="3d_line_plots.html"/>
+   <appContext helpID="creating_graphs" path="creating_graphs.html"/>
+   <appContext helpID="creating_graphs_using_the_graph_wizard"
+               path="creating_graphs_using_the_graph_wizard.html"/>
+   <appContext helpID="" path="entering_data_ranges_into_the_graph_wizard.html"/>
+   <appContext helpID="managing_plots" path="managing_plots.html"/>
+   <appContext helpID="creating_additional_plots"
+               path="creating_additional_plots.html"/>
+   <appContext helpID="deleting_plots" path="deleting_plots.html"/>
+   <appContext helpID="about_axes_and_plots" path="about_axes_and_plots.html"/>
+   <appContext helpID="creating_additional_axes_for_multiple_plots"
+               path="creating_additional_axes_for_multiple_plots.html"/>
+   <appContext helpID="creating_multiple_axes_for_a_single_plot"
+               path="creating_multiple_axes_for_a_single_plot.html"/>
+   <appContext helpID="modifying_plots" path="modifying_plots.html"/>
+   <appContext helpID="picking_different_data_for_the_current_plot"
+               path="picking_different_data_for_the_current_plot.html"/>
+   <appContext helpID="changing_graph_type_and_style"
+               path="changing_graph_type_and_style.html"/>
+   <appContext helpID="adding_plot_labels" path="adding_plot_labels.html"/>
+   <appContext helpID="" path="nbasic.html"/>
+   <appContext helpID="" path="protecting_notebooks.html"/>
+   <appContext helpID="setting_a_password" path="setting_a_password.html"/>
+   <appContext helpID="changing_or_removing_a_password"
+               path="changing_or_removing_a_password.html"/>
+   <appContext helpID="" path="working_with_sections_in_the_notebook_manager.html"/>
+   <appContext helpID="creating_new_items_in_the_notebook_manager"
+               path="creating_new_items_in_the_notebook_manager.html"/>
+   <appContext helpID="" path="copying_and_pasting_to_create_new_sections.html"/>
+   <appContext helpID="in_place_editing_section_and_item_names"
+               path="in_place_editing_section_and_item_names.html"/>
+   <appContext helpID="opening_files_in_the_notebook_manager"
+               path="opening_files_in_the_notebook_manager.html"/>
+   <appContext helpID="" path="opening_worksheets__reports__and_pages.html"/>
+   <appContext helpID="copying_and_pasting_items_in_the_notebook_manager"
+               path="copying_and_pasting_items_in_the_notebook_manager.html"/>
+   <appContext helpID="deleting_items_in_the_notebook_manager"
+               path="deleting_items_in_the_notebook_manager.html"/>
+   <appContext helpID="" path="gpbasics1.html"/>
+   <appContext helpID="" path="about_graph_pages.html"/>
+   <appContext helpID="setting_page_options" path="setting_page_options.html"/>
+   <appContext helpID="exporting_graphs_and_pages"
+               path="exporting_graphs_and_pages.html"/>
+   <appContext helpID="printing_graph_pages" path="printing_graph_pages.html"/>
+   <appContext helpID="saving_graphs_as_pdf" path="saving_graphs_as_pdf.html"/>
+   <appContext helpID="" path="working_with_page_objects.html"/>
+   <appContext helpID="" path="selecting_page_objects.html"/>
+   <appContext helpID="" path="selecting_multiple_objects.html"/>
+   <appContext helpID="selecting_objects_that_overlay_one_another"
+               path="lselecting_objects_that_overlay_one_another.html"/>
+   <appContext helpID="real_time_mouse_over_feedback"
+               path="real_time_mouse_over_feedback.html"/>
+   <appContext helpID="" path="adding_another_graph_to_a_page.html"/>
+   <appContext helpID="creating_a_new_graph_on_the_current_page"
+               path="creating_a_new_graph_on_the_current_page.html"/>
+   <appContext helpID="" path="copying_a_graph_on_the_same_page.html"/>
+   <appContext helpID="copying_and_pasting_a_graph_from_one_page_to_another"
+               path="copying_and_pasting_a_graph_from_one_page_to_another.html"/>
+   <appContext helpID=""
+               path="cutting__copying__and_pasting_graphs_and_other_page_objects.html"/>
+   <appContext helpID="" path="cutting_and_copying_graphs.html"/>
+   <appContext helpID="" path="pasting_objects.html"/>
+   <appContext helpID="dragging_and_dropping_graphs"
+               path="dragging_and_dropping_graphs.html"/>
+   <appContext helpID="dragging_and_dropping_graphs_between_pages"
+               path="dragging_and_dropping_graphs_between_pages.html"/>
+   <appContext helpID="" path="hiding_and_deleting_objects_from_the_page_.html"/>
+   <appContext helpID="hiding_and_viewing_graphs_on_a_page"
+               path="hiding_and_viewing_graphs_on_a_page.html"/>
+   <appContext helpID="hiding_graph_titles_and_legends"
+               path="hiding_graph_titles_and_legends.html"/>
+   <appContext helpID=""
+               path="removing_graphs__plots__titles__legends__and_other_page_objects.html"/>
+   <appContext helpID="" path="drawing_objects_on_the_page.html"/>
+   <appContext helpID="" path="graph_page_tools.html"/>
+   <appContext helpID="drawing_an_object" path="drawing_an_object.html"/>
+   <appContext helpID="" path="modifying_object_colors_and_lines.html"/>
+   <appContext helpID="changing_object_fills" path="changing_object_fills.html"/>
+   <appContext helpID="changing_lines" path="changing_lines.html"/>
+   <appContext helpID="changing_line_ending_attributes"
+               path="changing_line_ending_attributes.html"/>
+   <appContext helpID="moving_and_sizing_graphs_and_objects"
+               path="moving_and_sizing_graphs_and_objects.html"/>
+   <appContext helpID="using_your_mouse_to_move_graphs_and_objects"
+               path="using_your_mouse_to_move_graphs_and_objects.html"/>
+   <appContext helpID="using_your_mouse_to_change_graph_and_object_size"
+               path="using_your_mouse_to_change_graph_and_object_size.html"/>
+   <appContext helpID="" path="nudging_graphs_and_objects.html"/>
+   <appContext helpID="moving_objects_to_the_front_or_back"
+               path="moving_objects_to_the_front_or_back.html"/>
+   <appContext helpID="grouping_and_ungrouping_objects"
+               path="grouping_and_ungrouping_objects.html"/>
+   <appContext helpID="" path="arranging_graphs.html"/>
+   <appContext helpID="arranging_graphs_on_a_page"
+               path="arranging_graphs_on_a_page.html"/>
+   <appContext helpID="adding_new_pages_to_layout.jnt"
+               path="adding_new_pages_to_layout.jnt.html"/>
+   <appContext helpID="changing_the_default_layout_template_file"
+               path="changing_the_default_layout_template_file.html"/>
+   <appContext helpID="aligning_page_objects" path="aligning_page_objects.html"/>
+   <appContext helpID="" path="working_with_grids_and_rulers.html"/>
+   <appContext helpID="" path="using_rulers.html"/>
+   <appContext helpID="using_snap_to" path="using_snap_to.html"/>
+   <appContext helpID="using_crosshairs" path="using_crosshairs.html"/>
+   <appContext helpID="" path="editing_text.html"/>
+   <appContext helpID="creating_text_labels" path="creating_text_labels.html"/>
+   <appContext helpID="" path="editing_text_and_individual_characters.html"/>
+   <appContext helpID="formatting_text" path="formatting_text.html"/>
+   <appContext helpID="" path="working_with_automatic_legends.html"/>
+   <appContext helpID="editing_individual_legend_entries"
+               path="editing_individual_legend_entries.html"/>
+   <appContext helpID="moving_individual_legend_entries"
+               path="moving_individual_legend_entries.html"/>
+   <appContext helpID="sizing_legend_symbols" path="sizing_legend_symbols.html"/>
+   <appContext helpID="editing_automatic_legends_using_graph_properties"
+               path="editing_automatic_legends_using_graph_properties.html"/>
+   <appContext helpID="permanently_displaying_and_hiding_automatic_legends"
+               path="permanently_displaying_and_hiding_automatic_legends.html"/>
+   <appContext helpID="locking_legend_text" path="locking_legend_text.html"/>
+   <appContext helpID="reordering_legend_entries"
+               path="reordering_legend_entries.html"/>
+   <appContext helpID="setting_legend_columns" path="setting_legend_columns.html"/>
+   <appContext helpID="direct_labeling_of_legend_items"
+               path="direct_labeling_of_legend_items.html"/>
+   <appContext helpID="changing_graph_page_format"
+               path="changing_graph_page_format.html"/>
+   <appContext helpID="changing_and_displaying_graph_page_margins"
+               path="changing_and_displaying_graph_page_margins.html"/>
+   <appContext helpID="graph_page_size_and_orientation"
+               path="graph_page_size_and_orientation.html"/>
+   <appContext helpID="changing_page_units_of_measurement"
+               path="changing_page_units_of_measurement.html"/>
+   <appContext helpID="changing_page_color" path="changing_page_color.html"/>
+   <appContext helpID="" path="page_color_default_setting.html"/>
+   <appContext helpID="" path="templates.html"/>
+   <appContext helpID="enabling_antialiased_lines_on_a_graph_page"
+               path="enabling_antialiased_lines_on_a_graph_page.html"/>
+   <appContext helpID="" path="using_custom_colors_and_incrementing_schemes.html"/>
+   <appContext helpID="" path="wbasics.html"/>
+   <appContext helpID="saving_worksheets_to_notebooks"
+               path="saving_worksheets_to_notebooks.html"/>
+   <appContext helpID="freezing_panes" path="freezing_panes.html"/>
+   <appContext helpID="formulas" path="formulas.html"/>
+   <appContext helpID="using_the_formula_bar" path="using_the_formula_bar.html"/>
+   <appContext helpID="inserting_functions_into_the_worksheet"
+               path="inserting_functions_into_the_worksheet.html"/>
+   <appContext helpID="supported_formulas" path="supported_formulas.html"/>
+   <appContext helpID="" path="moving_around_the_worksheet.html"/>
+   <appContext helpID="entering_data_into_a_worksheet"
+               path="entering_data_into_a_worksheet.html"/>
+   <appContext helpID="importing_files_from_other_applications"
+               path="importing_files_from_other_applications.html"/>
+   <appContext helpID="" path="copying_and_pasting_data_from_other_applications.html"/>
+   <appContext helpID="importing_odbc_databases" path="importing_odbc_databases.html"/>
+   <appContext helpID="" path="importing_excel_as_odbc.html"/>
+   <appContext helpID="" path="exporting_worksheet_data.html"/>
+   <appContext helpID="exporting_a_worksheet" path="exporting_a_worksheet.html"/>
+   <appContext helpID="" path="exporting_worksheets_as_text_files.html"/>
+   <appContext helpID="" path="exporting_to_systat.html"/>
+   <appContext helpID="" path="displaying_worksheet_data.html"/>
+   <appContext helpID="sizing_columns_and_rows" path="sizing_columns_and_rows.html"/>
+   <appContext helpID="changing_the_appearance_of_the_worksheet_grid"
+               path="changing_the_appearance_of_the_worksheet_grid.html"/>
+   <appContext helpID="setting_data_feedback_colors"
+               path="setting_data_feedback_colors.html"/>
+   <appContext helpID="setting_decimal_places" path="setting_decimal_places.html"/>
+   <appContext helpID="changing_numbers_display" path="changing_numbers_display.html"/>
+   <appContext helpID="changing_date_and_time_display"
+               path="changing_date_and_time_display.html"/>
+   <appContext helpID="setting_day_zero" path="setting_day_zero.html"/>
+   <appContext helpID="" path="regional_settings.html"/>
+   <appContext helpID="using_date_time_format_with_other_programs"
+               path="using_date_time_format_with_other_programs.html"/>
+   <appContext helpID="formatting_worksheets" path="formatting_worksheets.html"/>
+   <appContext helpID="setting_row_and_column_size"
+               path="setting_row_and_column_size.html"/>
+   <appContext helpID="switching_between_date_and_time_and_numeric_display"
+               path="switching_between_date_and_time_and_numeric_display.html"/>
+   <appContext helpID="customizing_date_and_time_formats"
+               path="customizing_date_and_time_formats.html"/>
+   <appContext helpID="stacking_columns" path="stacking_columns.html"/>
+   <appContext helpID="selecting_a_block_of_data"
+               path="selecting_a_block_of_data.html"/>
+   <appContext helpID="" path="cutting_and_copying_data.html"/>
+   <appContext helpID="pasting_data" path="pasting_data.html"/>
+   <appContext helpID="" path="moving_data.html"/>
+   <appContext helpID="" path="deleting_data.html"/>
+   <appContext helpID="inserting_blocks_of_cells__columns__and_rows_of_data"
+               path="inserting_blocks_of_cells__columns__and_rows_of_data.html"/>
+   <appContext helpID="deleting_blocks_of_cells__columns__and_rows_of_data"
+               path="deleting_blocks_of_cells__columns__and_rows_of_data.html"/>
+   <appContext helpID="switching_rows_to_columns"
+               path="switching_rows_to_columns.html"/>
+   <appContext helpID="" path="indexing_data.html"/>
+   <appContext helpID="creating_indexed_data" path="creating_indexed_data.html"/>
+   <appContext helpID="unindexing_data" path="unindexing_data.html"/>
+   <appContext helpID="" path="report.html"/>
+   <appContext helpID="creating_reports" path="creating_reports.html"/>
+   <appContext helpID="setting_report_options" path="setting_report_options.html"/>
+   <appContext helpID="formatting_text_and_paragraphs"
+               path="formatting_text_and_paragraphs.html"/>
+   <appContext helpID="adding_tables_to_reports" path="adding_tables_to_reports.html"/>
+   <appContext helpID="changing_table_border_color"
+               path="changing_table_border_color.html"/>
+   <appContext helpID="deleting_cells__columns__and_rows_from_tables"
+               path="deleting_cells__columns__and_rows_from_tables.html"/>
+   <appContext helpID="adding_rows_to_report_tables"
+               path="adding_rows_to_report_tables.html"/>
+   <appContext helpID="adding_columns_to_report_tables"
+               path="adding_columns_to_report_tables.html"/>
+   <appContext helpID="" path="Transform.html"/>
+   <appContext helpID="quick_transforms" path="QuickTransform.html"/>
+   <appContext helpID="performing_quick_transforms"
+               path="performing_quick_transforms.html"/>
+   <appContext helpID="setting_trigonometric_units_for_quick_transforms"
+               path="setting_trigonometric_units_for_quick_transforms.html"/>
+   <appContext helpID="setting_a_quick_transform_as_a_column_title"
+               path="setting_a_quick_transform_as_a_column_title.html"/>
+   <appContext helpID="using_the_transform_language" path="UserDefinedTransforms.html"/>
+   <appContext helpID="creating_a_user_defined_transform"
+               path="creating_a_user_defined_transform.html"/>
+   <appContext helpID="" path="transform_syntax_and_structure.html"/>
+   <appContext helpID="" path="transform_syntax.html"/>
+   <appContext helpID="" path="entering_transforms.html"/>
+   <appContext helpID="" path="commenting_on_equations.html"/>
+   <appContext helpID="" path="sequence_of_expression.html"/>
+   <appContext helpID="" path="transform_components.html"/>
+   <appContext helpID="" path="transform_components_variables.html"/>
+   <appContext helpID="" path="transform_components_functions.html"/>
+   <appContext helpID="" path="transform_components_constructs.html"/>
+   <appContext helpID="" path="operators.html"/>
+   <appContext helpID="" path="transform_components_numbers.html"/>
+   <appContext helpID="" path="transform_components_scalars_and_ranges.html"/>
+   <appContext helpID="" path="transform_components_array_references.html"/>
+   <appContext helpID="" path="transform_operators.html"/>
+   <appContext helpID="" path="order_of_operation.html"/>
+   <appContext helpID="" path="operations_on_ranges.html"/>
+   <appContext helpID="" path="arithmetic_operators.html"/>
+   <appContext helpID="" path="relational_operators.html"/>
+   <appContext helpID="" path="logical_operators.html"/>
+   <appContext helpID="transform_examples" path="transform_examples.html"/>
+   <appContext helpID="" path="data_transform_examples.html"/>
+   <appContext helpID="transform_example_one_way_analysis_of_variance__anova_"
+               path="transform_example_one_way_analysis_of_variance__anova_.html"/>
+   <appContext helpID="area_beneath_a_curve_using_trapezoidal_rule"
+               path="area_beneath_a_curve_using_trapezoidal_rule.html"/>
+   <appContext helpID="bivariate_statistics" path="bivariate_statistics.html"/>
+   <appContext helpID="differential_equation_solving"
+               path="differential_equation_solving.html"/>
+   <appContext helpID="f_test_to_determine_statistical_improvement_in_regressions"
+               path="f_test_to_determine_statistical_improvement_in_regressions.html"/>
+   <appContext helpID="r_squared_for_nonlinear_regressions"
+               path="r_squared_for_nonlinear_regressions.html"/>
+   <appContext helpID="standard_deviation_of_linear_regression_parameters"
+               path="standard_deviation_of_linear_regression_parameters.html"/>
+   <appContext helpID="" path="graphing_transform_examples.html"/>
+   <appContext helpID="control_chart_for_fractional_defectives_with_unequal_sample_sizes"
+               path="control_chart_for_fractional_defectives_with_unequal_sample_sizes.html"/>
+   <appContext helpID="cubic_spline_interpolation_and_computation_of_first_and_second_derivatives"
+               path="cubic_spline_interpolation_and_computation_of_first_and_second_derivatives.html"/>
+   <appContext helpID="" path="fast_fourier_transform.html"/>
+   <appContext helpID="computing_power_spectral_density"
+               path="computing_power_spectral_density.html"/>
+   <appContext helpID="using_the_block_function" path="using_the_block_function.html"/>
+   <appContext helpID="kernel_smoothing" path="kernel_smoothing.html"/>
+   <appContext helpID="smoothing_with_a_low_pass_filter"
+               path="smoothing_with_a_low_pass_filter.html"/>
+   <appContext helpID="gain_filter_smoothing_" path="gain_filter_smoothing_.html"/>
+   <appContext helpID="transform_example_frequency_plot"
+               path="transform_example_frequency_plot.html"/>
+   <appContext helpID="gaussian_cumulative_distribution_from_the_error_function"
+               path="gaussian_cumulative_distribution_from_the_error_function.html"/>
+   <appContext helpID="gaussian_cumulative_distribution_on_a_probability_scale"
+               path="gaussian_cumulative_distribution_on_a_probability_scale.html"/>
+   <appContext helpID="histogram_with_gaussian_distribution"
+               path="histogram_with_gaussian_distribution.html"/>
+   <appContext helpID="linear_regression_with_confidence_and_prediction_intervals"
+               path="linear_regression_with_confidence_and_prediction_intervals.html"/>
+   <appContext helpID="low_pass_filter" path="low_pass_filter.html"/>
+   <appContext helpID="lowess_smoothing" path="lowess_smoothing.html"/>
+   <appContext helpID="normalized_histogram" path="normalized_histogram.html"/>
+   <appContext helpID="smooth_color_transition_transform"
+               path="smooth_color_transition_transform.html"/>
+   <appContext helpID="survival__kaplan_meier__curves_with_censored_data"
+               path="survival__kaplan_meier__curves_with_censored_data.html"/>
+   <appContext helpID="user_defined_axis_scale" path="user_defined_axis_scale.html"/>
+   <appContext helpID="transform_example_vector_plot"
+               path="transform_example_vector_plot.html"/>
+   <appContext helpID="z_plane_design_curves" path="z_plane_design_curves.html"/>
+   <appContext helpID="" path="TransformFunctionReference.html"/>
+   <appContext helpID="" path="function_arguments.html"/>
+   <appContext helpID="" path="user_defined_functions.html"/>
+   <appContext helpID="saving_user_defined_functions"
+               path="saving_user_defined_functions.html"/>
+   <appContext helpID="" path="transform_function_descriptions.html"/>
+   <appContext helpID="" path="abs.html"/>
+   <appContext helpID="" path="ape.html"/>
+   <appContext helpID="" path="arccos.html"/>
+   <appContext helpID="" path="arcsin.html"/>
+   <appContext helpID="" path="arctan.html"/>
+   <appContext helpID="" path="area.html"/>
+   <appContext helpID="" path="avg.html"/>
+   <appContext helpID="" path="block.html"/>
+   <appContext helpID="" path="block.html"/>
+   <appContext helpID="" path="blockheight__blockwidth.html"/>
+   <appContext helpID="" path="cauchyden.html"/>
+   <appContext helpID="" path="cauchydist.html"/>
+   <appContext helpID="" path="cauchyinv.html"/>
+   <appContext helpID="" path="cell.html"/>
+   <appContext helpID="" path="chisquareden.html"/>
+   <appContext helpID="" path="chisquaredist.html"/>
+   <appContext helpID="" path="chisquareinv.html"/>
+   <appContext helpID="" path="choose.html"/>
+   <appContext helpID="" path="col.html"/>
+   <appContext helpID="" path="complex.html"/>
+   <appContext helpID="" path="cos.html"/>
+   <appContext helpID="" path="cosh.html"/>
+   <appContext helpID="" path="count.html"/>
+   <appContext helpID="" path="data.html"/>
+   <appContext helpID="" path="diff.html"/>
+   <appContext helpID="" path="dist.html"/>
+   <appContext helpID="" path="dsinp.html"/>
+   <appContext helpID="" path="eigen.html"/>
+   <appContext helpID="" path="erf.html"/>
+   <appContext helpID="" path="erfc.html"/>
+   <appContext helpID="" path="exp.html"/>
+   <appContext helpID="" path="expden.html"/>
+   <appContext helpID="" path="expdist.html"/>
+   <appContext helpID="" path="expinv.html"/>
+   <appContext helpID="" path="factorial.html"/>
+   <appContext helpID="" path="fden.html"/>
+   <appContext helpID="" path="fdist.html"/>
+   <appContext helpID="" path="fft.html"/>
+   <appContext helpID="" path="finv.html"/>
+   <appContext helpID="" path="for.html"/>
+   <appContext helpID="" path="fwhm.html"/>
+   <appContext helpID="" path="gammaden.html"/>
+   <appContext helpID="" path="gammadist.html"/>
+   <appContext helpID="" path="gammainv.html"/>
+   <appContext helpID="" path="gaussian.html"/>
+   <appContext helpID="" path="histogram_function.html"/>
+   <appContext helpID="" path="if.html"/>
+   <appContext helpID="" path="if...then...else.html"/>
+   <appContext helpID="" path="imaginary__img_.html"/>
+   <appContext helpID="" path="implicit.html"/>
+   <appContext helpID="" path="int.html"/>
+   <appContext helpID="" path="interpolate.html"/>
+   <appContext helpID="" path="inv.html"/>
+   <appContext helpID="" path="invcpx.html"/>
+   <appContext helpID="" path="invfft.html"/>
+   <appContext helpID="" path="linsys.html"/>
+   <appContext helpID="" path="ln.html"/>
+   <appContext helpID="" path="log.html"/>
+   <appContext helpID="" path="logisden.html"/>
+   <appContext helpID="" path="logisdist.html"/>
+   <appContext helpID="" path="logisinv.html"/>
+   <appContext helpID="" path="loglogisden.html"/>
+   <appContext helpID="" path="loglogisdist.html"/>
+   <appContext helpID="" path="loglogisinv.html"/>
+   <appContext helpID="" path="lognormden.html"/>
+   <appContext helpID="" path="lognormdist.html"/>
+   <appContext helpID="" path="lognorminv.html"/>
+   <appContext helpID="" path="lookup.html"/>
+   <appContext helpID="" path="lowess.html"/>
+   <appContext helpID="" path="lowpass.html"/>
+   <appContext helpID="" path="makeblock.html"/>
+   <appContext helpID="" path="max.html"/>
+   <appContext helpID="" path="mean.html"/>
+   <appContext helpID="" path="median.html"/>
+   <appContext helpID="" path="min.html"/>
+   <appContext helpID="" path="missing.html"/>
+   <appContext helpID="" path="mod.html"/>
+   <appContext helpID="" path="mulcpx.html"/>
+   <appContext helpID="" path="normden.html"/>
+   <appContext helpID="" path="normdist.html"/>
+   <appContext helpID="" path="norminv.html"/>
+   <appContext helpID="" path="nth.html"/>
+   <appContext helpID="" path="partdist.html"/>
+   <appContext helpID="" path="polynomial_function.html"/>
+   <appContext helpID="" path="prec.html"/>
+   <appContext helpID="" path="prod.html"/>
+   <appContext helpID="" path="put_into.html"/>
+   <appContext helpID="" path="random.html"/>
+   <appContext helpID="" path="real.html"/>
+   <appContext helpID="" path="rgbcolor.html"/>
+   <appContext helpID="" path="root.html"/>
+   <appContext helpID="" path="round.html"/>
+   <appContext helpID="" path="runavg.html"/>
+   <appContext helpID="" path="sin.html"/>
+   <appContext helpID="" path="sinh.html"/>
+   <appContext helpID="" path="sinp.html"/>
+   <appContext helpID="" path="size.html"/>
+   <appContext helpID="" path="sort.html"/>
+   <appContext helpID="" path="sqrt.html"/>
+   <appContext helpID="" path="stddev.html"/>
+   <appContext helpID="" path="stderr.html"/>
+   <appContext helpID="" path="subblock.html"/>
+   <appContext helpID="" path="sum.html"/>
+   <appContext helpID="" path="tan.html"/>
+   <appContext helpID="" path="tanh.html"/>
+   <appContext helpID="" path="tden.html"/>
+   <appContext helpID="" path="tdist.html"/>
+   <appContext helpID="" path="tinv.html"/>
+   <appContext helpID="" path="total.html"/>
+   <appContext helpID="" path="trp.html"/>
+   <appContext helpID="" path="weibullden.html"/>
+   <appContext helpID="" path="weibulldist.html"/>
+   <appContext helpID="" path="weibullinv.html"/>
+   <appContext helpID="" path="x25.html"/>
+   <appContext helpID="" path="x50.html"/>
+   <appContext helpID="" path="x75.html"/>
+   <appContext helpID="" path="xatymax.html"/>
+   <appContext helpID="" path="xwtr.html"/>
+   <appContext helpID="" path="RegressionEquationLibrary.html"/>
+   <appContext helpID="" path="polynomial_library.html"/>
+   <appContext helpID="" path="peak_library.html"/>
+   <appContext helpID="" path="sigmoidal_library.html"/>
+   <appContext helpID="" path="exponential_decay_library.html"/>
+   <appContext helpID="" path="exponential_rise_to_maximum_library.html"/>
+   <appContext helpID="" path="exponential_growth_library.html"/>
+   <appContext helpID="" path="hyperbola_library.html"/>
+   <appContext helpID="" path="waveform_library.html"/>
+   <appContext helpID="" path="power_library.html"/>
+   <appContext helpID="" path="rational_library.html"/>
+   <appContext helpID="" path="logarithm_library.html"/>
+   <appContext helpID="" path="three_dimensional_library.html"/>
+   <appContext helpID="" path="standard_curves_library.html"/>
+   <appContext helpID="" path="ligand_binding_library.html"/>
+   <appContext helpID="" path="piecewise_library.html"/>
+   <appContext helpID="" path="probability_library.html"/>
+   <appContext helpID="" path="Stats.html"/>
+   <appContext helpID="" path="advisor.html"/>
+   <appContext helpID="using_the_advisor_wizard" path="using_the_advisor_wizard.html"/>
+   <appContext helpID="" path="select_what_you_need_to_do.html"/>
+   <appContext helpID="" path="how_are_the_data_measured_.html"/>
+   <appContext helpID=""
+               path="does_your_data_include_potential_risk_factors_that_may_affect_survival_time_.html"/>
+   <appContext helpID=""
+               path="did_you_apply_more_than_one_treatment_per_subject_.html"/>
+   <appContext helpID="" path="how_many_groups_or_treatments_are_there_.html"/>
+   <appContext helpID="" path="what_kind_of_data_do_you_have_.html"/>
+   <appContext helpID="" path="what_kind_of_prediction_to_you_want_to_make_.html"/>
+   <appContext helpID="" path="what_kind_of_curve_do_you_want_to_use_.html"/>
+   <appContext helpID=""
+               path="how_do_you_want_to_specify_the_independent_variable_.html"/>
+   <appContext helpID=""
+               path="how_do_you_want_plotstat_to_select_the_independent_variable_.html"/>
+   <appContext helpID="" path="is_your_study_retrospective_or_prospective_.html"/>
+   <appContext helpID="" path="using_statistical_procedures.html"/>
+   <appContext helpID="running_procedures" path="running_procedures.html"/>
+   <appContext helpID="" path="arranging_worksheet_data.html"/>
+   <appContext helpID="selecting_a_test" path="selecting_a_test.html"/>
+   <appContext helpID="setting_test_options" path="setting_test_options.html"/>
+   <appContext helpID="selecting_the_data_to_test"
+               path="selecting_the_data_to_test.html"/>
+   <appContext helpID="reports_and_result_graphs"
+               path="reports_and_result_graphs.html"/>
+   <appContext helpID="" path="editing__saving__and_opening_reports_and_graphs.html"/>
+   <appContext helpID="repeating_tests" path="repeating_tests.html"/>
+   <appContext helpID="" path="choosing_the_procedure_to_use.html"/>
+   <appContext helpID="" path="describing_your_data_with_basic_statistics.html"/>
+   <appContext helpID="" path="arranging_descriptive_statistics_data.html"/>
+   <appContext helpID="setting_descriptive_statistics_options"
+               path="setting_descriptive_statistics_options.html"/>
+   <appContext helpID="running_the_descriptive_statistics_test"
+               path="running_the_descriptive_statistics_test.html"/>
+   <appContext helpID="" path="descriptive_statistics_results.html"/>
+   <appContext helpID="" path="descriptive_statistics_result_graphs.html"/>
+   <appContext helpID="creating_a_descriptive_statistics_result_graph"
+               path="creating_a_descriptive_statistics_result_graph.html"/>
+   <appContext helpID="" path="describing_your_data_with_frequency_tables.html"/>
+   <appContext helpID="" path="arranging_frequency_table_data.html"/>
+   <appContext helpID="setting_frequency_table_options"
+               path="setting_frequency_table_options.html"/>
+   <appContext helpID="running_the_frequency_table_test"
+               path="running_the_frequency_table_test.html"/>
+   <appContext helpID="" path="frequency_table_results.html"/>
+   <appContext helpID="" path="frequency_tables_results_graphs.html"/>
+   <appContext helpID="creating_a_one_way_frequency_table_result_graph"
+               path="creating_a_one_way_frequency_table_result_graph.html"/>
+   <appContext helpID="" path="choosing_the_group_comparison_test_to_use.html"/>
+   <appContext helpID="" path="when_to_compare_two_groups.html"/>
+   <appContext helpID="" path="when_to_compare_many_groups.html"/>
+   <appContext helpID="" path="when_to_use_one__two__and_three_way_anovas.html"/>
+   <appContext helpID="how_to_determine_which_groups_are_different"
+               path="how_to_determine_which_groups_are_different.html"/>
+   <appContext helpID="" path="choosing_the_repeated_measures_test_to_use.html"/>
+   <appContext helpID=""
+               path="when_to_compare_effects_on_individuals_before_and_after_a_single_treatment.html"/>
+   <appContext helpID=""
+               path="when_to_compare_effects_on_individuals_after_multiple_treatments.html"/>
+   <appContext helpID=""
+               path="when_to_use_one_and_two_way_repeated_measures_anova.html"/>
+   <appContext helpID="how_to_determine_which_treatments_have_an_effect"
+               path="how_to_determine_which_treatments_have_an_effect.html"/>
+   <appContext helpID=""
+               path="choosing_the_rate_and_proportion_comparison_to_use.html"/>
+   <appContext helpID="" path="choosing_the_prediction_or_correlation_method.html"/>
+   <appContext helpID="" path="when_to_use_regression_to_predict_a_variable.html"/>
+   <appContext helpID="" path="when_to_use_correlation.html"/>
+   <appContext helpID="" path="choosing_the_survival_analysis_to_use.html"/>
+   <appContext helpID="" path="testing_normality.html"/>
+   <appContext helpID="" path="when_to_test_for_normality.html"/>
+   <appContext helpID="performing_a_normality_test"
+               path="performing_a_normality_test.html"/>
+   <appContext helpID="setting_the_p_value_for_the_normality_test"
+               path="setting_the_p_value_for_the_normality_test.html"/>
+   <appContext helpID="" path="arranging_normality_test_data.html"/>
+   <appContext helpID="running_a_normality_test" path="running_a_normality_test.html"/>
+   <appContext helpID="" path="interpreting_normality_test_results.html"/>
+   <appContext helpID="" path="normality_report_graphs.html"/>
+   <appContext helpID="creating_a_normality_report_graph"
+               path="creating_a_normality_report_graph.html"/>
+   <appContext helpID="" path="determining_experimental_power_and_sample_size.html"/>
+   <appContext helpID="" path="when_to_compute_power_and_sample_size.html"/>
+   <appContext helpID="how_to_determine_the_power_of_an_intended_test"
+               path="how_to_determine_the_power_of_an_intended_test.html"/>
+   <appContext helpID="how_to_estimate_the_sample_size_necessary_to_achieve_a_desired_power"
+               path="how_to_estimate_the_sample_size_necessary_to_achieve_a_desired_power.html"/>
+   <appContext helpID="" path="single_group_analysis.html"/>
+   <appContext helpID="" path="one_sample_t_test.html"/>
+   <appContext helpID="" path="about_the_one_sample_t_test.html"/>
+   <appContext helpID="performing_a_one_sample_t_test"
+               path="performing_a_one_sample_t_test.html"/>
+   <appContext helpID="" path="arranging_one_sample_t_test_data.html"/>
+   <appContext helpID="setting_one_sample_t_test_data_options"
+               path="setting_one_sample_t_test_data_options.html"/>
+   <appContext helpID=""
+               path="options_for_one_sample_t_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_one_sample_t_test__results.html"/>
+   <appContext helpID="" path="options_for_one_sample_t_test__post_hoc_tests.html"/>
+   <appContext helpID="running_a_one_sample_t_test"
+               path="running_a_one_sample_t_test.html"/>
+   <appContext helpID="" path="interpreting_one_sample_t_test_results.html"/>
+   <appContext helpID="" path="one_sample_t_test_report_graphs.html"/>
+   <appContext helpID="creating_a_graph_of_the_one_sample_t_test_data"
+               path="creating_a_graph_of_the_one_sample_t_test_data.html"/>
+   <appContext helpID="" path="one_sample_signed_rank_test.html"/>
+   <appContext helpID="" path="about_the_one_sample_signed_rank_test.html"/>
+   <appContext helpID="performing_a_one_sample_signed_rank_test"
+               path="performing_a_one_sample_signed_rank_test.html"/>
+   <appContext helpID="" path="arranging_one_sample_signed_rank_test_data.html"/>
+   <appContext helpID="setting_one_sample_signed_rank_test_options"
+               path="setting_one_sample_signed_rank_test_options.html"/>
+   <appContext helpID=""
+               path="options_for_one_sample_signed_rank_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_one_sample_signed_rank__results.html"/>
+   <appContext helpID="running_a_one_sample_signed_rank_test"
+               path="running_a_one_sample_signed_rank_test.html"/>
+   <appContext helpID="" path="running_an_alternate_one_sample_signed_rank_test.html"/>
+   <appContext helpID="" path="interpreting_one_sample_signed_rank_test_results.html"/>
+   <appContext helpID=""
+               path="result_explanations_for_one_sample_signed_rank_tests.html"/>
+   <appContext helpID="" path="comparing_two_or_more_groups.html"/>
+   <appContext helpID="" path="about_group_comparison_tests.html"/>
+   <appContext helpID="" path="parametric_and_nonparametric_tests.html"/>
+   <appContext helpID="" path="comparing_two_groups.html"/>
+   <appContext helpID="" path="comparing_many_groups.html"/>
+   <appContext helpID="" path="data_format_for_group_comparison_tests.html"/>
+   <appContext helpID="" path="descriptive_statistics.html"/>
+   <appContext helpID="" path="arranging_data_for_t_tests_and_anovas.html"/>
+   <appContext helpID="" path="group_comparison_raw_data.html"/>
+   <appContext helpID="" path="group_comparison_indexed_data.html"/>
+   <appContext helpID="" path="group_comparison_statistical_summary_data.html"/>
+   <appContext helpID="" path="unpaired_t_test.html"/>
+   <appContext helpID="" path="about_the_unpaired_t_test.html"/>
+   <appContext helpID="performing_an_unpaired_t_test"
+               path="performing_an_unpaired_t_test.html"/>
+   <appContext helpID="" path="arranging_t_test_data.html"/>
+   <appContext helpID="setting_t_test_options" path="setting_t_test_options.html"/>
+   <appContext helpID="" path="options_for_t_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_t_test__results.html"/>
+   <appContext helpID="" path="options_for_t_test__post_hoc_tests.html"/>
+   <appContext helpID="running_a_t_test" path="running_a_t_test.html"/>
+   <appContext helpID="" path="interpreting_t_test_results.html"/>
+   <appContext helpID="" path="t_test_result_explanations.html"/>
+   <appContext helpID="" path="t_test_report_graphs.html"/>
+   <appContext helpID="how_to_create_a_graph_of_the_t_test_data"
+               path="how_to_create_a_graph_of_the_t_test_data.html"/>
+   <appContext helpID="" path="mann_whitney_rank_sum_test.html"/>
+   <appContext helpID="" path="about_the_mann_whitney_rank_sum_test.html"/>
+   <appContext helpID="performing_a_mann_whitney_rank_sum_test"
+               path="performing_a_mann_whitney_rank_sum_test.html"/>
+   <appContext helpID="" path="arranging_rank_sum_data.html"/>
+   <appContext helpID="setting_mann_whitney_rank_sum_test_options"
+               path="setting_mann_whitney_rank_sum_test_options.html"/>
+   <appContext helpID="" path="options_for_rank_sum_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_rank_sum_test__results.html"/>
+   <appContext helpID="running_a_rank_sum_test" path="running_a_rank_sum_test.html"/>
+   <appContext helpID="" path="interpreting_rank_sum_test_results.html"/>
+   <appContext helpID="" path="rank_sum_test_report_graph.html"/>
+   <appContext helpID="how_to_create_a_rank_sum_test_report_graph"
+               path="how_to_create_a_rank_sum_test_report_graph.html"/>
+   <appContext helpID="" path="one_way_analysis_of_variance__anova_.html"/>
+   <appContext helpID="" path="about_one_way_anova.html"/>
+   <appContext helpID="performing_a_one_way_anova"
+               path="performing_a_one_way_anova.html"/>
+   <appContext helpID="" path="arranging_one_way_anova_data.html"/>
+   <appContext helpID="setting_one_way_anova_options"
+               path="setting_one_way_anova_options.html"/>
+   <appContext helpID="" path="options_for_one_way_anova__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_one_way_anova__results.html"/>
+   <appContext helpID="" path="options_for_one_way_anova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_one_way_anova" path="running_a_one_way_anova.html"/>
+   <appContext helpID="" path="multiple_comparison_options_for_a_one_way_anova.html"/>
+   <appContext helpID="" path="interpreting_one_way_anova_results.html"/>
+   <appContext helpID="" path="three_way_anova_result_explanations.html"/>
+   <appContext helpID="" path="three_way_anova_if_there_were_missing_data_cells.html"/>
+   <appContext helpID="" path="three_way_anova_dependent_variable.html"/>
+   <appContext helpID="" path="three_way_anova_normality_test.html"/>
+   <appContext helpID="" path="three_way_anova_equal_variance_test.html"/>
+   <appContext helpID="" path="three_way_anova_table.html"/>
+   <appContext helpID="" path="three_way_anova_power.html"/>
+   <appContext helpID="" path="three_way_anova_summary_table.html"/>
+   <appContext helpID="" path="three_way_anova_multiple_comparisons.html"/>
+   <appContext helpID="" path="one_way_anova_report_graphs.html"/>
+   <appContext helpID="how_to_create_a_one_way_anova_report_graph"
+               path="how_to_create_a_one_way_anova_report_graph.html"/>
+   <appContext helpID="" path="two_way_analysis_of_variance__anova_.html"/>
+   <appContext helpID="" path="about_the_two_way_anova.html"/>
+   <appContext helpID="performing_a_two_way_anova"
+               path="performing_a_two_way_anova.html"/>
+   <appContext helpID="" path="arranging_two_way_anova_data.html"/>
+   <appContext helpID="indexing_raw_data_for_a_two_way_anova"
+               path="indexing_raw_data_for_a_two_way_anova.html"/>
+   <appContext helpID="" path="missing_data_and_empty_cells.html"/>
+   <appContext helpID="" path="missing_data_points.html"/>
+   <appContext helpID="" path="empty_cells.html"/>
+   <appContext helpID="" path="connected_versus_disconnected_data.html"/>
+   <appContext helpID="" path="two_way_anova_entering_worksheet_data.html"/>
+   <appContext helpID="setting_two_way_anova_options"
+               path="setting_two_way_anova_options.html"/>
+   <appContext helpID="" path="options_two_way_anova__assumption_checking.html"/>
+   <appContext helpID="" path="options_two_way_anova__results.html"/>
+   <appContext helpID="" path="options_two_way_anova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_two_way_anova" path="running_a_two_way_anova.html"/>
+   <appContext helpID="" path="multiple_comparison_options_for_a_two_way_anova.html"/>
+   <appContext helpID="" path="two_way_anova_result_explanations.html"/>
+   <appContext helpID="performing_a_one_way_anova_on_two_way_anova_data"
+               path="performing_a_one_way_anova_on_two_way_anova_data.html"/>
+   <appContext helpID="" path="interpreting_two_way_anova_results.html"/>
+   <appContext helpID="" path="two_way_anova_report_graphs.html"/>
+   <appContext helpID="how_to_create_a_two_way_anova_report_graph"
+               path="how_to_create_a_two_way_anova_report_graph.html"/>
+   <appContext helpID="" path="three_way_analysis_of_variance__anova_.html"/>
+   <appContext helpID="" path="about_the_three_way_anova.html"/>
+   <appContext helpID="performing_a_three_way_anova"
+               path="performing_a_three_way_anova.html"/>
+   <appContext helpID="" path="arranging_three_way_anova_data.html"/>
+   <appContext helpID="" path="three_way_anova_missing_data_and_empty_cells.html"/>
+   <appContext helpID="" path="three_way_anova_connected_vs_disconnected_data.html"/>
+   <appContext helpID="" path="entering_three_way_anova_data.html"/>
+   <appContext helpID="setting_three_way_anova_options"
+               path="setting_three_way_anova_options.html"/>
+   <appContext helpID="" path="options_for_three_way_anova__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_three_way_anova__results.html"/>
+   <appContext helpID="" path="options_for_three_way_anova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_three_way_anova"
+               path="running_a_three_way_anova.html"/>
+   <appContext helpID="" path="multiple_comparison_options_for_a_three_way_anova.html"/>
+   <appContext helpID="" path="interpreting_three_way_anova_results.html"/>
+   <appContext helpID="" path="three_way_anova_report_graphs.html"/>
+   <appContext helpID="how_to_create_a_three_way_anova_report_graph"
+               path="how_to_create_a_three_way_anova_report_graph.html"/>
+   <appContext helpID="" path="kruskal_wallis_analysis_of_variance_on_ranks.html"/>
+   <appContext helpID="" path="about_the_kruskal_wallis_anova_on_ranks.html"/>
+   <appContext helpID="performing_an_anova_on_ranks"
+               path="performing_an_anova_on_ranks.html"/>
+   <appContext helpID="" path="arranging_anova_on_ranks_data.html"/>
+   <appContext helpID="setting_the_anova_on_ranks_options"
+               path="setting_the_anova_on_ranks_options.html"/>
+   <appContext helpID="" path="options_for_anova_on_ranks__assumption.html"/>
+   <appContext helpID="" path="options_for_anova_on_ranks__results.html"/>
+   <appContext helpID="" path="options_for_anova_on_ranks__post_hoc_tests.html"/>
+   <appContext helpID="running_an_anova_on_ranks"
+               path="running_an_anova_on_ranks.html"/>
+   <appContext helpID="" path="multiple_comparison_options_for_anova_on_ranks.html"/>
+   <appContext helpID="" path="interpreting_anova_on_ranks_results.html"/>
+   <appContext helpID="" path="anova_on_ranks_report_graphs.html"/>
+   <appContext helpID="how_to_create_an_anova_on_ranks_graph"
+               path="how_to_create_an_anova_on_ranks_graph.html"/>
+   <appContext helpID="" path="one_way_analysis_of_covariance.html"/>
+   <appContext helpID="" path="about_one_way_analysis_of_covariance.html"/>
+   <appContext helpID="performing_a_one_way_analysis_of_covariance"
+               path="performing_a_one_way_analysis_of_covariance.html"/>
+   <appContext helpID="" path="arranging_one_way_analysis_of_covariance_data.html"/>
+   <appContext helpID="" path="setting_one_way_analysis_of_covariance_options.html"/>
+   <appContext helpID="" path="options_for_one_way_ancova__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_one_way_ancova__residuals.html"/>
+   <appContext helpID="" path="options_for_one_way_ancova__more_results.html"/>
+   <appContext helpID="" path="options_for_one_way_ancova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_one_way_analysis_of_covariance"
+               path="running_a_one_way_analysis_of_covariance.html"/>
+   <appContext helpID=""
+               path="interpreting_one_way_analysis_of_covariance_results.html"/>
+   <appContext helpID="" path="one_way_analysis_of_covariance_report_graphs.html"/>
+   <appContext helpID="how_to_create_a_one_way_ancova_report_graph"
+               path="how_to_create_a_one_way_ancova_report_graph.html"/>
+   <appContext helpID="performing_a_multiple_comparison"
+               path="performing_a_multiple_comparison.html"/>
+   <appContext helpID="" path="holm_sidak_test.html"/>
+   <appContext helpID="" path="tukey_test.html"/>
+   <appContext helpID="" path="student_newman_keuls__snk__test.html"/>
+   <appContext helpID="" path="bonferroni_t_test.html"/>
+   <appContext helpID="" path="fisher_s_least_significance_difference_test.html"/>
+   <appContext helpID="" path="dunnett_s_test.html"/>
+   <appContext helpID="" path="dunn_s_test.html"/>
+   <appContext helpID="" path="duncan_s_multiple_range.html"/>
+   <appContext helpID=""
+               path="comparing_repeated_measurements_of_the_same_individuals.html"/>
+   <appContext helpID="" path="about_repeated_measures_tests.html"/>
+   <appContext helpID="" path="comp_rep_meas_parametric_and_nonparametric_tests.html"/>
+   <appContext helpID=""
+               path="comparing_individuals_before_and_after_a_single_treatment.html"/>
+   <appContext helpID=""
+               path="comparing_individuals_before_and_after_multiple_treatments.html"/>
+   <appContext helpID="" path="data_format_for_repeated_measures_tests.html"/>
+   <appContext helpID="" path="repeated_measures_raw_data.html"/>
+   <appContext helpID="" path="repeated_measures_indexed_data.html"/>
+   <appContext helpID="" path="paired_t_test.html"/>
+   <appContext helpID="performing_a_paired_t_test"
+               path="performing_a_paired_t_test.html"/>
+   <appContext helpID="" path="arranging_paired_t_test_data.html"/>
+   <appContext helpID="setting_paired_t_test_options"
+               path="setting_paired_t_test_options.html"/>
+   <appContext helpID="" path="options_for_paired_t_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_paired_t_test__results.html"/>
+   <appContext helpID="" path="options_for_paired_t_test__post_hoc_tests.html"/>
+   <appContext helpID="running_a_paired_t_test" path="running_a_paired_t_test.html"/>
+   <appContext helpID="" path="interpreting_paired_t_test_results.html"/>
+   <appContext helpID="" path="paired_t_test_normality_test.html"/>
+   <appContext helpID="" path="paired_t_test_summary_table.html"/>
+   <appContext helpID="" path="paired_t_test_difference.html"/>
+   <appContext helpID="" path="paired_t_test_t_statistic.html"/>
+   <appContext helpID=""
+               path="paired_t_test_confidence_interval_for_the_difference_of_the_means.html"/>
+   <appContext helpID="" path="paired_t_test_power.html"/>
+   <appContext helpID="paired_t_test_report_graphs"
+               path="paired_t_test_report_graphs.html"/>
+   <appContext helpID="creating_a_graph_of_the_paired_t_test_data"
+               path="creating_a_graph_of_the_paired_t_test_data.html"/>
+   <appContext helpID="" path="wilcoxon_signed_rank_test.html"/>
+   <appContext helpID="" path="about_the_signed_rank_test.html"/>
+   <appContext helpID="performing_a_signed_rank_test"
+               path="performing_a_signed_rank_test.html"/>
+   <appContext helpID="" path="arranging_signed_rank_data.html"/>
+   <appContext helpID="setting_signed_rank_test_options"
+               path="setting_signed_rank_test_options.html"/>
+   <appContext helpID="" path="options_for_signed_rank_test__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_signed_rank_test__results.html"/>
+   <appContext helpID="running_a_signed_rank_test"
+               path="running_a_signed_rank_test.html"/>
+   <appContext helpID="" path="interpreting_signed_rank_test_results.html"/>
+   <appContext helpID="" path="signed_rank_normality_test.html"/>
+   <appContext helpID="" path="signed_rank_summary_tables.html"/>
+   <appContext helpID="" path="signed_rank_w_statistic.html"/>
+   <appContext helpID="" path="signed_rank_test_report_graphs.html"/>
+   <appContext helpID="" path="creating_a_graph_of_the_signed_rank_test_data.html"/>
+   <appContext helpID=""
+               path="one_way_repeated_measures_analysis_of_variance__anova_.html"/>
+   <appContext helpID="" path="about_the_one_way_repeated_measures_anova.html"/>
+   <appContext helpID="performing_a_one_way_repeated_measures_anova"
+               path="performing_a_one_way_repeated_measures_anova.html"/>
+   <appContext helpID="" path="arranging_one_way_repeated_measures_anova_data.html"/>
+   <appContext helpID="setting_one_way_repeated_measures_anova_options"
+               path="setting_one_way_repeated_measures_anova_options.html"/>
+   <appContext helpID=""
+               path="options_for_one_way_repeated_measures_anova__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_one_way_rm_anova__results.html"/>
+   <appContext helpID="" path="options_for_one_way_rm_anova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_one_way_repeated_measures_anova"
+               path="running_a_one_way_repeated_measures_anova.html"/>
+   <appContext helpID="" path="multiple_comparison_options__one_way_rm_anova_.html"/>
+   <appContext helpID=""
+               path="interpreting_one_way_repeated_measures_anova_results.html"/>
+   <appContext helpID="" path="one_way_rm_anova_if_there_were_missing_data_cells.html"/>
+   <appContext helpID="" path="one_way_rm_anova_normality_test.html"/>
+   <appContext helpID="" path="one_way_rm_anova_equal_variance_test.html"/>
+   <appContext helpID="" path="one_way_rm_anova_summary_table.html"/>
+   <appContext helpID="" path="one_way_rm_anova_power.html"/>
+   <appContext helpID="" path="one_way_rm_anova_table.html"/>
+   <appContext helpID="" path="one_way_rm_f_statistic.html"/>
+   <appContext helpID="" path="one_way_rm_anova_expected_mean_squares.html"/>
+   <appContext helpID="" path="one_way_rm_anova_multiple_comparisons.html"/>
+   <appContext helpID="" path="one_way_repeated_measures_anova_report_graphs.html"/>
+   <appContext helpID="creating_a_one_way_repeated_measures_anova_report_graph"
+               path="creating_a_one_way_repeated_measures_anova_report_graph.html"/>
+   <appContext helpID=""
+               path="two_way_repeated_measures_analysis_of_variance__anova_.html"/>
+   <appContext helpID="" path="about_the_two_way_repeated_measures_anova.html"/>
+   <appContext helpID="performing_a_two_way_repeated_measures_anova"
+               path="performing_a_two_way_repeated_measures_anova.html"/>
+   <appContext helpID="" path="arranging_two_way_repeated_measures_anova_data.html"/>
+   <appContext helpID="" path="two_way_rm_anova_missing_data_and_empty_cells.html"/>
+   <appContext helpID=""
+               path="two_way_rm_anova_connected_versus_disconnected_data.html"/>
+   <appContext helpID=""
+               path="two_way_rm_anova_missing_factor_data_for_one_subject.html"/>
+   <appContext helpID="" path="two_way_rm_anova_entering_worksheet_data.html"/>
+   <appContext helpID="setting_two_way_repeated_measures_anova_options"
+               path="setting_two_way_repeated_measures_anova_options.html"/>
+   <appContext helpID=""
+               path="options_for_two_way_repeated_measures_anova__assumption_checking.html"/>
+   <appContext helpID=""
+               path="options_for_two_way_repeated_measures_anova__results.html"/>
+   <appContext helpID=""
+               path="options_for_two_way_repeated_measures_anova__post_hoc_tests.html"/>
+   <appContext helpID="running_a_two_way_repeated_measures_anova"
+               path="running_a_two_way_repeated_measures_anova.html"/>
+   <appContext helpID=""
+               path="multiple_comparison_options__two_way_repeated_measures_anova_.html"/>
+   <appContext helpID=""
+               path="interpreting_two_way_repeated_measures_anova_results.html"/>
+   <appContext helpID=""
+               path="two_way_rm_anova_if_there_were_missing_data_or_empty_cells.html"/>
+   <appContext helpID="" path="two_way_rm_anova_dependent_variable.html"/>
+   <appContext helpID="" path="two_way_rm_anova_normality_test.html"/>
+   <appContext helpID="" path="two_way_rm_anova_equal_variance_test.html"/>
+   <appContext helpID="" path="two_way_rm_anova_table.html"/>
+   <appContext helpID="" path="two_way_rm_anova_power.html"/>
+   <appContext helpID="" path="two_way_rm_anova_expected_mean_squares.html"/>
+   <appContext helpID="" path="two_way_rm_anova_summary_table.html"/>
+   <appContext helpID="" path="two_way_rm_anova_multiple_comparisons.html"/>
+   <appContext helpID="" path="two_way_repeated_measures_anova_report_graphs.html"/>
+   <appContext helpID="creating_a_two_way_repeated_measures_anova_report_graph"
+               path="creating_a_two_way_repeated_measures_anova_report_graph.html"/>
+   <appContext helpID=""
+               path="friedman_repeated_measures_analysis_of_variance_on_ranks.html"/>
+   <appContext helpID="" path="about_the_repeated_measures_anova_on_ranks.html"/>
+   <appContext helpID="performing_a_repeated_measures_anova_on_ranks"
+               path="performing_a_repeated_measures_anova_on_ranks.html"/>
+   <appContext helpID="" path="arranging_repeated_measures_anova_on_ranks_data.html"/>
+   <appContext helpID="setting_the_repeated_measures_anova_on_ranks_options"
+               path="setting_the_repeated_measures_anova_on_ranks_options.html"/>
+   <appContext helpID=""
+               path="options_for_repeated_measures_anova_on_ranks__assumption_checking.html"/>
+   <appContext helpID=""
+               path="options_for_repeated_measures_anova_on_ranks__results.html"/>
+   <appContext helpID=""
+               path="options_for_repeated_measures_anova_on_ranks__post_hoc_tests.html"/>
+   <appContext helpID="running_a_repeated_measures_anova_on_ranks"
+               path="running_a_repeated_measures_anova_on_ranks.html"/>
+   <appContext helpID="" path="multiple_comparison_options__rm_anova_on_ranks_.html"/>
+   <appContext helpID=""
+               path="interpreting_repeated_measures_anova_on_ranks_results.html"/>
+   <appContext helpID="" path="rm_anova_on_ranks_normality_test.html"/>
+   <appContext helpID="" path="rm_anova_on_ranks_equal_variance_test.html"/>
+   <appContext helpID="" path="rm_anova_on_ranks_summary_table.html"/>
+   <appContext helpID="" path="rm_anova_on_ranks_chi_square_statistic.html"/>
+   <appContext helpID="" path="rm_anova_on_ranks_multiple_comparisons.html"/>
+   <appContext helpID="" path="repeated_measures_anova_on_ranks_report_graphs.html"/>
+   <appContext helpID="creating_a_repeated_measures_anova_on_ranks_report_graph"
+               path="creating_a_repeated_measures_anova_on_ranks_report_graph.html"/>
+   <appContext helpID="" path="comparing_frequencies__rates__and_proportions.html"/>
+   <appContext helpID="" path="about_rate_and_proportion_tests.html"/>
+   <appContext helpID="" path="contingency_tables.html"/>
+   <appContext helpID="comparing_the_proportions_of_two_groups_in_one_category"
+               path="comparing_the_proportions_of_two_groups_in_one_category.html"/>
+   <appContext helpID=""
+               path="comparing_proportions_of_multiple_groups_in_multiple_categories.html"/>
+   <appContext helpID=""
+               path="comparing_proportions_of_the_same_group_to_two_treatments.html"/>
+   <appContext helpID="" path="yates_correction.html"/>
+   <appContext helpID="" path="comparing_proportions_using_the_z_test.html"/>
+   <appContext helpID="" path="about_the_z_test.html"/>
+   <appContext helpID="performing_a_z_test" path="performing_a_z_test.html"/>
+   <appContext helpID="" path="arranging_z_test_data.html"/>
+   <appContext helpID="setting_z_test_options" path="setting_z_test_options.html"/>
+   <appContext helpID="" path="options_for_z_test.html"/>
+   <appContext helpID="running_a_z_test" path="running_a_z_test.html"/>
+   <appContext helpID="" path="interpreting_proportion_comparison_results.html"/>
+   <appContext helpID="" path="z_statistical_summary.html"/>
+   <appContext helpID="" path="z_statistic.html"/>
+   <appContext helpID="" path="z_test_confidence_interval_for_the_difference.html"/>
+   <appContext helpID="" path="z_test_power.html"/>
+   <appContext helpID="" path="chi_square_analysis_of_contingency_tables.html"/>
+   <appContext helpID="" path="about_the_chi_square_test.html"/>
+   <appContext helpID="performing_a_chi_square_test"
+               path="performing_a_chi_square_test.html"/>
+   <appContext helpID="" path="arranging_chi_square_data.html"/>
+   <appContext helpID="setting_chi_square_options"
+               path="setting_chi_square_options.html"/>
+   <appContext helpID="" path="options_for_chi_square.html"/>
+   <appContext helpID="running_a_chi_square_test"
+               path="running_a_chi_square_test.html"/>
+   <appContext helpID=""
+               path="interpreting_results_of_a_chi_squared_analysis_of_contingency_tables.html"/>
+   <appContext helpID="" path="chi_square_contingency_table_summary.html"/>
+   <appContext helpID="" path="chi_square.html"/>
+   <appContext helpID="" path="chi_square_power.html"/>
+   <appContext helpID="" path="the_fisher_exact_test.html"/>
+   <appContext helpID="" path="about_the_fisher_exact_test.html"/>
+   <appContext helpID="performing_a_fisher_exact_test"
+               path="performing_a_fisher_exact_test.html"/>
+   <appContext helpID="" path="arranging_fisher_exact_test_data.html"/>
+   <appContext helpID="running_a_fisher_exact_test"
+               path="running_a_fisher_exact_test.html"/>
+   <appContext helpID="" path="interpreting_results_of_a_fisher_exact_test.html"/>
+   <appContext helpID="" path="fisher_exact_p_value.html"/>
+   <appContext helpID="" path="fisher_exact_contingency_table_summary.html"/>
+   <appContext helpID="" path="mcnemar_s_test.html"/>
+   <appContext helpID="" path="about_mcnemar_s_test.html"/>
+   <appContext helpID="performing_mcnemar_s_test"
+               path="performing_mcnemar_s_test.html"/>
+   <appContext helpID="" path="arranging_mcnemar_test_data.html"/>
+   <appContext helpID="setting_mcnemar_s_options"
+               path="setting_mcnemar_s_options.html"/>
+   <appContext helpID="" path="options_for_mcnemar_s.html"/>
+   <appContext helpID="running_mcnemar_s_test" path="running_mcnemar_s_test.html"/>
+   <appContext helpID="" path="interpreting_results_of_mcnemar_s_test.html"/>
+   <appContext helpID="" path="mcnemars_chi_square.html"/>
+   <appContext helpID="" path="mcnemars_contingency_table_summary.html"/>
+   <appContext helpID="" path="relative_risk_test.html"/>
+   <appContext helpID="" path="about_the_relative_risk_test.html"/>
+   <appContext helpID="performing_the_relative_risk_test"
+               path="performing_the_relative_risk_test.html"/>
+   <appContext helpID="" path="arranging_relative_risk_test_data.html"/>
+   <appContext helpID="setting_relative_risk_test_options"
+               path="setting_relative_risk_test_options.html"/>
+   <appContext helpID="" path="options_for_relative_risk.html"/>
+   <appContext helpID="running_the_relative_risk_test"
+               path="running_the_relative_risk_test.html"/>
+   <appContext helpID="" path="interpreting_results_of_the_relative_risk_test.html"/>
+   <appContext helpID="" path="odds_ratio_test.html"/>
+   <appContext helpID="" path="about_the_odds_ratio_test.html"/>
+   <appContext helpID="performing_the_odds_ratio_test"
+               path="performing_the_odds_ratio_test.html"/>
+   <appContext helpID="" path="arranging_odds_ratio_test_data.html"/>
+   <appContext helpID="setting_odds_ratio_test_options"
+               path="setting_odds_ratio_test_options.html"/>
+   <appContext helpID="" path="options_for_odds_ratio.html"/>
+   <appContext helpID="running_the_odds_ratio_test"
+               path="running_the_odds_ratio_test.html"/>
+   <appContext helpID="" path="interpreting_results_of_the_odds_ratio_test.html"/>
+   <appContext helpID="" path="principal_components_analysis.html"/>
+   <appContext helpID="" path="about_principal_components_analysis.html"/>
+   <appContext helpID="performing_a_principal_components_analysis"
+               path="performing_a_principal_components_analysis.html"/>
+   <appContext helpID="" path="arranging_data_for_principal_components_analysis.html"/>
+   <appContext helpID="setting_principal_components_analysis_options"
+               path="setting_principal_components_analysis_options.html"/>
+   <appContext helpID=""
+               path="options_for_principal_components_analysis__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_principal_components_analysis__assumption_checking.html"/>
+   <appContext helpID=""
+               path="options_for_principal_components_analysis__residuals.html"/>
+   <appContext helpID=""
+               path="options_for_principal_components_analysis__results.html"/>
+   <appContext helpID="running_principal_components_analysis"
+               path="running_principal_components_analysis.html"/>
+   <appContext helpID=""
+               path="interpreting_principal_components_analysis_results.html"/>
+   <appContext helpID="" path="basic_numeric_results.html"/>
+   <appContext helpID="" path="optional_numeric_results.html"/>
+   <appContext helpID="" path="principal_components_analysis_report_graphs.html"/>
+   <appContext helpID="creating_a_graph_for_principal_components_analysis"
+               path="creating_a_graph_for_principal_components_analysis.html"/>
+   <appContext helpID="" path="prediction_and_correlation.html"/>
+   <appContext helpID="" path="about_regression.html"/>
+   <appContext helpID="" path="correlation.html"/>
+   <appContext helpID="" path="data_format_for_regression_and_correlation.html"/>
+   <appContext helpID="" path="simple_linear_regression.html"/>
+   <appContext helpID="" path="about_simple_linear_regression.html"/>
+   <appContext helpID="performing_a_simple_linear_regression"
+               path="performing_a_simple_linear_regression.html"/>
+   <appContext helpID="" path="arranging_simple_linear_regression_data.html"/>
+   <appContext helpID="setting_simple_linear_regression_options"
+               path="setting_simple_linear_regression_options.html"/>
+   <appContext helpID=""
+               path="options_for_linear_regression__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_linear_regression__residuals.html"/>
+   <appContext helpID="" path="options_for_linear_regression__more_statistics.html"/>
+   <appContext helpID="" path="options_for_linear_regression__other_diagnostics.html"/>
+   <appContext helpID="running_a_simple_linear_regression"
+               path="running_a_simple_linear_regression.html"/>
+   <appContext helpID="" path="interpreting_simple_linear_regression_results.html"/>
+   <appContext helpID="" path="regression_equation.html"/>
+   <appContext helpID="" path="r__r_squared__and_adj_r_squared.html"/>
+   <appContext helpID=""
+               path="simple_linear_regression_standard_error_of_the_estimate.html"/>
+   <appContext helpID=""
+               path="simple_linear_regression_statistical_summary_table.html"/>
+   <appContext helpID="" path="beta__standardized_coefficient_b_.html"/>
+   <appContext helpID=""
+               path="simple_linear_regression_analysis_of_variance__anova__table.html"/>
+   <appContext helpID="" path="simple_linear_regression_press_statistic.html"/>
+   <appContext helpID="" path="simple_linear_regression_durbin_watson_statistic.html"/>
+   <appContext helpID="" path="simple_linear_regression_normality_test.html"/>
+   <appContext helpID="" path="simple_linear_regression_constant_variance_test.html"/>
+   <appContext helpID="" path="simple_linear_regression_power.html"/>
+   <appContext helpID="" path="simple_linear_regression_regression_diagnostics.html"/>
+   <appContext helpID="" path="simple_linear_regression_influence_diagnostics.html"/>
+   <appContext helpID="" path="simple_linear_regression_confidence_intervals.html"/>
+   <appContext helpID="" path="simple_linear_regression_report_graphs.html"/>
+   <appContext helpID="creating_a_linear_regression_report_graph"
+               path="creating_a_linear_regression_report_graph.html"/>
+   <appContext helpID="" path="multiple_linear_regression.html"/>
+   <appContext helpID="" path="about_the_multiple_linear_regression.html"/>
+   <appContext helpID="performing_a_multiple_linear_regression"
+               path="performing_a_multiple_linear_regression.html"/>
+   <appContext helpID="" path="arranging_multiple_linear_regression_data.html"/>
+   <appContext helpID="setting_multiple_linear_regression_options"
+               path="setting_multiple_linear_regression_options.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_linear_regression__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_multiple_linear_regression__residuals.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_linear_regression__more_statistics.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_linear_regression__other_diagnostics.html"/>
+   <appContext helpID="" path="what_to_do_about_influential_points.html"/>
+   <appContext helpID="" path="what_to_do_about_multicollinearity.html"/>
+   <appContext helpID="running_a_multiple_linear_regression"
+               path="running_a_multiple_linear_regression.html"/>
+   <appContext helpID="" path="interpreting_multiple_linear_regression_results.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_r__r_squared__and_adjusted_r_sqared.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_standard_error_of_the_estimate.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_statistical_summary_table.html"/>
+   <appContext helpID="" path="multiple_linear_regression_beta.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_analysis_of_variance__anova__table.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_incremental_sum_of_squares.html"/>
+   <appContext helpID="" path="multiple_linear_regression_press_statistic.html"/>
+   <appContext helpID=""
+               path="multiple_linear_regression_durbin_watson_statistic.html"/>
+   <appContext helpID="" path="multiple_linear_regression_normality_test.html"/>
+   <appContext helpID="" path="multiple_linear_regression_constant_variance_test.html"/>
+   <appContext helpID="" path="multiple_linear_regression_power.html"/>
+   <appContext helpID="" path="multiple_linear_regression_regression_diagnostics.html"/>
+   <appContext helpID="" path="multiple_linear_regression_influence_diagnostics.html"/>
+   <appContext helpID="" path="multiple_linear_regression_confidence_intervals.html"/>
+   <appContext helpID="" path="multiple_linear_regression_report_graphs.html"/>
+   <appContext helpID="creating_multiple_linear_regression_report_graphs"
+               path="creating_multiple_linear_regression_report_graphs.html"/>
+   <appContext helpID="" path="multiple_logistic_regression.html"/>
+   <appContext helpID="" path="about_the_multiple_logistic_regression.html"/>
+   <appContext helpID="performing_a_multiple_logistic_regression"
+               path="performing_a_multiple_logistic_regression.html"/>
+   <appContext helpID="" path="arranging_multiple_logistic_regression_data.html"/>
+   <appContext helpID="setting_multiple_logistic_regression_options"
+               path="setting_multiple_logistic_regression_options.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_logistic_regression__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_logistic_regression__statistics.html"/>
+   <appContext helpID="" path="mult_log_reg_what_to_do_about_multicollinearity.html"/>
+   <appContext helpID=""
+               path="options_for_multiple_logistic_regression__residuals.html"/>
+   <appContext helpID="" path="mult_log_reg_influential_points.html"/>
+   <appContext helpID="running_a_multiple_logistic_regression"
+               path="running_a_multiple_logistic_regression.html"/>
+   <appContext helpID="" path="interpreting_multiple_logistic_regression_results.html"/>
+   <appContext helpID="" path="mult_log_reg_regression_equation.html"/>
+   <appContext helpID="" path="mult_log_reg_number_of_observations.html"/>
+   <appContext helpID="" path="mult_log_reg_estimation_criterion.html"/>
+   <appContext helpID="" path="mult_log_reg_dependent_variable.html"/>
+   <appContext helpID=""
+               path="mult_log_reg_number_of_unique_independent_variable_combinations.html"/>
+   <appContext helpID="" path="mult_log_reg_hosmer_lemshow_p_value.html"/>
+   <appContext helpID="" path="mult_log_reg_pearson_chi_square_statistic.html"/>
+   <appContext helpID="" path="mult_log_reg_likelihood_ratio_test_statistic.html"/>
+   <appContext helpID="" path="mult_log_reg_log_likelihood_statistic.html"/>
+   <appContext helpID=""
+               path="mult_log_reg_threshold_probability_for_positive_classification.html"/>
+   <appContext helpID="" path="mult_log_reg_classification_table.html"/>
+   <appContext helpID="" path="mult_log_reg_probability_table.html"/>
+   <appContext helpID="" path="mult_log_reg_statistical_summary_table.html"/>
+   <appContext helpID="" path="mult_log_reg_residual_calculation_method.html"/>
+   <appContext helpID="" path="residuals_table.html"/>
+   <appContext helpID="" path="mult_log_reg_influence_diagnostics.html"/>
+   <appContext helpID="" path="polynomial_regression.html"/>
+   <appContext helpID="" path="about_the_polynomial_regression.html"/>
+   <appContext helpID="performing_a_polynomial_regression"
+               path="performing_a_polynomial_regression.html"/>
+   <appContext helpID="" path="arranging_polynomial_regression_data.html"/>
+   <appContext helpID="setting_polynomial_regression_options"
+               path="setting_polynomial_regression_options.html"/>
+   <appContext helpID="" path="options_for_polynomial_regression__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_polynomial_regression__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_polynomial_regression__residuals.html"/>
+   <appContext helpID=""
+               path="options_for_polynomial_regression__more_statistics.html"/>
+   <appContext helpID="" path="options_for_polynomial_regression__post_hoc_tests.html"/>
+   <appContext helpID="running_a_polynomial_regression"
+               path="running_a_polynomial_regression.html"/>
+   <appContext helpID=""
+               path="interpreting_incremental_polynomial_regression_results.html"/>
+   <appContext helpID="" path="poly_reg_regression_equation.html"/>
+   <appContext helpID="" path="poly_reg_incremental_results.html"/>
+   <appContext helpID="" path="poly_reg_assumption_testing.html"/>
+   <appContext helpID="" path="incr_poly_reg_choosing_the_best_mode.html"/>
+   <appContext helpID=""
+               path="interpreting_order_only_polynomial_regression_results.html"/>
+   <appContext helpID="" path="order_only_poly_reg_regression_equation.html"/>
+   <appContext helpID="" path="order_only_poly_reg_analysis_of_variance__anova_.html"/>
+   <appContext helpID=""
+               path="order_only_poly_reg_standard_error_of_the_estimate.html"/>
+   <appContext helpID="" path="order_only_poly_reg_durbin_watson_statistic.html"/>
+   <appContext helpID="" path="order_only_poly_reg_normality_test.html"/>
+   <appContext helpID="" path="olrder_only_poly_reg_constant_variance_test.html"/>
+   <appContext helpID="" path="order_only_poly_reg_regression_diagnostics.html"/>
+   <appContext helpID="" path="order_only_poly_reg_confidence_intervals.html"/>
+   <appContext helpID="" path="polynomial_regression_report_graphs.html"/>
+   <appContext helpID="creating_polynomial_regression_report_graphs"
+               path="creating_polynomial_regression_report_graphs.html"/>
+   <appContext helpID="" path="stepwise_linear_regression.html"/>
+   <appContext helpID="" path="about_stepwise_linear_regression.html"/>
+   <appContext helpID="performing_a_stepwise_linear_regression"
+               path="performing_a_stepwise_linear_regression.html"/>
+   <appContext helpID="" path="arranging_stepwise_linear_regression_data.html"/>
+   <appContext helpID="setting_forward_stepwise_linear_regression_options"
+               path="setting_forward_stepwise_linear_regression_options.html"/>
+   <appContext helpID=""
+               path="options_for_forward_stepwise_regression__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_forward_stepwise_regression__assumption_checking.html"/>
+   <appContext helpID=""
+               path="options_for_forward_stepwise_regression__residuals.html"/>
+   <appContext helpID=""
+               path="options_for_forward_stepwise_regression__more_statistics.html"/>
+   <appContext helpID=""
+               path="options_for_forward_stepwise_regression__other_diagnostics.html"/>
+   <appContext helpID="" path="forward_stepwise_reg_variance_inflation_factor.html"/>
+   <appContext helpID="" path="forward_stepwise_reg_power.html"/>
+   <appContext helpID="setting_backward_stepwise_linear_regression_options"
+               path="setting_backward_stepwise_linear_regression_options.html"/>
+   <appContext helpID=""
+               path="options_for_backward_stepwise_regression__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_backward_stepwise_regression__assumption_checking.html"/>
+   <appContext helpID=""
+               path="badkward_stepwise_p_values_for_normality_and_constant_variance.html"/>
+   <appContext helpID=""
+               path="options_for_backward_stepwise_regression__residuals.html"/>
+   <appContext helpID=""
+               path="options_for_backward_stepwise_regression__more_statistics.html"/>
+   <appContext helpID=""
+               path="options_for_backward_stepwise_regression__other_diagnostics.html"/>
+   <appContext helpID="" path="backward_stepwise_variance_inflation_factor.html"/>
+   <appContext helpID="" path="backward_stepwise_power.html"/>
+   <appContext helpID="running_a_stepwise_linear_regression"
+               path="running_a_stepwise_linear_regression.html"/>
+   <appContext helpID="" path="interpreting_stepwise_regression_results.html"/>
+   <appContext helpID="" path="stepwise_reg_f_to_enter__f_to_remove.html"/>
+   <appContext helpID="" path="stepwise_reg_step.html"/>
+   <appContext helpID="" path="stepwise_reg_analysis_of_variance__anova__table.html"/>
+   <appContext helpID="" path="stepwise_reg_variables_in_model.html"/>
+   <appContext helpID="" path="stepwise_reg_variables_not_in_model.html"/>
+   <appContext helpID="" path="stepwise_reg_press_statistic.html"/>
+   <appContext helpID="" path="stepwise_reg_durbin_watson_statistic.html"/>
+   <appContext helpID="" path="stepwise_reg_normality_test.html"/>
+   <appContext helpID="" path="stepwise_reg_constant_variance_test.html"/>
+   <appContext helpID="" path="stepwise_reg_results_power.html"/>
+   <appContext helpID="" path="stepwise_reg_regression_diagnostics.html"/>
+   <appContext helpID="" path="stepwise_reg_influence_diagnostics.html"/>
+   <appContext helpID="" path="stepwise_reg_confidence_intervals.html"/>
+   <appContext helpID="" path="stepwise_regression_report_graphs.html"/>
+   <appContext helpID="creating_stepwise_regression_report_graphs"
+               path="creating_stepwise_regression_report_graphs.html"/>
+   <appContext helpID="" path="best_subsets_regression.html"/>
+   <appContext helpID="" path="about_best_subset_regression.html"/>
+   <appContext helpID="" path="best_subsets_criteria.html"/>
+   <appContext helpID="performing_a_best_subset_regression"
+               path="performing_a_best_subset_regression.html"/>
+   <appContext helpID="" path="arranging_best_subset_regression_data.html"/>
+   <appContext helpID="setting_best_subset_regression_options"
+               path="setting_best_subset_regression_options.html"/>
+   <appContext helpID="" path="options_for_best_subset_regression__criterion.html"/>
+   <appContext helpID="" path="best_subset_reg_flagging_multicollinear_data.html"/>
+   <appContext helpID="running_a_best_subset_regression"
+               path="running_a_best_subset_regression.html"/>
+   <appContext helpID="" path="interpreting_best_subset_regression_results.html"/>
+   <appContext helpID="" path="best_subsets_reg_summary_table.html"/>
+   <appContext helpID="" path="best_subsets_reg_subsets_results.html"/>
+   <appContext helpID="" path="pearson_product_moment_correlation.html"/>
+   <appContext helpID=""
+               path="about_the_pearson_product_moment_correlation_coefficient.html"/>
+   <appContext helpID="computing_the_pearson_product_moment_correlation_coefficient"
+               path="computing_the_pearson_product_moment_correlation_coefficient.html"/>
+   <appContext helpID="" path="arranging_pearson_product_moment_correlation_data.html"/>
+   <appContext helpID="setting_pearson_correlation_options"
+               path="setting_pearson_correlation_options.html"/>
+   <appContext helpID=""
+               path="options_for_pearson_correlation__assumption_checking.html"/>
+   <appContext helpID="" path="options_for_pearson_correlation__results.html"/>
+   <appContext helpID="running_a_pearson_product_moment_correlation"
+               path="running_a_pearson_product_moment_correlation.html"/>
+   <appContext helpID=""
+               path="interpreting_pearson_product_moment_correlation_results.html"/>
+   <appContext helpID="" path="pearson_product_moment_correlation_results.html"/>
+   <appContext helpID="" path="pearson_product_moment_normality_results.html"/>
+   <appContext helpID="" path="pearson_product_moment_correlation_report_graph.html"/>
+   <appContext helpID="creating_the_pearson_product_moment_report_graph"
+               path="creating_the_pearson_product_moment_report_graph.html"/>
+   <appContext helpID="" path="spearman_rank_order_correlation.html"/>
+   <appContext helpID=""
+               path="about_the_spearman_rank_order_correlation_coefficient.html"/>
+   <appContext helpID="computing_the_spearman_rank_order_correlation_coefficient"
+               path="computing_the_spearman_rank_order_correlation_coefficient.html"/>
+   <appContext helpID=""
+               path="arranging_spearman_rank_order_correlation_coefficient_data.html"/>
+   <appContext helpID="running_a_spearman_rank_order_correlation"
+               path="running_a_spearman_rank_order_correlation.html"/>
+   <appContext helpID="" path="interpreting_spearman_rank_correlation_results.html"/>
+   <appContext helpID="" path="spearman_rank_correlation_results.html"/>
+   <appContext helpID="" path="spearman_rank_correlation_normality_results.html"/>
+   <appContext helpID="" path="spearman_rank_order_correlation_report_graph.html"/>
+   <appContext helpID="creating_the_spearman_correlation_report_graph"
+               path="creating_the_spearman_correlation_report_graph.html"/>
+   <appContext helpID="" path="deming_regression.html"/>
+   <appContext helpID="" path="about_deming_regression.html"/>
+   <appContext helpID="performing_a_deming_regression"
+               path="performing_a_deming_regression.html"/>
+   <appContext helpID="" path="arranging_deming_regression_data.html"/>
+   <appContext helpID="" path="setting_deming_regression_options.html"/>
+   <appContext helpID="running_a_deming_regression"
+               path="running_a_deming_regression.html"/>
+   <appContext helpID="" path="interpreting_deming_regression_results.html"/>
+   <appContext helpID="" path="deming_regression_result_graph.html"/>
+   <appContext helpID="" path="survival_analysis.html"/>
+   <appContext helpID="" path="five_survival_tests.html"/>
+   <appContext helpID="" path="data_format_for_survival_analysis.html"/>
+   <appContext helpID="" path="survival_raw_data.html"/>
+   <appContext helpID="" path="survival_indexed_data.html"/>
+   <appContext helpID="" path="single_group_survival_analysis.html"/>
+   <appContext helpID="performing_a_single_group_survival_analysis"
+               path="performing_a_single_group_survival_analysis.html"/>
+   <appContext helpID="" path="arranging_single_group_survival_analysis_data.html"/>
+   <appContext helpID="setting_single_group_test_options"
+               path="setting_single_group_test_options.html"/>
+   <appContext helpID="" path="options_for_survival_single_group__graph_options.html"/>
+   <appContext helpID="" path="options_for_single_group_survival__results.html"/>
+   <appContext helpID="running_a_single_group_survival_analysis"
+               path="running_a_single_group_survival_analysis.html"/>
+   <appContext helpID="" path="interpreting_single_group_survival_results.html"/>
+   <appContext helpID="" path="single_group_survival_report_header_information.html"/>
+   <appContext helpID="" path="survival_cumulative_probability_table.html"/>
+   <appContext helpID="" path="single_group_survival_data_summary_table.html"/>
+   <appContext helpID="" path="single_group_survival_statistical_summary_table.html"/>
+   <appContext helpID="" path="single_group_survival_graph.html"/>
+   <appContext helpID="" path="logrank_survival_analysis.html"/>
+   <appContext helpID="performing_a_logrank_analysis"
+               path="performing_a_logrank_analysis.html"/>
+   <appContext helpID="" path="arranging_logrank_survival_analysis_data.html"/>
+   <appContext helpID="setting_logrank_survival_options"
+               path="setting_logrank_survival_options.html"/>
+   <appContext helpID="" path="options_for_survival_logrank__graph_options.html"/>
+   <appContext helpID="" path="options_for_survival_log_rank__results.html"/>
+   <appContext helpID="" path="options_for_survival_logrank__post_hoc_tests.html"/>
+   <appContext helpID="running_a_logrank_survival_analysis"
+               path="running_a_logrank_survival_analysis.html"/>
+   <appContext helpID="" path="survivle_logrank_multiple_comparison_options.html"/>
+   <appContext helpID="" path="logrank_holm_sidak_test.html"/>
+   <appContext helpID="" path="logrank_bonferroni_test.html"/>
+   <appContext helpID="" path="interpreting_survival_logrank_results.html"/>
+   <appContext helpID="" path="logrank_report_header_information.html"/>
+   <appContext helpID="" path="logrank_survival_cumulative_probability_table.html"/>
+   <appContext helpID="" path="logrank_data_summary_table.html"/>
+   <appContext helpID="" path="logrank_statistical_summary_table.html"/>
+   <appContext helpID="" path="survival_logrank_graph.html"/>
+   <appContext helpID="" path="gehan_breslow_survival_analysis.html"/>
+   <appContext helpID="performing_a_gehan_breslow_analysis"
+               path="performing_a_gehan_breslow_analysis.html"/>
+   <appContext helpID="" path="arranging_gehan_breslow_survival_analysis_data.html"/>
+   <appContext helpID="setting_gehan_breslow_survival_option"
+               path="setting_gehan_breslow_survival_option.html"/>
+   <appContext helpID="" path="options_for_survival_gehan_breslow__graph_options.html"/>
+   <appContext helpID="" path="options_for_survival_gehan_breslow__results.html"/>
+   <appContext helpID=""
+               path="options_for_survival_gehan_breslow__post_hoc_tests.html"/>
+   <appContext helpID="running_a_gehan_breslow_survival_analysis"
+               path="running_a_gehan_breslow_survival_analysis.html"/>
+   <appContext helpID="" path="gehan_breslow_multiple_comparison_options.html"/>
+   <appContext helpID="" path="gehan_breslow_holm_sidak_test.html"/>
+   <appContext helpID="" path="gehan_breslow_bonferroni_test.html"/>
+   <appContext helpID="" path="interpreting_gehan_breslow_survival_results.html"/>
+   <appContext helpID="" path="gehan_breslow_report_header_information.html"/>
+   <appContext helpID=""
+               path="gehan_breslow_survival_cumulative_probability_table.html"/>
+   <appContext helpID="" path="gehan_breslow_data_summary_table.html"/>
+   <appContext helpID="" path="gehan_breslow_statistical_summary_table.html"/>
+   <appContext helpID="" path="gehan_breslow_survival_graph.html"/>
+   <appContext helpID="" path="cox_regression.html"/>
+   <appContext helpID="" path="about_cox_regression.html"/>
+   <appContext helpID="performing_a_cox_regression_proportional_hazards_model"
+               path="performing_a_cox_regression_proportional_hazards_model.html"/>
+   <appContext helpID="performing_a_cox_regression_stratified_model"
+               path="performing_a_cox_regression_stratified_model.html"/>
+   <appContext helpID="" path="arranging_cox_regression_data.html"/>
+   <appContext helpID="setting_cox_regression_proportional_hazards_options"
+               path="setting_cox_regression_proportional_hazards_options.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_proportional_hazard__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_proportional_hazard__graph_options.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_proportional_hazard__results.html"/>
+   <appContext helpID="setting_cox_regression_stratified_model_options"
+               path="setting_cox_regression_stratified_model_options.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_stratified_model__criterion.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_stratified_model__graph_options.html"/>
+   <appContext helpID=""
+               path="options_for_cox_regression_stratified_model__results.html"/>
+   <appContext helpID="running_a_cox_regression_proportional_hazards_model"
+               path="running_a_cox_regression_proportional_hazards_model.html"/>
+   <appContext helpID="running_a_cox_regression_stratified_model"
+               path="running_a_cox_regression_stratified_model.html"/>
+   <appContext helpID="" path="interpreting_cox_regression_results.html"/>
+   <appContext helpID="" path="cox_regression_graphs.html"/>
+   <appContext helpID="creating_a_cox_regression_graph"
+               path="creating_a_cox_regression_graph.html"/>
+   <appContext helpID="" path="survival_curve_graph_examples.html"/>
+   <appContext helpID="" path="failures__censored_values__and_ties.html"/>
+   <appContext helpID="" path="editing_survival_graphs_using_graph_properties.html"/>
+   <appContext helpID="survival_using_test_options_to_modify_graphs"
+               path="survival_using_test_options_to_modify_graphs.html"/>
+   <appContext helpID="" path="computing_power_and_sample_size.html"/>
+   <appContext helpID="" path="about_sample_size.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_for_a_t_test"
+               path="determining_the_minimum_sample_size_for_a_t_test.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_for_a_paired_t_test"
+               path="determining_the_minimum_sample_size_for_a_paired_t_test.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_for_a_proportions_comparison"
+               path="determining_the_minimum_sample_size_for_a_proportions_comparison.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_for_a_one_way_anova"
+               path="determining_the_minimum_sample_size_for_a_one_way_anova.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_for_a_chi_square_test"
+               path="determining_the_minimum_sample_size_for_a_chi_square_test.html"/>
+   <appContext helpID="determining_the_minimum_sample_size_to_detect_a_specified_correlation"
+               path="determining_the_minimum_sample_size_to_detect_a_specified_correlation.html"/>
+   <appContext helpID="" path="about_power.html"/>
+   <appContext helpID="determining_the_power_of_a_t_test"
+               path="determining_the_power_of_a_t_test.html"/>
+   <appContext helpID="determining_the_power_of_a_paired_t_test"
+               path="determining_the_power_of_a_paired_t_test.html"/>
+   <appContext helpID="determining_the_power_of_a_z_test_proportions_comparison"
+               path="determining_the_power_of_a_z_test_proportions_comparison.html"/>
+   <appContext helpID="determining_the_power_of_a_one_way_anova"
+               path="determining_the_power_of_a_one_way_anova.html"/>
+   <appContext helpID="determining_the_power_of_a_chi_square_test"
+               path="determining_the_power_of_a_chi_square_test.html"/>
+   <appContext helpID="determining_the_power_to_detect_a_specified_correlation"
+               path="determining_the_power_to_detect_a_specified_correlation.html"/>
+   <appContext helpID="" path="report_graphs.html"/>
+   <appContext helpID="generating_report_graphs" path="generating_report_graphs.html"/>
+   <appContext helpID="" path="bar_charts_of_the_column_means.html"/>
+   <appContext helpID="" path="scatter_plot.html"/>
+   <appContext helpID="" path="point_plot.html"/>
+   <appContext helpID="" path="point_plot_and_column_means.html"/>
+   <appContext helpID="" path="box_plot.html"/>
+   <appContext helpID="" path="scatter_plot_of_the_residuals.html"/>
+   <appContext helpID="" path="bar_chart_of_the_standardized_residuals.html"/>
+   <appContext helpID="" path="histogram_of_residuals.html"/>
+   <appContext helpID="" path="normal_probability_plot.html"/>
+   <appContext helpID=""
+               path="2d_line_scatter_plots_of_the_regressions_with_prediction_and_confidence_intervals.html"/>
+   <appContext helpID="" path="3d_residual_scatter_plot.html"/>
+   <appContext helpID="" path="grouped_bar_chart_with_error_bars.html"/>
+   <appContext helpID="" path="3d_category_scatter_graph.html"/>
+   <appContext helpID="" path="before_and_after_line_plots.html"/>
+   <appContext helpID="" path="multiple_comparison_graphs.html"/>
+   <appContext helpID="" path="scatter_matrix.html"/>
+   <appContext helpID="" path="profile_plots.html"/>
+   <appContext helpID="" path="profile_plots_main_effects.html"/>
+   <appContext helpID="" path="profile_plots___two_way_effects.html"/>
+   <appContext helpID="" path="profile_plots___three_way_effects.html"/>
+   <appContext helpID="" path="scree_plot.html"/>
+   <appContext helpID="" path="component_loadings_plot.html"/>
+   <appContext helpID="" path="component_scores_plot.html"/>
+   <appContext helpID="" path="regression_lines_for_groups.html"/>
+   <appContext helpID="" path="adjusted_means_with_95__confidence_intervals.html"/>
+   <appContext helpID="quantile_quantile_plot" path="quantile_quantile_plot.html"/>
+   <appContext helpID="confidence_prediction_ellipses"
+               path="confidence_prediction_ellipses.html"/>
+   <appContext helpID="Reference" path="Reference.html"/>
+   <appContext helpID="" path="format_cells__data.html"/>
+   <appContext helpID="" path="format_cells__rows_and_columns_size.html"/>
+   <appContext helpID="" path="go_to_cell.html"/>
+   <appContext helpID="" path="graph_properties___3d__lines.html"/>
+   <appContext helpID="" path="graph_properties__area_fills.html"/>
+   <appContext helpID="" path="raph_properties__area_fills__for_area_plots_.html"/>
+   <appContext helpID="" path="graph_properties__axis.html"/>
+   <appContext helpID="" path="graph_properties__axis_breaks.html"/>
+   <appContext helpID="" path="graph_properties__axis_lines.html"/>
+   <appContext helpID="" path="graph_properties__axis_scaling.html"/>
+   <appContext helpID="" path="graph_properties__bar_widths.html"/>
+   <appContext helpID="" path="graph_properties__box_options.html"/>
+   <appContext helpID="" path="graph_properties__contours.html"/>
+   <appContext helpID="" path="pub_dtlgraph_properties__contour_detail.html"/>
+   <appContext helpID="" path="graph_properties__contour_labels.html"/>
+   <appContext helpID="" path="graph_properties__contour_scale.html"/>
+   <appContext helpID="" path="graph_properties__frame_lines.html"/>
+   <appContext helpID="" path="pub_dtlgraph_properties__graph.html"/>
+   <appContext helpID="" path="graph_properties__graph_planes.html"/>
+   <appContext helpID="" path="graph_properties__grid_lines.html"/>
+   <appContext helpID="" path="graph_properties__legends.html"/>
+   <appContext helpID="graph_properties_legend_items"
+               path="graph_properties_legend_items.html"/>
+   <appContext helpID="" path="graph_properties__mesh.html"/>
+   <appContext helpID="" path="graph_properties__major_and_minor_axis_labels.html"/>
+   <appContext helpID="" path="graph_properties__pie_slices.html"/>
+   <appContext helpID="" path="graph_properties__plot.html"/>
+   <appContext helpID="" path="graph_properties__plot_data.html"/>
+   <appContext helpID="" path="graph_properties__plot_drop_lines.html"/>
+   <appContext helpID="" path="graph_properties__plot_error_bars.html"/>
+   <appContext helpID="" path="graph_properties__plot_fills.html"/>
+   <appContext helpID="" path="graph_properties__plot_lines.html"/>
+   <appContext helpID="" path="graph_properties__plot_symbols.html"/>
+   <appContext helpID="" path="graph_properties__reference_lines.html"/>
+   <appContext helpID="" path="graph_properties__radial_axis_labels.html"/>
+   <appContext helpID="" path="graph_properties__radius_lines.html"/>
+   <appContext helpID="" path="graph_properties__rotation.html"/>
+   <appContext helpID="" path="graph_properties__ternary_ticks.html"/>
+   <appContext helpID="" path="graph_properties__ternary_axis_labels.html"/>
+   <appContext helpID="" path="graph_properties__ternary_scaling.html"/>
+   <appContext helpID="" path="graph_properties__theta_scaling.html"/>
+   <appContext helpID="" path="graph_properties__ticks.html"/>
+   <appContext helpID="" path="graph_properties__tick_label.html"/>
+   <appContext helpID="" path="graph_properties__vectors.html"/>
+   <appContext helpID="" path="graph_style_gallery.html"/>
+   <appContext helpID="" path="graph_wizard___add_axis.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___axis_angle_units.html"/>
+   <appContext helpID="graph_wizard_create_graph_confidence_level"
+               path="graph_wizard_create_graph_confidence_level.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___data_format.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___select_data.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___error_bars.html"/>
+   <appContext helpID="graph_wizard_create_graph_histogram_bins"
+               path="graph_wizard_create_graph_histogram_bins.html"/>
+   <appContext helpID="graph_wizard_create_graph_jitter_options_0"
+               path="graph_wizard_create_graph_jitter_options_0.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___style.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___type.html"/>
+   <appContext helpID="" path="graph_wizard__create_graph___vector_angle_units.html"/>
+   <appContext helpID="" path="insert_graphic_cells__colors.html"/>
+   <appContext helpID="" path="insert_graphic_cells__lines.html"/>
+   <appContext helpID="insert_graphic_cells__patterns"
+               path="insert_graphic_cells__patterns.html"/>
+   <appContext helpID="insert_graphic_cells__symbol_shapes"
+               path="insert_graphic_cells__symbol_shapes.html"/>
+   <appContext helpID="" path="odbc_options__sql_query.html"/>
+   <appContext helpID="" path="odbc_options__select_odbc_data_source.html"/>
+   <appContext helpID="" path="options__general.html"/>
+   <appContext helpID="" path="options__graph.html"/>
+   <appContext helpID="" path="options__macro.html"/>
+   <appContext helpID="" path="options__page.html"/>
+   <appContext helpID="" path="options__report.html"/>
+   <appContext helpID="" path="options__worksheet.html"/>
+   <appContext helpID="password" path="password.html"/>
+   <appContext helpID="" path="quick_transform.html"/>
+   <appContext helpID="quick_transform_options_trigonometric_units"
+               path="quick_transform_options_trigonometric_units.html"/>
+</map>

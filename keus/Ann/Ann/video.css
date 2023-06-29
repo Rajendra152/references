@@ -1,0 +1,40 @@
+.video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.v-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.videoplay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 2;
+    visibility: hidden;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+}
